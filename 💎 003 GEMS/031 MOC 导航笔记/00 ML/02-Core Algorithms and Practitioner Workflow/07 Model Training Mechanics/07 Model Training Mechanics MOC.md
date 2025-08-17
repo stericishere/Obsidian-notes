@@ -1,0 +1,4 @@
+- [[01 Loss Functions]]
+- [[02 Mean Squared Error (MSE)]]
+- [[03 Gradient Descent]]
+- [[04 Learning Rate]]

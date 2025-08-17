@@ -1,0 +1,4 @@
+- [[Model-Based Learning]]
+- [[Instance-Based Learning]]
+- [[Shallow Learning]]
+- [[Deep Learning]]

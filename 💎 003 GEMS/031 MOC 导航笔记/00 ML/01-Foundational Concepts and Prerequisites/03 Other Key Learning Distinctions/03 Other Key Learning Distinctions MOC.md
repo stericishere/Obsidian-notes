@@ -1,0 +1,4 @@
+- [[01 Model-Based Learning]]
+- [[02 Instance-Based Learning]]
+- [[03 Shallow Learning]]
+- [[04 Deep Learning]]

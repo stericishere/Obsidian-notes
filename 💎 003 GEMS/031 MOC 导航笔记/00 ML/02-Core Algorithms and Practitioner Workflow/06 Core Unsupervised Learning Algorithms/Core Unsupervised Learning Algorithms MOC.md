@@ -1,0 +1,5 @@
+- [[K-Means Clustering]]
+- [[Centroids]]
+- [[Elbow Method]]
+- [[Principal Component Analysis (PCA)]]
+- [[Principal Components]]

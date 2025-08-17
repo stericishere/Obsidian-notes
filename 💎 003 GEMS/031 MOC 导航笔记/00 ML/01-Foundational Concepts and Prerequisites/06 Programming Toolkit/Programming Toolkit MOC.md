@@ -1,0 +1,5 @@
+- [[Python for Machine Learning]]
+- [[NumPy for Numerical Computing]]
+- [[Pandas for Data Manipulation]]
+- [[Matplotlib for Data Visualization]]
+- [[Seaborn for Statistical Graphics]]

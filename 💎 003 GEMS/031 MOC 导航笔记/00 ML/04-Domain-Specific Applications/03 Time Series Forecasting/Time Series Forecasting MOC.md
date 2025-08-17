@@ -1,0 +1,5 @@
+- [[Forecasting Task]]
+- [[Trend]]
+- [[Seasonality]]
+- [[Noise]]
+- [[Lagged Features]]

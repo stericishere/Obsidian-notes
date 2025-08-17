@@ -1,0 +1,8 @@
+- [[Supervised Learning]]
+- [[Classification]]
+- [[Regression]]
+- [[Unsupervised Learning]]
+- [[Clustering]]
+- [[Dimensionality Reduction]]
+- [[Semi-Supervised Learning]]
+- [[Reinforcement Learning]]

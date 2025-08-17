@@ -1,0 +1,6 @@
+- [[01 RNN for Sequential Data]]
+- [[02 Hidden State]]
+- [[03 The Vanishing Gradient Problem]]
+- [[04 Long Short-Term Memory (LSTM)]]
+- [[05 Gated Recurrent Units (GRU)]]
+- [[06 Gates for Information Flow]]

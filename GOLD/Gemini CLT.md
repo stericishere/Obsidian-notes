@@ -113,7 +113,7 @@ Please follow the rules and examples above strictly.
 最后，请分析我所有的顶级文件夹（H2），将它们作为三级标题列出。在每个三级标题下，再列出该顶级文件夹内所有MOC笔记的双向链接。
 ```
 
-```
+```markdown
 The framework setup is complete, outstanding job. Now, please help me create the overview note.
 
 In the root directory, create a new file named "[Your Knowledge Topic] Overview.md". (Please manually replace the text in the brackets).

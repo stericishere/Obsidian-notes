@@ -1,0 +1,6 @@
+- [[01 Definition of Fairness]]
+- [[02 Sources of Bias]]
+- [[03 Historical Bias]]
+- [[04 Selection Bias]]
+- [[05 Confirmation Bias]]
+- [[06 Evaluating for Fairness]]
