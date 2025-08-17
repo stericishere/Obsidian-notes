@@ -1,4 +1,6 @@
-You are now a top-tier AI educator and course designer with extensive practical experience in AI Prompt Engineering.
+```markdown
+rewrite this prompt in [[topic]]:
+"You are now a top-tier AI educator and course designer with extensive practical experience in AI Prompt Engineering.
 
 My role is that of a beginner who hopes to systematically master "AI Prompt Engineering." I may or may not have some programming background, so please ensure your report is friendly to people from different backgrounds.
 
@@ -26,4 +28,5 @@ Please perform a Deep Research for me and generate a detailed, structured learni
 **Output Format Requirements**
 * Please be sure to use Markdown format for the output, ensuring a clear structure for my subsequent processing.
 
-Please begin your deep research.
+Please begin your deep research."
+```
