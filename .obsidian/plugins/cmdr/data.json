@@ -1,0 +1,87 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "icon": "pencil",
+      "name": "创建 / 编辑任务",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "plus-circle",
+      "name": "创建新文档",
+      "mode": "any",
+      "color": "#0078f0"
+    },
+    {
+      "id": "open-files-with-commands:099dd20b-b58e-4704-9bd2-ec005f161da6",
+      "icon": "alert-octagon",
+      "name": "从这里开始",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "置顶笔记",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "layout-template",
+      "name": "为笔记套用模板",
+      "mode": "any"
+    },
+    {
+      "id": "editing-toolbar:workplace-fullscreen-focus",
+      "icon": "expand",
+      "name": "进入聚焦模式",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "plus-circle",
+      "name": "创建新笔记",
+      "mode": "any",
+      "color": "#777777"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Open command palette",
+      "Open quick switcher",
+      "Open Symbols for the active editor",
+      "Open in Headings Mode",
+      "Templater",
+      "Open Markdown Table Editor",
+      "管理工作区布局",
+      "打开快速切换",
+      "Create loom"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

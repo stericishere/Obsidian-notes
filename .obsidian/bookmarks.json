@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1753060012036,
+      "items": [
+        {
+          "type": "file",
+          "path": "🌑 002 ROCKS/021 Inbox 收件箱/✅ Task Manager.md",
+          "ctime": 1683448653354
+        },
+        {
+          "type": "file",
+          "ctime": 1752913611839,
+          "path": "🌑 002 ROCKS/021 Inbox 收件箱/🪣 Bucket List.md"
+        },
+        {
+          "type": "file",
+          "path": "🌑 002 ROCKS/022 Books/📕 Book Summary.md",
+          "ctime": 1683448653354
+        }
+      ],
+      "title": "📈 Life"
+    },
+    {
+      "type": "group",
+      "ctime": 1753162590279,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1755292387336,
+          "path": "💎 003 GEMS/031 MOC 导航笔记/00 🧠 ML&AI.md"
+        }
+      ],
+      "title": "📓 Note"
+    },
+    {
+      "type": "group",
+      "ctime": 1753059964519,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1753572849560,
+          "path": "🌊 001 RIVER/015 Phase/📖 Favourite Quote.md",
+          "title": "📖 Favourite Quote"
+        },
+        {
+          "type": "file",
+          "ctime": 1753057102542,
+          "path": "🌊 001 RIVER/015 Phase/📜 Life.md",
+          "title": "📜 Life"
+        },
+        {
+          "type": "file",
+          "ctime": 1753058300312,
+          "path": "🌊 001 RIVER/015 Phase/📈 Sales.md",
+          "title": "📈 Sales"
+        },
+        {
+          "type": "file",
+          "ctime": 1753057105893,
+          "path": "🌊 001 RIVER/015 Phase/🌐 Networking.md",
+          "title": "🌐 Networking"
+        },
+        {
+          "type": "file",
+          "ctime": 1753060257618,
+          "path": "🌊 001 RIVER/015 Phase/👔 Interview.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1753057111209,
+          "path": "🌊 001 RIVER/015 Phase/🍠 Date.md",
+          "title": "🍠 Date"
+        },
+        {
+          "type": "file",
+          "ctime": 1753057273762,
+          "path": "🌊 001 RIVER/015 Phase/💼 Professional.md",
+          "title": "💼 Professional"
+        },
+        {
+          "type": "file",
+          "ctime": 1753057114127,
+          "path": "🌊 001 RIVER/015 Phase/🧑‍🤝‍🧑 Talking.md",
+          "title": "🧑‍🤝‍🧑 Talking"
+        }
+      ],
+      "title": "💬 Phase"
+    },
+    {
+      "type": "group",
+      "ctime": 1753060145372,
+      "items": [
+        {
+          "type": "file",
+          "path": "🌊 001 RIVER/012 People/👥 Birthday Calendar.md",
+          "ctime": 1683448653354
+        },
+        {
+          "type": "file",
+          "path": "🔨 004 TOOLS/041 Health/💪 Habit Tracker.md",
+          "ctime": 1683448653354
+        },
+        {
+          "type": "file",
+          "path": "🔨 004 TOOLS/041 Health/👨‍⚕ Health Summary.md",
+          "ctime": 1683448653354
+        }
+      ],
+      "title": "📝 Review"
+    }
+  ]
+}

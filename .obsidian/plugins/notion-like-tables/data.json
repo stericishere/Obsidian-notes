@@ -1,0 +1,221 @@
+{
+  "logLevel": "off",
+  "createAtObsidianAttachmentFolder": false,
+  "customFolderForNewFiles": "🗄 009 BINS · 存储/092 Attachments 附件/多维表格",
+  "removeMarkdownOnExport": true,
+  "defaultEmbedWidth": "100%",
+  "defaultEmbedHeight": "340px",
+  "hasMigratedTo800": true,
+  "showWelcomeModal": false,
+  "showWhatsNewModal": true,
+  "defaultFrozenColumnCount": 1,
+  "pluginVersion": "8.16.0",
+  "shouldDebug": false,
+  "exportRenderMarkdown": true,
+  "data": {
+    "table-id-IHXXLI": {
+      "model": {
+        "columnIds": [
+          "column-id-bdtsZlg0"
+        ],
+        "rowIds": [
+          "row-id-nWYAqRN2",
+          "row-id-2YaQRKuI"
+        ],
+        "cells": [
+          {
+            "id": "cell-id-KzSQHbee",
+            "columnId": "column-id-bdtsZlg0",
+            "rowId": "row-id-nWYAqRN2",
+            "markdown": "New Column",
+            "html": "New Column",
+            "isHeader": true
+          },
+          {
+            "id": "cell-id-mfSCKHMX",
+            "columnId": "column-id-bdtsZlg0",
+            "rowId": "row-id-2YaQRKuI",
+            "markdown": "",
+            "html": "",
+            "isHeader": false
+          }
+        ]
+      },
+      "settings": {
+        "columns": {
+          "column-id-bdtsZlg0": {
+            "sortDir": "default",
+            "width": "120px",
+            "type": "text",
+            "useAutoWidth": false,
+            "shouldWrapOverflow": false,
+            "tags": []
+          }
+        },
+        "rows": {
+          "row-id-nWYAqRN2": {
+            "creationDate": 1674505930945
+          },
+          "row-id-2YaQRKuI": {
+            "creationDate": 1674505930946
+          }
+        }
+      },
+      "pluginVersion": 505
+    },
+    "table-id-qghC16": {
+      "model": {
+        "columnIds": [
+          "column-id-RLKzRUtX",
+          "column-id-B1tiCNgp"
+        ],
+        "rowIds": [
+          "row-id-oQXApKsQ",
+          "row-id-rbhSylPP",
+          "row-id-Tj7pCvNe"
+        ],
+        "cells": [
+          {
+            "id": "cell-id-4NvuI6Zb",
+            "columnId": "column-id-RLKzRUtX",
+            "rowId": "row-id-oQXApKsQ",
+            "markdown": "New Column",
+            "html": "New Column",
+            "isHeader": true
+          },
+          {
+            "id": "cell-id-skRZw51A",
+            "columnId": "column-id-B1tiCNgp",
+            "rowId": "row-id-oQXApKsQ",
+            "markdown": "New Column",
+            "html": "New Column",
+            "isHeader": true
+          },
+          {
+            "id": "cell-id-rjUZvfId",
+            "columnId": "column-id-RLKzRUtX",
+            "rowId": "row-id-rbhSylPP",
+            "markdown": "aa",
+            "html": "aa",
+            "isHeader": false
+          },
+          {
+            "id": "cell-id-K3DYows9",
+            "columnId": "column-id-B1tiCNgp",
+            "rowId": "row-id-rbhSylPP",
+            "markdown": "随便鞋垫神",
+            "html": "随便鞋垫神",
+            "isHeader": false
+          },
+          {
+            "id": "cell-id-ZvoKqWqY",
+            "columnId": "column-id-RLKzRUtX",
+            "rowId": "row-id-Tj7pCvNe",
+            "markdown": "还好吧我觉得",
+            "html": "还好吧我觉得",
+            "isHeader": false
+          },
+          {
+            "id": "cell-id-v9jytPmw",
+            "columnId": "column-id-B1tiCNgp",
+            "rowId": "row-id-Tj7pCvNe",
+            "markdown": "",
+            "html": "",
+            "isHeader": false
+          }
+        ]
+      },
+      "settings": {
+        "columns": {
+          "column-id-RLKzRUtX": {
+            "sortDir": "default",
+            "width": "120px",
+            "type": "text",
+            "useAutoWidth": false,
+            "shouldWrapOverflow": false,
+            "tags": []
+          },
+          "column-id-B1tiCNgp": {
+            "sortDir": "default",
+            "width": "120px",
+            "type": "text",
+            "useAutoWidth": false,
+            "shouldWrapOverflow": false,
+            "tags": []
+          }
+        },
+        "rows": {
+          "row-id-oQXApKsQ": {
+            "creationDate": 1676987729182
+          },
+          "row-id-rbhSylPP": {
+            "creationDate": 1676987729183
+          },
+          "row-id-Tj7pCvNe": {
+            "creationDate": 1676987745789
+          }
+        }
+      },
+      "pluginVersion": 505
+    },
+    "table-id-HVWU3c": {
+      "model": {
+        "columnIds": [
+          "column-id-MLSD7Sly"
+        ],
+        "rowIds": [
+          "row-id-9SQc6l3h",
+          "row-id-6aNXFFnL"
+        ],
+        "cells": [
+          {
+            "id": "cell-id-zfEsUqNX",
+            "columnId": "column-id-MLSD7Sly",
+            "rowId": "row-id-9SQc6l3h",
+            "markdown": "New Column",
+            "html": "New Column",
+            "isHeader": true
+          },
+          {
+            "id": "cell-id-XFmeaAMN",
+            "columnId": "column-id-MLSD7Sly",
+            "rowId": "row-id-6aNXFFnL",
+            "markdown": "",
+            "html": "",
+            "isHeader": false
+          }
+        ]
+      },
+      "settings": {
+        "columns": {
+          "column-id-MLSD7Sly": {
+            "sortDir": "default",
+            "width": "120px",
+            "type": "text",
+            "useAutoWidth": false,
+            "shouldWrapOverflow": false,
+            "tags": []
+          }
+        },
+        "rows": {
+          "row-id-9SQc6l3h": {
+            "creationDate": 1677161334017
+          },
+          "row-id-6aNXFFnL": {
+            "creationDate": 1677161334018
+          }
+        }
+      },
+      "pluginVersion": 505
+    }
+  },
+  "tableFolder": "🗄 009 BINS · 存储/_notion-like-tables",
+  "viewModeSync": {
+    "tableId": "table-id-qghC16",
+    "viewModes": [
+      "preview"
+    ],
+    "eventType": "update-state"
+  },
+  "shouldClear": false
+}

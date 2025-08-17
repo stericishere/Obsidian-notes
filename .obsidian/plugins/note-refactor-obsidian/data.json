@@ -1,0 +1,11 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": true,
+  "headingFormat": "#",
+  "newFileLocation": 2,
+  "customFolder": "💎 003 THE GEMS/032 Evergreen Notes",
+  "fileNamePrefix": "",
+  "transcludeByDefault": false,
+  "noteLinkTemplate": "{{new_note_link}}",
+  "refactoredNoteTemplate": "---\ncreation date: {{date}}\nalias: {{new_note_title}}\ntag: 🌲\n---\n\n# {{new_note_title}}\n\n## 这是什么？\n{{new_note_content}}\n\n## 对我的影响？\n\n## 参考文献\n1. {{link}}"
+}

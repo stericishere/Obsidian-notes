@@ -1,0 +1,40 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "🗄 009 BINS · 存储/091 Templates 模板",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "🌊 001 RIVER · 河流/011 Daily 日记",
+      "template": "🗄 009 BINS · 存储/091 Templates 模板/创建「⏲ 每日笔记」.md"
+    },
+    {
+      "folder": "🌑 002 ROCKS · 泥石/022 Books 阅读",
+      "template": "🗄 009 BINS · 存储/091 Templates 模板/创建「📕 读书笔记」.md"
+    },
+    {
+      "folder": "💎 003 GEMS · 晶石/032 Evergreen 长青笔记",
+      "template": "🗄 009 BINS · 存储/091 Templates 模板/创建「🌲 长青笔记」.md"
+    },
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": false
+}

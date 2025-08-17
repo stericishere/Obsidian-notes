@@ -1,0 +1,29 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "fileSortOrder": "alphabetical",
+  "promptDelete": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "🗄 009 BINS · 存储/092 Attachments 附件",
+  "newFileLocation": "current",
+  "strictLineBreaks": true,
+  "communityPluginSortOrder": "download",
+  "communityThemeSortOrder": "download",
+  "showFrontmatter": false,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "mobilePullAction": "switcher:open",
+  "showLineNumber": false,
+  "newFileFolderPath": "🌑 002 ROCKS · 泥石/021 Inbox 收件箱",
+  "rightToLeft": false,
+  "defaultViewMode": "source",
+  "propertiesInDocument": "source"
+}
