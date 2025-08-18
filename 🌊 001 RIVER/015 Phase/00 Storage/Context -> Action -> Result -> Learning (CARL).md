@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-20 21:22
-aliases: Context -> Action -> Result -> Learning (CARL)
-tags: 
+aliases:
+  - Context -> Action -> Result -> Learning (CARL)
+tags:
   - 💬
   - phase/👔 Interview
 category: 👔 Interview

@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 21:47
-aliases: Theory of Evolution
-tags: 
+aliases:
+  - Theory of Evolution
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

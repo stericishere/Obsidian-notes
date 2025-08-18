@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 20:10
-aliases: Recall (Evaluation Metric)
-tag: 🧠
+aliases:
+  - Recall (Evaluation Metric)
+tags:
+  - 🧠
 type:
 ---
 # Recall:

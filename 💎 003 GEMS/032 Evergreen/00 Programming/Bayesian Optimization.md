@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:34
-aliases: Bayesian Optimization
-tag: 🧠
+aliases:
+  - Bayesian Optimization
+tags:
+  - 🧠
 type:
 ---
 # Bayesian Optimization

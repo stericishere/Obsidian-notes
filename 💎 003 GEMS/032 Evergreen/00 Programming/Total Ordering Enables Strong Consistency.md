@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:04
-aliases: Total Ordering Enables Strong Consistency
-tag: 👨‍💻
+aliases:
+  - Total Ordering Enables Strong Consistency
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Consistency models

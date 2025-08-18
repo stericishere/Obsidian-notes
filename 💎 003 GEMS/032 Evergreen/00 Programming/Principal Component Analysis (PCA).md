@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:30
-aliases: Principal Component Analysis (PCA)
-tag: 🧠
+aliases:
+  - Principal Component Analysis (PCA)
+tags:
+  - 🧠
 type: l4
 ---
 # Principal Component Analysis (PCA)

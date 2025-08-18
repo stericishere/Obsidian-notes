@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 17:55
-aliases: ReWOO
-tag: 🤖
+aliases:
+  - ReWOO
+tags:
+  - 🤖
 type: type
 ---
 # ReWOO

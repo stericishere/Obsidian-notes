@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-30 04:20
-aliases: LangChain
-tag: 🤖
+aliases:
+  - LangChain
+tags:
+  - 🤖
 type: fw
 ---
 # LangChain

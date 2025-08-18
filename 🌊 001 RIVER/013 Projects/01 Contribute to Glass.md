@@ -1,10 +1,12 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-23 01:35
-tag: 🏗️
-priority: 
-aliases: Contribute to Glass
-type: 
+tags:
+  - 🏗️
+priority:
+aliases:
+  - Contribute to Glass
+type:
 complete:
 ---
 [[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]

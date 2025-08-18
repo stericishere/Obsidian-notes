@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:41
-aliases: SVD
-tag: 🧠
+aliases:
+  - SVD
+tags:
+  - 🧠
 type: ml
 ---
 # SVD

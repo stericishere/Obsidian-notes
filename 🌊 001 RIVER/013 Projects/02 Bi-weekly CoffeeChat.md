@@ -1,9 +1,11 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:55
-tag: 🏗️
+tags:
+  - 🏗️
 priority: High
-aliases: Bi-weekly CoffeeChat
+aliases:
+  - Bi-weekly CoffeeChat
 type: Networking
 complete:
 ---

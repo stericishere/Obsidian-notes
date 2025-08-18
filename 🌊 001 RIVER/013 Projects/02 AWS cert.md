@@ -1,10 +1,12 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 05:20
-tag: 🏗️
-priority: 
-aliases: AWS cert
-type: 
+tags:
+  - 🏗️
+priority:
+aliases:
+  - AWS cert
+type:
 complete:
 ---
 [[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]

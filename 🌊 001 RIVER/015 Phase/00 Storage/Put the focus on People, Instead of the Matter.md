@@ -1,7 +1,9 @@
 ---
 creation date: 2025-07-27 04:27
-aliases: Put the focus on People, Instead of the matter
-tags: 
+aliases:
+  - Put the focus on People
+  - Instead of the matter
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

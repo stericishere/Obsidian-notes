@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:20
-aliases: Neural Networks
-tag: 🧠
+aliases:
+  - Neural Networks
+tags:
+  - 🧠
 type: l4
 ---
 # Neural Networks:

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-26 19:09
-aliases: MVC (model - view - controller)
-tag: 👨‍💻
+aliases:
+  - MVC (model - view - controller)
+tags:
+  - 👨‍💻
 type: pp
 ---
 # MVC (model - view - controller)

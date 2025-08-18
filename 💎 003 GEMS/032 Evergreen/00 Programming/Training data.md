@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:09
-aliases:  Training data
-tag: 🧠
+aliases:
+  - Training data
+tags:
+  - 🧠
 type: ml
 ---
 #  Training data:

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-17 21:06
-aliases: 02 Bottleneck layer
-tag: 🧠
+aliases:
+  - 02 Bottleneck layer
+tags:
+  - 🧠
 type:
 ---
 ## Note:

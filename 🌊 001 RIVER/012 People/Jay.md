@@ -1,6 +1,7 @@
 ---
 banner: "[[People-2.jpg]]"
-tag: 👤
+tags:
+  - 👤
 aliases:
 birthday:
 type:

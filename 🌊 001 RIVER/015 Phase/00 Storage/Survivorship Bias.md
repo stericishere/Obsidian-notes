@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 22:39
-aliases: Survivorship Bias
-tags: 
+aliases:
+  - Survivorship Bias
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

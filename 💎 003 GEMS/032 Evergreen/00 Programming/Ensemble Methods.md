@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:59
-aliases: Ensemble Methods
-tag: 🧠
+aliases:
+  - Ensemble Methods
+tags:
+  - 🧠
 type:
 ---
 # Ensemble Methods

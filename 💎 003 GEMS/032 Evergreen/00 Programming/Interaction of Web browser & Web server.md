@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-26 19:13
-aliases: Interaction of Web browser & Web server
-tag: 👨‍💻
+aliases:
+  - Interaction of Web browser & Web server
+tags:
+  - 👨‍💻
 type: web
 ---
 # Interaction of Web browser & Web server

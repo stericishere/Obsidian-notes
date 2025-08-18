@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-25 00:22
-aliases: Partitioning
-tag: 👨‍💻
+aliases:
+  - Partitioning
+tags:
+  - 👨‍💻
 type:
 ---
 # Partitioning

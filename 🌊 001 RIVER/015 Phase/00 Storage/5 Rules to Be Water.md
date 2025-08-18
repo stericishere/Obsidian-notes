@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 22:32
-aliases: Five Heart Methods
-tags: 
+aliases:
+  - Five Heart Methods
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

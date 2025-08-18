@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:09
-aliases: Classification
-tag: 🧠
+aliases:
+  - Classification
+tags:
+  - 🧠
 type: l4
 ---
 # Classification

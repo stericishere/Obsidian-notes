@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 20:04
-aliases: Evaluation Metrics & Model Selection
-tag: 🧠
+aliases:
+  - Evaluation Metrics & Model Selection
+tags:
+  - 🧠
 type:
 ---
 # Evaluation Metrics & Model Selection

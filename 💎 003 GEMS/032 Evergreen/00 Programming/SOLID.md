@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-26 12:25
-aliases: SOLID
-tag: 👨‍💻
+aliases:
+  - SOLID
+tags:
+  - 👨‍💻
 type: pp
 ---
 # SOLID

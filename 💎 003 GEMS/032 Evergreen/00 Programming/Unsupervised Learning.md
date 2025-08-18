@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 05:32
-aliases: Unsupervised Learning
-tag: 🧠
+aliases:
+  - Unsupervised Learning
+tags:
+  - 🧠
 type: ml
 ---
 # Unsupervised Learning

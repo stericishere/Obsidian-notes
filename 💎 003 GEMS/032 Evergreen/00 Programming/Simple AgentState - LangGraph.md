@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-07 02:45
-aliases: AgentState - LangGraph
-tag: 🤖
+aliases:
+  - AgentState - LangGraph
+tags:
+  - 🤖
 type: state
 ---
 # Simple AgentState - LangGraph

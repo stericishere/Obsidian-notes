@@ -1,8 +1,11 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 22:15
-aliases: bias, variance tradeoff
-tag: 🧠
+aliases:
+  - bias
+  - variance tradeoff
+tags:
+  - 🧠
 type: ch
 ---
 # Bias-Variance Trade-off

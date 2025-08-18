@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 05:31
-aliases: Supervised Learning
-tag: 🧠
+aliases:
+  - Supervised Learning
+tags:
+  - 🧠
 type: l4
 ---
 # Supervised Learning:

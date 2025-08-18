@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 21:58
-aliases: Mehrabian Principle (7-38-55
-tags: 
+aliases:
+  - Mehrabian Principle (7-38-55
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

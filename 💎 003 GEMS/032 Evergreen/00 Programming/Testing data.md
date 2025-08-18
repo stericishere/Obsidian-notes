@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:23
-aliases: Testing data
-tag: 🧠
+aliases:
+  - Testing data
+tags:
+  - 🧠
 type: ml
 ---
 # Testing data:

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:26
-aliases: Hyperparameters
-tag: 🧠
+aliases:
+  - Hyperparameters
+tags:
+  - 🧠
 type:
 ---
 # Hyperparameters

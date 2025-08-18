@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 23:45
-aliases: 3 ways to scale a database
-tag: 👨‍💻
+aliases:
+  - 3 ways to scale a database
+tags:
+  - 👨‍💻
 type: db
 ---
 # 3 ways to scale a database

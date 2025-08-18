@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:54
-aliases: Support Vector Machines
-tag: 🧠
+aliases:
+  - Support Vector Machines
+tags:
+  - 🧠
 type: l4
 ---
 # Support Vector Machines (SVM)

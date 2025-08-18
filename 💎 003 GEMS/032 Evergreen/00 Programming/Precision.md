@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:42
-aliases: Precision
-tag: 🧠
+aliases:
+  - Precision
+tags:
+  - 🧠
 type:
 ---
 # Precision

@@ -1,9 +1,11 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 05:17
-tag: 🏗️
-priority: 
-aliases: Skydive
+tags:
+  - 🏗️
+priority:
+aliases:
+  - Skydive
 type: Life
 complete:
 ---

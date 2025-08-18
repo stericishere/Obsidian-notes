@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:01
-aliases: LSTM (Long Short-Term Memory)
-tag: 🧠
+aliases:
+  - LSTM (Long Short-Term Memory)
+tags:
+  - 🧠
 type: dp
 ---
 # LSTM (Long Short-Term Memory)

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-30 04:22
-aliases: Taskweaver
-tag: 🤖
+aliases:
+  - Taskweaver
+tags:
+  - 🤖
 type: fw
 ---
 # Taskweaver

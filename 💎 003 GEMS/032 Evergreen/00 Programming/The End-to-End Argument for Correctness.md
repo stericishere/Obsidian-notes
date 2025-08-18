@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:08
-aliases: The End-to-End Argument for Correctness
-tag: 👨‍💻
+aliases:
+  - The End-to-End Argument for Correctness
+tags:
+  - 👨‍💻
 type: l4
 ---
 # The End-to-End Argument for Correctness

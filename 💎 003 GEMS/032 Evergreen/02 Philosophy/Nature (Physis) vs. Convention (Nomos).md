@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-07 16:41
-aliases: Nature (Physis) vs. Convention (Nomos)
-tag: 🤔
+aliases:
+  - Nature (Physis) vs. Convention (Nomos)
+tags:
+  - 🤔
 ---
 # Nature (Physis) vs. Convention (Nomos)
 

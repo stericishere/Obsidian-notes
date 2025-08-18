@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 01:44
-aliases: CNN
-tag: 🧠
+aliases:
+  - CNN
+tags:
+  - 🧠
 type: dp
 ---
 # CNN

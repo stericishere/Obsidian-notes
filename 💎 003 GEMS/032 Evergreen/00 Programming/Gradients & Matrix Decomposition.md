@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:25
-aliases: Gradients & Matrix Decomposition
-tag: 🧠
+aliases:
+  - Gradients & Matrix Decomposition
+tags:
+  - 🧠
 type: l4
 ---
 # Gradients & Matrix Decomposition

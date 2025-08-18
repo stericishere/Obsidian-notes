@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:02
-aliases: Inherent Unreliability of Networks in Distributed Systems
-tag: 👨‍💻
+aliases:
+  - Inherent Unreliability of Networks in Distributed Systems
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Inherent Unreliability of Networks in Distributed Systems

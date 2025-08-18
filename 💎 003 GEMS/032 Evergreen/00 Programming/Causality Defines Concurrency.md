@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:03
-aliases: Causality Defines Concurrency
-tag: 👨‍💻
+aliases:
+  - Causality Defines Concurrency
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Causality Defines Concurrency

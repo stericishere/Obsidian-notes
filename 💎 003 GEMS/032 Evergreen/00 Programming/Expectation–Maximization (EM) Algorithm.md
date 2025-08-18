@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:26
-aliases: Expectation–Maximization (EM) Algorithm
-tag: 🧠
+aliases:
+  - Expectation–Maximization (EM) Algorithm
+tags:
+  - 🧠
 type: l4
 ---
 # Expectation–Maximization (EM) Algorithm

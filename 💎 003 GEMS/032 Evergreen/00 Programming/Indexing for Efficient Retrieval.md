@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:01
-aliases: Indexing for Efficient Retrieval
-tag: 👨‍💻
+aliases:
+  - Indexing for Efficient Retrieval
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Indexing for Efficient Retrieval

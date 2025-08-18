@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:04
-aliases: Consensus as a Fundamental Problem
-tag: 👨‍💻
+aliases:
+  - Consensus as a Fundamental Problem
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Consensus as a Fundamental Problem

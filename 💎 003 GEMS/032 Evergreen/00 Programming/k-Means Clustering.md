@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:32
-aliases: k-Means Clustering
-tag: 🧠
+aliases:
+  - k-Means Clustering
+tags:
+  - 🧠
 type: l4
 ---
 # k-Means Clustering

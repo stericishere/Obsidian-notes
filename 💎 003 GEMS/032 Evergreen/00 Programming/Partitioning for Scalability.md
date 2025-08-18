@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:06
-aliases: Partitioning for Scalability
-tag: 👨‍💻
+aliases:
+  - Partitioning for Scalability
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Partitioning for Scalability

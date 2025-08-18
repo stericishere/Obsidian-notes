@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:45
-aliases: Attention Mechanism
-tag: 🧠
+aliases:
+  - Attention Mechanism
+tags:
+  - 🧠
 type: dp
 ---
 # Attention Mechanism

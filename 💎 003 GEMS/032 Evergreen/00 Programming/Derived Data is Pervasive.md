@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:07
-aliases: Derived Data is Pervasive
-tag: 👨‍💻
+aliases:
+  - Derived Data is Pervasive
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Derived Data is Pervasive

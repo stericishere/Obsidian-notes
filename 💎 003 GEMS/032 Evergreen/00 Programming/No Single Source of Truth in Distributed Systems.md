@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:03
-aliases: No Single Source of Truth in Distributed Systems
-tag: 👨‍💻
+aliases:
+  - No Single Source of Truth in Distributed Systems
+tags:
+  - 👨‍💻
 type: l4
 ---
 # No Single Source of Truth in Distributed Systems

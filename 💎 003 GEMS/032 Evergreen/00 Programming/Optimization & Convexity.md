@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 18:07
-aliases: Optimization
-tag: 🧠
+aliases:
+  - Optimization
+tags:
+  - 🧠
 type: l4
 ---
 # 4. Optimization & Convexity

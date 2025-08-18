@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 02:28
-aliases: Feedforward Neural Network (FNN)
-tag: 🧠
+aliases:
+  - Feedforward Neural Network (FNN)
+tags:
+  - 🧠
 type: dp
 ---
 # Feedforward Neural Network (FNN)

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-11 23:52
-aliases: Maintainability
-tag: 👨‍💻
+aliases:
+  - Maintainability
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Maintainability

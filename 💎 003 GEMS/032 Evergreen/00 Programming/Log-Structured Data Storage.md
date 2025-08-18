@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:00
-aliases: Log-Structured Data Storage
-tag: 👨‍💻
+aliases:
+  - Log-Structured Data Storage
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Log-Structured Data Storage

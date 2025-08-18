@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-18 00:32
-aliases: Latent code
-tag: 🧠
+aliases:
+  - Latent code
+tags:
+  - 🧠
 type:
 ---
 # 📚 Topic: Latent Code in Autoencoders

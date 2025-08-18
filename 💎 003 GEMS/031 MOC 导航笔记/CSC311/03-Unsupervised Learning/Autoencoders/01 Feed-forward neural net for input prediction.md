@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-17 21:06
-aliases: 01 Feed-forward neural net for input prediction
-tag: 🧠
+aliases:
+  - 01 Feed-forward neural net for input prediction
+tags:
+  - 🧠
 type:
 ---
 # Topic: Autoencoders – Feed-Forward Neural Networks for Input Prediction

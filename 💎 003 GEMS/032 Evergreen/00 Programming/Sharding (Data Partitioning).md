@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-25 00:14
-aliases: Sharding
-tag: 👨‍💻
+aliases:
+  - Sharding
+tags:
+  - 👨‍💻
 type:
 ---
 # Sharding

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-11 23:53
-aliases: Data Models Dictate Capabilities
-tag: 👨‍💻
+aliases:
+  - Data Models Dictate Capabilities
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Data Models Dictate Capabilities:

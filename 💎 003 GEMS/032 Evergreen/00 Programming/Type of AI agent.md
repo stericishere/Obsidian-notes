@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 17:43
-aliases: Type of AI agent
-tag: 🤖
+aliases:
+  - Type of AI agent
+tags:
+  - 🤖
 type: fw
 ---
 # Type of AI agent

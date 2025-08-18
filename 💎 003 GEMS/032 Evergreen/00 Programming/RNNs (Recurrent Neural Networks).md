@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:03
-aliases: RNNs
-tag: 🧠
+aliases:
+  - RNNs
+tags:
+  - 🧠
 type: dp
 ---
 # RNNs

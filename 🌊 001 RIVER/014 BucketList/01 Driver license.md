@@ -1,9 +1,11 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:56
-tag: 🏗️
-priority: 
-aliases: Driver license
+tags:
+  - 🏗️
+priority:
+aliases:
+  - Driver license
 type: Life
 complete:
 ---

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-01 22:45
-aliases: LangGraph
-tag: 🤖
+aliases:
+  - LangGraph
+tags:
+  - 🤖
 type: fw
 ---
 # LangGraph

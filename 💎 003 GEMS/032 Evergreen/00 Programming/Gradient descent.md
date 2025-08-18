@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:37
-aliases: Gradient descent
-tag: 🧠
+aliases:
+  - Gradient descent
+tags:
+  - 🧠
 type: ml
 ---
 # Gradient descent:

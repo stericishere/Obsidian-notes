@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 05:44
-aliases: Confusion Matrix
-tag: 🧠
+aliases:
+  - Confusion Matrix
+tags:
+  - 🧠
 type: ml
 ---
 # Confusion Matrix

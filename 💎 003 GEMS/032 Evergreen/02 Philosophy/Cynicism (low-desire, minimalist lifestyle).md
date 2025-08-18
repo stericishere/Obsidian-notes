@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-07 16:30
-aliases: ml
-tag: 🤔
+aliases:
+  - ml
+tags:
+  - 🤔
 ---
 # Cynicism:
 **A low-desire, minimalist lifestyle**

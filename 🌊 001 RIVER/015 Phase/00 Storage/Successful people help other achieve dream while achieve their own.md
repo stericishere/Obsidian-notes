@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-27 04:34
-aliases: Successful people help other achieve dream while achieve their own
-tags: 
+aliases:
+  - Successful people help other achieve dream while achieve their own
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:28
-aliases: Data Sparsity
-tag: 🧠
+aliases:
+  - Data Sparsity
+tags:
+  - 🧠
 type: ch
 ---
 # Data Sparsity

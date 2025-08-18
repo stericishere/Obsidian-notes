@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:05
-aliases: ACID Properties of Transactions
-tag: 👨‍💻
+aliases:
+  - ACID Properties of Transactions
+tags:
+  - 👨‍💻
 type: l4
 ---
 # ACID Properties of Transactions

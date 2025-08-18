@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 21:14
-aliases: Describe the fact --> Emphasize understanding --> Express feelings --> Make a appeal
-tags: 
+aliases:
+  - Describe the fact --> Emphasize understanding --> Express feelings --> Make a appeal
+tags:
   - 💬
   - phase/🧑‍🤝‍🧑 Talking
 category: 🧑‍🤝‍🧑 Talking

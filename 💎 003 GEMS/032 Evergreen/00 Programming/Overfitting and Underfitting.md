@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 22:06
-aliases: Overfitting and Underfitting
-tag: 🧠
+aliases:
+  - Overfitting and Underfitting
+tags:
+  - 🧠
 type: ch
 ---
 # Overfitting and Underfitting

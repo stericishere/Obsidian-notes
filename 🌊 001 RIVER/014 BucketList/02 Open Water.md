@@ -1,9 +1,11 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:55
-tag: 🏗️
-priority: 
-aliases: Open Water
+tags:
+  - 🏗️
+priority:
+aliases:
+  - Open Water
 type: Life
 complete:
 ---

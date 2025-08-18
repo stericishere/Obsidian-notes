@@ -1,8 +1,10 @@
 ---
 banner: "![[Notes-2.jpg]]"
 creation date: 2025-07-24 19:12
-aliases: Manus Prompt
-tag: 💡
+aliases:
+  - Manus Prompt
+tags:
+  - 💡
 type:
 ---
 # Manus Prompt

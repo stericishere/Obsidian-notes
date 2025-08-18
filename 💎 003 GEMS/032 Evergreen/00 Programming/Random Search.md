@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:32
-aliases: Random Search
-tag: 🧠
+aliases:
+  - Random Search
+tags:
+  - 🧠
 type:
 ---
 # Random Search

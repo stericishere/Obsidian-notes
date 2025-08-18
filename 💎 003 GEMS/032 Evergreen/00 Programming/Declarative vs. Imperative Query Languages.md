@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-11 23:59
-aliases: Declarative vs. Imperative Query Languages
-tag: 👨‍💻
+aliases:
+  - Declarative vs. Imperative Query Languages
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Declarative vs. Imperative Query Languages

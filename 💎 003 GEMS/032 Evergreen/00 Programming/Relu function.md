@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:18
-aliases: Relu function
-tag: 🧠
+aliases:
+  - Relu function
+tags:
+  - 🧠
 type: af
 banner_x: 0.499
 ---

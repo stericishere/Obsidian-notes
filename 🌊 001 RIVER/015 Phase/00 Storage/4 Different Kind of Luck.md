@@ -1,7 +1,8 @@
 ---
 creation date: 2025-07-21 21:27
-aliases: 4 different kind of luck
-tags: 
+aliases:
+  - 4 different kind of luck
+tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life

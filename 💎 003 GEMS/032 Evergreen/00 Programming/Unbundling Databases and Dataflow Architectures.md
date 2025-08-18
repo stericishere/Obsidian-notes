@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-12 00:07
-aliases: Unbundling Databases and Dataflow Architectures
-tag: 👨‍💻
+aliases:
+  - Unbundling Databases and Dataflow Architectures
+tags:
+  - 👨‍💻
 type: l4
 ---
 # Unbundling Databases and Dataflow Architectures

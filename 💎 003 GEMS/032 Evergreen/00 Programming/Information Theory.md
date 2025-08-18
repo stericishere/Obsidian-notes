@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 18:12
-aliases: Information Theory
-tag: 🧠
+aliases:
+  - Information Theory
+tags:
+  - 🧠
 type: l4
 ---
 # Information Theory:

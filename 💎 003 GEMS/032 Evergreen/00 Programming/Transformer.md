@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 19:48
-aliases: Transformer
-tag: 🧠
+aliases:
+  - Transformer
+tags:
+  - 🧠
 type: dp
 ---
 # Transformer:

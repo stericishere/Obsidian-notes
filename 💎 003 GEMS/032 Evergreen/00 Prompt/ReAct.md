@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 18:02
-aliases: ReAct
-tag: 💡
+aliases:
+  - ReAct
+tags:
+  - 💡
 type: fw
 ---
 # ReAct

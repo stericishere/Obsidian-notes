@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 22:25
-aliases: Random Forest
-tag: 🧠
+aliases:
+  - Random Forest
+tags:
+  - 🧠
 type: ml
 ---
 # Random Forest:

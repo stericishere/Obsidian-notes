@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-07 03:19
-aliases: Conditional_Agent - LangGraph
-tag: 🤖
+aliases:
+  - Conditional_Agent - LangGraph
+tags:
+  - 🤖
 type:
 ---
 # Conditional_Agent - LangGraph

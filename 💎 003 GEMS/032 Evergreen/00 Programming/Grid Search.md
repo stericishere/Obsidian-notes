@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 01:31
-aliases: Grid Search
-tag: 🧠
+aliases:
+  - Grid Search
+tags:
+  - 🧠
 type:
 ---
 # Grid Search

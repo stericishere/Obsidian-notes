@@ -1,8 +1,9 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-21 21:48
-aliases: null
-tag: 🌲
+aliases:
+tags:
+  - 🌲
 ---
 # Theory of Evolution by Natural Selection
 

@@ -1,8 +1,10 @@
 ---
 banner: "![[Notes-2.jpg]]"
 creation date: 2025-08-15 19:40
-aliases: Accuracy
-tag: 🧠
+aliases:
+  - Accuracy
+tags:
+  - 🧠
 type:
 banner_x: 0.5
 banner_y: 0.47115

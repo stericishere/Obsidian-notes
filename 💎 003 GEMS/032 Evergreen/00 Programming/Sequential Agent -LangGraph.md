@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-07 03:05
-aliases: Sequential_Agent.ipynb
-tag: 🤖
+aliases:
+  - Sequential_Agent.ipynb
+tags:
+  - 🤖
 type: state
 ---
 # Sequential Agent -LangGraph

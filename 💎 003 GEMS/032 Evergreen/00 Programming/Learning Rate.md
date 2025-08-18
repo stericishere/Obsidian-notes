@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-02 02:21
-aliases: Learning Rate
-tag: 🧠
+aliases:
+  - Learning Rate
+tags:
+  - 🧠
 type: ml
 ---
 # Learning Rate:

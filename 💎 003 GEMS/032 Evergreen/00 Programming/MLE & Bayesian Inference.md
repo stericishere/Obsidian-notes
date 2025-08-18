@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 19:28
-aliases: MLE & Bayesian Inference
-tag: 🧠
+aliases:
+  - MLE & Bayesian Inference
+tags:
+  - 🧠
 type: l4
 ---
 # MLE & Bayesian Inference

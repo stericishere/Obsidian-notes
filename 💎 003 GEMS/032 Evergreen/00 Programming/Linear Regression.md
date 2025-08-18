@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-15 18:47
-aliases: Linear Regression
-tag: 🧠
+aliases:
+  - Linear Regression
+tags:
+  - 🧠
 type: l4
 ---
 # Linear Regression:

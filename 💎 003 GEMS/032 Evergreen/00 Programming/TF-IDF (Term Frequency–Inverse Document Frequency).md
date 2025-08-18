@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:29
-aliases: TF-IDF
-tag: 🧠
+aliases:
+  - TF-IDF
+tags:
+  - 🧠
 type: em
 ---
 # TF-IDF (Term Frequency–Inverse Document Frequency)

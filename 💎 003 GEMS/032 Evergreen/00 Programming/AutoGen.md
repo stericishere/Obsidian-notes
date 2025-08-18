@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-30 04:21
-aliases: AutoGen
-tag: 🤖
+aliases:
+  - AutoGen
+tags:
+  - 🤖
 type: fw
 ---
 # AutoGen

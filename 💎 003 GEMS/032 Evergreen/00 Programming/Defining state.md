@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-01 22:23
-aliases: Defining state
-tag: 🤖
+aliases:
+  - Defining state
+tags:
+  - 🤖
 type: state
 ---
 # Defining state

@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-22 03:13
-aliases: Gradient vanishing
-tag: 🧠
+aliases:
+  - Gradient vanishing
+tags:
+  - 🧠
 type: ch
 banner_x: 0.5
 ---

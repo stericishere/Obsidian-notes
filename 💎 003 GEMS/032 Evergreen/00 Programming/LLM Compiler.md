@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 17:55
-aliases: LLM Compiler
-tag: 🤖
+aliases:
+  - LLM Compiler
+tags:
+  - 🤖
 type: type
 ---
 # LLM Compiler

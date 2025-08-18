@@ -1,8 +1,10 @@
 ---
 banner: "![[Notes-2.jpg]]"
 creation date: 2025-08-12 00:09
-aliases: Ethical Responsibility in Software Engineering
-tag: 👨‍💻
+aliases:
+  - Ethical Responsibility in Software Engineering
+tags:
+  - 👨‍💻
 type: l4
 banner_x: 0.5
 ---

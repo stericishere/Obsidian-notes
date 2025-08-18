@@ -1,8 +1,9 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-08-01 23:07
-aliases: null
-tag: 🤖
+aliases:
+tags:
+  - 🤖
 type:
 ---
 

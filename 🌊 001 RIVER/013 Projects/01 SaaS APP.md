@@ -1,11 +1,12 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:52
-tag: 🏗️
-priority: 
-aliases: SaaS APP
-
-type: 
+tags:
+  - 🏗️
+priority:
+aliases:
+  - SaaS APP
+type:
 complete:
 ---
 [[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]

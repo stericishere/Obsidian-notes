@@ -1,9 +1,11 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-25 00:06
-aliases: QPS (Queries Per Second)
-tag: 👨‍💻
-type: 
+aliases:
+  - QPS (Queries Per Second)
+tags:
+  - 👨‍💻
+type:
 ---
 # QPS (Queries Per Second)
 ### Finding average QPS:

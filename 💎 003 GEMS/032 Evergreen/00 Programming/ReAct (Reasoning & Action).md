@@ -1,8 +1,10 @@
 ---
 banner: "[[Notes-2.jpg]]"
 creation date: 2025-07-24 17:47
-aliases: ReAct (Reasoning & Action)
-tag: 🤖
+aliases:
+  - ReAct (Reasoning & Action)
+tags:
+  - 🤖
 type: type
 ---
 # ReAct (Reasoning & Acting)
