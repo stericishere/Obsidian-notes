@@ -7,6 +7,7 @@
 | Decoder         | Reconstructs input                | 32 → 784 neurons                      |
 | Loss Function   | Measures reconstruction error     | MSE or Cross-Entropy                  |
 | Training Data   | Inputs = Outputs                  | Image → Image, Signal → Signal        |
+|                 |                                   |                                       |
 > [!TIP]  
 > Think of autoencoders as **unsupervised feature learners**: instead of labels, the network learns structure directly from the input.
 
