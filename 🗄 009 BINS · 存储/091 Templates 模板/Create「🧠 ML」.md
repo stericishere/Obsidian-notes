@@ -12,4 +12,6 @@ aliases: <%* tR += `${title}` %>
 tag: 🧠
 type:
 ---
+## My note:
+
 # <%* tR += `${title}` %>
