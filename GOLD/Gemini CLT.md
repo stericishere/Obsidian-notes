@@ -27,7 +27,7 @@
 
 ```markdown
 Please read the Markdown outline file I currently have open.
-In the file, each Level 2 heading has multiple Level 3 headings under it, and each Level 3 heading has several unordered list items. Read and understand the file's content and hierarchical structure. Next, I will ask you to create folders and files for me according to this structure.
+In the file, each Level 2 heading has multiple Level 3 headings under it, and each Level 3 heading has several unordered list items. Read and understand the file's content and hierarchical structure. Next, I will ask you to create folders and files for me according to this structure. Named "[[number]] [Topic Name].md".
 
 First, please execute the first task for me:
 For every Level 2 heading (H2) in the file, create a corresponding folder in the current root directory.
@@ -52,7 +52,7 @@ For every Level 2 heading (H2) in the file, create a corresponding folder in the
 ```markdown
 Excellent. Now please execute the second task:
 Please analyze my outline file again. For every Level 3 heading (H3), create a folder of the same name inside the folder corresponding to its parent Level 2 heading.
-Then, inside this newly created topic folder, create an empty Markdown file named "[Topic Name] MOC.md".
+Then, inside this newly created topic folder, create an empty Markdown file named "00 [Topic Name] MOC.md".
 
 For example, if a Level 2 heading is "Photography" (you already created this folder in Step 1), and under it is a Level 3 heading "Portrait Photography",
 then, you should create a "Portrait Photography" folder inside the "Photography" folder, and within the "Portrait Photography" folder, create a file named "Portrait Photography MOC.md".
@@ -86,9 +86,9 @@ Please analyze my outline file once more. You need to do two things:
 
 2.  **Populate MOC Notes**: Open each MOC note (e.g., "What is Prompt Engineering MOC.md") and write the links to all the atomic notes under that topic into it, formatted as an unordered list using Obsidian's wikilink format.
     * For example, the final content of the "Zero-Shot Prompting MOC.md" file should be:
-        - [[Definition of Zero-Shot Prompting]]
-        - [[Use Cases for Zero-Shot Prompting (Direct and clear tasks)]]
-        - [[Advantages of Zero-Shot Prompting (Simple, efficient, low-cost)]]
+        - [[01 Definition of Zero-Shot Prompting]]
+        - [[02 Use Cases for Zero-Shot Prompting (Direct and clear tasks)]]
+        - [[03 Advantages of Zero-Shot Prompting (Simple, efficient, low-cost)]]
 
 Please follow the rules and examples above strictly.
 ```
@@ -113,7 +113,7 @@ Please follow the rules and examples above strictly.
 最后，请分析我所有的顶级文件夹（H2），将它们作为三级标题列出。在每个三级标题下，再列出该顶级文件夹内所有MOC笔记的双向链接。
 ```
 
-```markdown
+```markdow
 The framework setup is complete, outstanding job. Now, please help me create the overview note.
 
 In the root directory, create a new file named "[Your Knowledge Topic] Overview.md". (Please manually replace the text in the brackets).

@@ -1,6 +1,0 @@
-- [[01 Model Evaluation Metrics for Classification/01 Model Evaluation Metrics for Classification MOC|01 Model Evaluation Metrics for Classification]]
-- [[02 Model Evaluation Metrics for Regression/02 Model Evaluation Metrics for Regression MOC|02 Model Evaluation Metrics for Regression]]
-- [[03 Model Evaluation Metrics for Ranking/03 Model Evaluation Metrics for Ranking MOC|03 Model Evaluation Metrics for Ranking]]
-- [[04 Robustness and Validation/04 Robustness and Validation MOC|04 Robustness and Validation]]
-- [[05 MLOps Introduction/05 MLOps Introduction MOC|05 MLOps Introduction]]
-- [[06 Fairness in ML/06 Fairness in ML MOC|06 Fairness in ML]]

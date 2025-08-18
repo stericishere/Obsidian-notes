@@ -1,0 +1,7 @@
+- [[01 Iterative algorithm for GMMs]]
+- [[02 E-step - Expectation]]
+- [[03 M-step - Maximization]]
+- [[04 Relation to K-Means]]
+- [[05 Guaranteed to improve log-likelihood]]
+- [[06 Lower Bound Optimization]]
+- [[07 Jensen's Inequality]]

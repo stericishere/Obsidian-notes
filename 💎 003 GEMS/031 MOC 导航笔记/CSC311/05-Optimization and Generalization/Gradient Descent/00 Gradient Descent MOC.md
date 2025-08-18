@@ -1,0 +1,8 @@
+- [[01 Iterative Algorithm]]
+- [[02 Learning Rate - Step size]]
+- [[03 Update Rule]]
+- [[04 Batch Gradient Descent - impractical for large datasets]]
+- [[05 Stochastic Gradient Descent - SGD]]
+- [[06 Mini-Batch Gradient Descent]]
+- [[07 Convergence Criteria]]
+- [[08 Momentum]]

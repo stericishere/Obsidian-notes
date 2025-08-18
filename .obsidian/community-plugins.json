@@ -20,11 +20,9 @@
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
   "templater-obsidian",
-  "obsidian-react-components",
   "open-files-with-commands",
   "fuzzy-chinese-pinyin",
   "global-search-and-replace",
-  "settings-search",
   "obsidian-custom-frames",
   "heatmap-calendar",
   "remotely-save",
@@ -32,6 +30,6 @@
   "editing-toolbar",
   "simple-banner",
   "obsidian-git",
-  "copilot",
-  "obsidian-textgenerator-plugin"
+  "obsidian-textgenerator-plugin",
+  "copilot"
 ]

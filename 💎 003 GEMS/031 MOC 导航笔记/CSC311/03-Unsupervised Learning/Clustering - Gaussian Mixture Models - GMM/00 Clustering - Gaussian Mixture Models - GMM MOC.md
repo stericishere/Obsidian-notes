@@ -1,0 +1,8 @@
+- [[01 Probabilistic formulation of clustering]]
+- [[02 Latent Variable Model - Categorical distribution for z]]
+- [[03 Mixture of Gaussians]]
+- [[04 Parameters - Mixing coefficients]]
+- [[05 Parameters - Means]]
+- [[06 Parameters - Covariances]]
+- [[07 Maximum Likelihood Optimization]]
+- [[08 Singularity Problem]]

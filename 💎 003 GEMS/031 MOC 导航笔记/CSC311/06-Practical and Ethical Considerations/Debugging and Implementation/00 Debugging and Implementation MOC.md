@@ -1,0 +1,7 @@
+- [[01 Debugging Learning Algorithms]]
+- [[02 Gradient Checking]]
+- [[03 Numerical Instabilities - Logistic Regression]]
+- [[04 Vectorization for computational efficiency]]
+- [[05 Python Frameworks - PyTorch]]
+- [[06 Python Frameworks - TensorFlow]]
+- [[07 Python Frameworks - JAX]]

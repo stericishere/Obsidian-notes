@@ -1,0 +1,6 @@
+- [[01 Definition and Goal]]
+- [[02 Objective Function]]
+- [[03 Assumptions]]
+- [[04 Direct Solution]]
+- [[05 Iterative Solution]]
+- [[06 Critical Point]]

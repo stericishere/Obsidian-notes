@@ -1,0 +1,6 @@
+- [[01 Convex Sets]]
+- [[02 Convex Functions]]
+- [[03 Convex Loss Functions]]
+- [[04 Importance - Local optima are global optima]]
+- [[05 Compositions of Convex Functions]]
+- [[06 Examples of Convex Functions]]

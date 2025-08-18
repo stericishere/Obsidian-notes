@@ -1,7 +1,0 @@
-- [[Accuracy]]
-- [[Precision]]
-- [[Recall (Sensitivity)]]
-- [[F1-Score]]
-- [[Confusion Matrix]]
-- [[ROC Curve]]
-- [[Area Under the Curve (AUC)]]

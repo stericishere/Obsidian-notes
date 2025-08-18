@@ -76,5 +76,21 @@
       ],
       "key": "O"
     }
+  ],
+  "copilot:chat-open-window": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "workspace:toggle-stacked-tabs": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "S"
+    }
   ]
 }

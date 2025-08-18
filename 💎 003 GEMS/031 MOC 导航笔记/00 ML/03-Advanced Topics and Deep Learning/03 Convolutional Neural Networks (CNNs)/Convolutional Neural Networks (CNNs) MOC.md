@@ -1,7 +1,0 @@
-- [[CNN Architecture for Vision]]
-- [[Convolutional Layer]]
-- [[Filters (Kernels)]]
-- [[Activation Map]]
-- [[Pooling Layer]]
-- [[Down-sampling]]
-- [[Fully Connected Layer]]

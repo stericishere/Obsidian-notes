@@ -1,0 +1,7 @@
+- [[01 Linear Dimensionality Reduction]]
+- [[02 Objectives - Minimize Reconstruction Error]]
+- [[03 Objectives - Maximize Variance]]
+- [[04 Empirical Mean - Origin of subspace]]
+- [[05 Principal Components - Top eigenvectors of covariance matrix]]
+- [[06 Applications - Faces]]
+- [[07 Applications - Digits]]

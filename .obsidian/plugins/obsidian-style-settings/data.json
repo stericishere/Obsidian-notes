@@ -4,6 +4,9 @@
   "Components@@nav-header-autohide": false,
   "Components@@vault-profile-autohide": true,
   "Editor@@border-focus-mode": false,
-  "Editor@@bold-color@@light": "#BA0000",
-  "Editor@@zoom-off": true
+  "Editor@@bold-color@@light": "#AB0202",
+  "Editor@@zoom-off": true,
+  "folder-color-schemes@@folder-color-scheme-class": "folder-scheme-nord",
+  "Components@@folder-font-bold": true,
+  "Components@@colorful-folder": true
 }

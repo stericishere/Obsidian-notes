@@ -1,7 +1,0 @@
-- [[01 Definition of Machine Learning]]
-- [[02 Machine Learning vs Traditional Programming]]
-- [[03 Applied ML vs Research ML]]
-- [[04 The Al Ecosystem]]
-- [[05 Artificial Intelligence (AI)]]
-- [[06 Machine Learning (ML)]]
-- [[07 Deep Learning (DL)]]

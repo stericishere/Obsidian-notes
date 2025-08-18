@@ -1,5 +1,0 @@
-- [[Image Classification]]
-- [[Dataset Curation]]
-- [[Image Preprocessing]]
-- [[Data Augmentation]]
-- [[Transfer Learning]]

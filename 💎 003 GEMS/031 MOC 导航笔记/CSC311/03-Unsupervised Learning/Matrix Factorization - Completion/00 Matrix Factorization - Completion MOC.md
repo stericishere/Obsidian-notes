@@ -1,0 +1,5 @@
+- [[01 PCA as Matrix Factorization]]
+- [[02 Netflix Problem]]
+- [[03 Matrix Completion Problem]]
+- [[04 Latent Factor Models]]
+- [[05 Alternating Least Squares - ALS]]
