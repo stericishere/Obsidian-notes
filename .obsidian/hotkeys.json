@@ -92,5 +92,16 @@
       ],
       "key": "S"
     }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }

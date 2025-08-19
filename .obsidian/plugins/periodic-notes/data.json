@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "YYYY-MM-DD ddd",
+    "folder": "🌊 001 RIVER/011 Daily",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/创建「⏲ 每日笔记」",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": false
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

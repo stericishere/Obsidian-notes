@@ -1,17 +1,6 @@
 {
   "frames": [
     {
-      "url": "https://www.wolai.com/j2amCWQVDaB6wcsA9RToDa",
-      "displayName": "生命OS Obsidian版常见问题",
-      "icon": "file-question",
-      "hideOnMobile": true,
-      "addRibbonIcon": true,
-      "openInCenter": true,
-      "zoomLevel": 1,
-      "forceIframe": false,
-      "customCss": ""
-    },
-    {
       "url": "https://gemini.google.com/app",
       "displayName": "Gemini",
       "icon": "bot",

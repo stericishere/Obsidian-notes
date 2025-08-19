@@ -3,18 +3,7 @@
   "openFileIn": "activeTab",
   "deleteCommandWhenFileIsDeleted": true,
   "updateCommandsOnRename": true,
-  "commands": [
-    {
-      "filePath": "✈️ 从这里开始.md",
-      "name": "✈️ 从这里开始",
-      "openFileIn": "activeTab",
-      "id": "099dd20b-b58e-4704-9bd2-ec005f161da6",
-      "command": {
-        "id": "open-files-with-commands:099dd20b-b58e-4704-9bd2-ec005f161da6",
-        "name": "Open files with commands: ✈️ 从这里开始"
-      }
-    }
-  ],
+  "commands": [],
   "customVariables": [
     {
       "name": "date",
