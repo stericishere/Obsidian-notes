@@ -1,6 +1,6 @@
 filters:
   and:
-    - type == "mindset"
+    - file.inFolder("🌑 002 ROCKS/🧠 Framework")
 views:
   - type: table
     name: Table
