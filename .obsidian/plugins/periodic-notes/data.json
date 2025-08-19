@@ -5,7 +5,7 @@
   "daily": {
     "format": "YYYY-MM-DD ddd",
     "folder": "🌊 001 RIVER/011 Daily",
-    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「⏲ Daily Note」 1.md",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「⏲ Daily Note」.md",
     "enabled": true
   },
   "weekly": {

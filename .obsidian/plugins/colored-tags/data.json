@@ -26,7 +26,9 @@
     "🌲": 14,
     "task": 15,
     "Route": 16,
-    "Resume": 17
+    "Resume": 17,
+    "Lec": 18,
+    "Topic": 19
   },
   "_version": 3
 }

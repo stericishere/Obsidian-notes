@@ -53,6 +53,12 @@
       "icon": "lucide-search",
       "name": "Search",
       "mode": "fa9b4d223abf62b7"
+    },
+    {
+      "id": "obsidian-day-planner:clock-in",
+      "icon": "play",
+      "name": "Day Planner: Clock in",
+      "mode": "any"
     }
   ],
   "macros": [],

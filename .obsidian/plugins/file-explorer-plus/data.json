@@ -79,7 +79,70 @@
         "name": "",
         "active": true,
         "type": "DIRECTORIES",
-        "pattern": "/",
+        "pattern": "🌑 002 ROCKS/🍠 Date",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/👔 Interview",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/💼 Professional",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/💬 Talk",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/🔍 Theory",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/📕 Books",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/🧠 Framework",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/0231 YT",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/023 Internet",
+        "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "🌑 002 ROCKS/Favourite Quote",
         "patternType": "STRICT"
       }
     ],
