@@ -1,13 +1,13 @@
 {
-  "accentColor": "#0078f0",
-  "theme": "moonstone",
+  "accentColor": "#5c6fff",
+  "theme": "obsidian",
   "baseFontSize": 23,
   "translucency": false,
-  "cssTheme": "Border",
+  "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
-    "banner-color",
     "Hide Properties",
-    "Obsidian Banner Fix"
+    "Obsidian Banner Fix",
+    "banner-color"
   ],
   "textFontFamily": "",
   "monospaceFontFamily": "",

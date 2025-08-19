@@ -1,0 +1,30 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "Obsidian": 1,
+    "Git": 2,
+    "Sync": 3,
+    "Routine": 4,
+    "👤": 5,
+    "🏗️": 6,
+    "📺": 7,
+    "💬": 8,
+    "phase": 9,
+    "🤖": 10,
+    "🧠": 11,
+    "💡": 12,
+    "🤔": 13,
+    "🌲": 14,
+    "task": 15
+  },
+  "_version": 3
+}
