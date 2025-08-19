@@ -1,4 +1,4 @@
-- [[01 Linear Regression]]
+- [[💎 003 GEMS/031 MOC 导航笔记/00 ML/02-Core Algorithms and Practitioner Workflow/05 Core Supervised Learning Algorithms/01 Linear Regression]]
 - [[02 Logistic Regression]]
 - [[03 Decision Trees]]
 - [[04 Gini Impurity]]

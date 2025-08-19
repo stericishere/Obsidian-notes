@@ -1,9 +1,10 @@
 filters:
   and:
-    - file.folder == "🌑 002 ROCKS/022 Books"
+    - file.folder == "🌑 002 ROCKS/📕 Books"
+    - category == "📕 book"
 views:
   - type: cards
-    name: Table
+    name: Card
     order:
       - file.name
       - rating
@@ -11,3 +12,11 @@ views:
     columnSize:
       file.name: 410
       note.rating: 95
+    image: note.cover
+    cardSize: 240
+  - type: table
+    name: List
+    order:
+      - file.name
+      - rating
+      - type

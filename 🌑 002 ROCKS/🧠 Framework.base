@@ -6,7 +6,7 @@ views:
     name: Table
     order:
       - file.name
-      - type
       - rating
+      - type
     columnSize:
       file.name: 568

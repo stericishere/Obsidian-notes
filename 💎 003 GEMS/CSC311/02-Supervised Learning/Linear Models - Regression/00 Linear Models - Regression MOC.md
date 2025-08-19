@@ -1,4 +1,4 @@
-- [[01 Linear Regression]]
+- [[💎 003 GEMS/CSC311/02-Supervised Learning/Linear Models - Regression/01 Linear Regression]]
 - [[02 Model - Linear function of inputs]]
 - [[03 Parameters - Weights and Bias]]
 - [[04 Loss Function - Squared error]]

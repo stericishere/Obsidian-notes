@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.hasLink("🌑 002 ROCKS/🌠 Me.base")
+    - file.inFolder("🌊 001 RIVER/🌠 Me")
     - category == "🌠 Me"
 views:
   - type: table
