@@ -6,7 +6,8 @@ aliases:
 tags:
   - 💬
 category: 📖 Favourite Quote
-type: life
+type: Life
+rating: 5
 ---
 # The unexamined life is not worth living, the unlifed life is not worth examining
 

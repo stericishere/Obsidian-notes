@@ -1,19 +1,20 @@
+filters:
+  and:
+    - category == "📖 Favourite Quote"
 views:
   - type: table
     name: Life
     filters:
       and:
-        - category == "📖 Favourite Quote"
         - and:
-            - type == "life"
+            - type == "Life"
     order:
       - file.name
+      - rating
       - tags
     sort:
-      - property: file.name
-        direction: ASC
-      - property: tags
-        direction: ASC
+      - property: rating
+        direction: DESC
     columnSize:
       file.name: 530
   - type: table
@@ -21,14 +22,14 @@ views:
     filters:
       and:
         - category == "📖 Favourite Quote"
-        - type == "present"
+        - type == "Present"
   - type: table
     name: Past
     filters:
       and:
         - category == "📖 Favourite Quote"
         - and:
-            - type == "past"
+            - type == "Past"
     order:
       - file.name
       - tags
@@ -39,3 +40,14 @@ views:
         direction: ASC
     columnSize:
       file.name: 530
+  - type: table
+    name: 📖 Favourite Quote
+    order:
+      - file.name
+      - rating
+      - type
+    sort:
+      - property: rating
+        direction: DESC
+      - property: category
+        direction: DESC

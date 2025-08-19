@@ -5,7 +5,8 @@ aliases:
 tags:
   - 💬
 category: 📖 Favourite Quote
-type: life
+type: Life
+rating: 4
 ---
 **Category:** 📖 Favourite Quote
 **Type:** life

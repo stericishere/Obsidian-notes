@@ -5,7 +5,7 @@ aliases:
 tags:
   - 💬
 category: 📖 Favourite Quote
-type: present
+type: Present
 ---
 **Category:** 📖 Favourite Quote
 **Type:** present
