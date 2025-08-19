@@ -6,7 +6,7 @@ tags:
   - 💬
 category: 📖 Favourite Quote
 type: Present
-rating:
+rating: 5
 ---
 **Category:** 📖 Favourite Quote
 **Type:** present

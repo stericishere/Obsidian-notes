@@ -1,6 +1,10 @@
 filters:
   and:
     - file.inFolder("🌑 002 ROCKS/Favourite Quote")
+formulas:
+  fullstars: if(rating>=0, ["11111".split("").slice(0, number(rating).floor()).map(icon("star"))], "")
+  halfstars: '[if(number(rating) - number(rating).floor() >= 0.5, icon("star-half"), "")]'
+  stars: "[formula.fullstars, formula.halfstars].flat()"
 views:
   - type: table
     name: 📖 Favourite Quote
@@ -8,16 +12,18 @@ views:
       - file.name
       - by
       - rating
+      - formula.stars
       - type
     sort:
-      - property: rating
+      - property: formula.stars
         direction: DESC
       - property: category
         direction: DESC
     columnSize:
-      file.name: 514
-      note.by: 85
-      note.rating: 139
+      file.name: 639
+      note.by: 64
+      note.rating: 47
+      formula.stars: 123
   - type: table
     name: Life
     filters:

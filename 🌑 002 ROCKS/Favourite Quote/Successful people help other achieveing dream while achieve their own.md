@@ -4,7 +4,6 @@ aliases:
   - Successful people help other achieve dream while achieve their own
 tags:
   - 💬
-  - phase/📜 Life
 category: 📜 Life
 type: Life
 rating: 4

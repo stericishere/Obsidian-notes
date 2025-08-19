@@ -1,0 +1,21 @@
+/* Hide Labels in Bases */
+.bases-cards-label {
+    display: none;
+}
+
+a.internal-link{
+    font-size: 18px; 
+}
+
+/* Filled Stars */
+svg.lucide-star {
+  fill: yellow;
+  stroke: darkorange;
+  stroke-width: 2px;
+}
+
+svg.lucide-star-half {
+  fill: yellow;
+  stroke: darkorange;
+  stroke-width: 2px;
+}
