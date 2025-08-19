@@ -1,0 +1,41 @@
+views:
+  - type: table
+    name: Life
+    filters:
+      and:
+        - category == "📖 Favourite Quote"
+        - and:
+            - type == "life"
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 530
+  - type: table
+    name: Present
+    filters:
+      and:
+        - category == "📖 Favourite Quote"
+        - type == "present"
+  - type: table
+    name: Past
+    filters:
+      and:
+        - category == "📖 Favourite Quote"
+        - and:
+            - type == "past"
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 530

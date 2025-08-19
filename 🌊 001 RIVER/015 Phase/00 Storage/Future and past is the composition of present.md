@@ -4,7 +4,6 @@ aliases:
   - Future and past is the compresstion of present
 tags:
   - 💬
-  - phase/📖 Favourite Quote
 category: 📖 Favourite Quote
 type: present
 ---

@@ -5,7 +5,6 @@ aliases:
   - the unlifed life is not worth examining
 tags:
   - 💬
-  - phase/📖 Favourite Quote
 category: 📖 Favourite Quote
 type: life
 ---

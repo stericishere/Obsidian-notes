@@ -4,7 +4,6 @@ aliases:
   - Your dream must be big enough to accommodated others' dreams
 tags:
   - 💬
-  - phase/📖 Favourite Quote
 category: 📖 Favourite Quote
 type: life
 ---
