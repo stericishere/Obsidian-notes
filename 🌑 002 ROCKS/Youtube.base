@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/0231 YT")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - IMPORTANCE
+      - type
+    columnSize:
+      file.name: 525

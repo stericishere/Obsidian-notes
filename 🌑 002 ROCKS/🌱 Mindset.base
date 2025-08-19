@@ -1,0 +1,6 @@
+filters:
+  and:
+    - type == "mindset"
+views:
+  - type: table
+    name: Table

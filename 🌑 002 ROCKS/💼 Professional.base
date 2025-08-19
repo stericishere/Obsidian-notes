@@ -1,0 +1,16 @@
+filters:
+  and:
+    - category == "💼 Professional"
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: Meeting
+    filters:
+      and:
+        - type == "meeting"
+    order:
+      - file.name
+      - type
+    columnSize:
+      file.name: 693

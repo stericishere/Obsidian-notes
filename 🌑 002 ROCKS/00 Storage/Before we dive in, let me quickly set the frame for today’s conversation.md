@@ -7,7 +7,7 @@ tags:
   - 💬
   - phase/💼 Professional
 category: 💼 Professional
-type:
+type: meeting
 ---
 **Category:** 💼 Professional
 **Type:** meeting

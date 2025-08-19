@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiMinds",
+      "SiYoutube",
+      "LiMessageSquareQuote",
       "🍠",
-      "LiBriefcaseBusiness",
-      "RiChat3Fill",
-      "RiArticleFill",
-      "SiYoutube"
+      "LiBriefcaseBusiness"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,7 +49,9 @@
   "🌊 001 RIVER/013 Projects": "FasDiagramProject",
   "🌊 001 RIVER/014 BucketList": "SiBitbucket",
   "🌑 002 ROCKS/023 Internet": "IbInternetBrowser",
-  "🌑 002 ROCKS/023 Internet/0231 YT": "SiYoutube",
   "🌑 002 ROCKS/023 Internet/0232 Article": "RiArticleFill",
-  "🌊 001 RIVER/015 Phase": "RiChat3Fill"
+  "🌊 001 RIVER/015 Phase": "RiChat3Fill",
+  "🌑 002 ROCKS/0231 YT": "SiYoutube",
+  "🌑 002 ROCKS/Favourite Quote": "LiMessageSquareQuote",
+  "🌑 002 ROCKS/Youtube.base": "SiYoutube"
 }
