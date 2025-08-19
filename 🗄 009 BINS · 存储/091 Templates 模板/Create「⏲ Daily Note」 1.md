@@ -9,25 +9,25 @@
 banner: "[[Journal-2.jpg]]"
 banner_x: 0.48709
 ---
-
+![](https://www.youtube.com/watch?v=KwatUSh-6xY)
+## Existence precedes essence
 << [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').subtract(1, 'd').format('YYYY-MM-DD ddd') %>]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(1, 'd').format('YYYY-MM-DD ddd') %>]] >>
 
 
 # <%* tR += `${title}` %>
 
-## 💪 Habits 习惯
+## 💪 Habits 
 📍 [route ::] 
 💼 [apply_job ::] 
 🏃‍♂️ [exercise ::] 
 🔖 [reading ::] 
 🎓 [learning ::]
-##  Day Planner
+## Day Planner:
 ### Main Tasks that I want to Finish today:
 ```tasks
 due today
 not done
 ```
-
 ### 🌅 Morning
 - [ ] 09:30 First Alarm #Routine 
 
@@ -48,7 +48,6 @@ not done
 - [ ] 13:30 —  
 - [ ] 14:00 (2pm) —    
 - [ ] 14:30 —  
-
 ### 🌆 Afternoon
 - [ ] 15:00 (3pm) —  
 - [ ] 15:30 —  
@@ -57,10 +56,9 @@ not done
 - [ ] 17:00 (5pm) —  
 - [ ] 17:30 —  
 - [ ] 18:00 (6pm) —  
-- [ ] 18:30 —  
-
+- [ ] 18:30 — 
 ### 🌙 Evening
-- [ ] 19:00 (7pm) —  
+- [ ] 19:00 (7pm) —  23:00 (11pm)
 - [ ] 19:30 —  
 - [ ] 20:00 (8pm) —  
 - [ ] 20:30 —  
@@ -69,7 +67,7 @@ not done
 - [ ] 22:00 (10pm) —  
 - [ ] 22:30 —  
 - [ ] 23:00 (11pm) —  
-
+---
 ## 📕 Dairy 日记
 
 1. **What the most IMPORTANT Thing I've done today**
@@ -81,7 +79,8 @@ not done
 4. **What could I have done differently today?**
 	>
 5. **How can I make tomorrow even better?**
-
+>
+---
 ##  Notes Created / Modified Today
 ```dataview
 table file.link as "New Notes", file.mtime as "Created"

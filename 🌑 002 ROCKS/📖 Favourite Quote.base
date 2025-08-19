@@ -6,6 +6,7 @@ views:
     name: 📖 Favourite Quote
     order:
       - file.name
+      - by
       - rating
       - type
     sort:
@@ -15,6 +16,8 @@ views:
         direction: DESC
     columnSize:
       file.name: 514
+      note.by: 85
+      note.rating: 139
   - type: table
     name: Life
     filters:

@@ -47,6 +47,12 @@
       "icon": "expand",
       "name": "进入聚焦模式",
       "mode": "any"
+    },
+    {
+      "id": "omnisearch:show-modal",
+      "icon": "lucide-search",
+      "name": "Search",
+      "mode": "fa9b4d223abf62b7"
     }
   ],
   "macros": [],
@@ -73,7 +79,7 @@
       "Create loom"
     ]
   },
-  "spacing": 8,
+  "spacing": "12",
   "advancedToolbar": {
     "rowHeight": 48,
     "rowCount": 1,

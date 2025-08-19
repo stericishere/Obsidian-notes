@@ -1,0 +1,250 @@
+/* Interactive Ratings Plugin - Editor Mode Only */
+
+/* Editor Widget Styles - For Editing Mode Only */
+.interactive-rating-editor-widget {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.interactive-rating-editor-widget:hover {
+  /* No visual changes on hover */
+}
+
+/* Editor widget symbols container */
+.interactive-rating-editor-widget .interactive-rating-symbols {
+  display: inline;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+/* Editor widget rating text */
+.interactive-rating-editor-widget .interactive-rating-text {
+  display: inline;
+  cursor: default;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+/* Base symbol styling */
+.interactive-rating-symbol {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+/* 
+ * THEMING HOOKS - Symbol State Classes
+ * ===================================
+ * The following CSS classes are provided as theming hooks for customizing 
+ * the appearance of rating symbols. No default visual styling is applied
+ * to maintain theme neutrality. Add your own styles to customize appearance.
+ * 
+ * For comprehensive styling examples and documentation, see CSS-CUSTOMIZATION.md
+ */
+
+/* 
+ * Filled/Active symbol state (★ in regular systems, active ★ in full-only systems)
+ * Applied to: symbols representing the filled portion of a rating
+ * Use for: styling fully selected symbols (e.g., color, opacity, effects)
+ */
+.interactive-rating-symbol--rated {
+  /* Add your custom styles here */
+}
+
+/* 
+ * Unrated symbol state (★ beyond rating in full-only systems)
+ * Applied to: symbols in full-only systems that are beyond the current rating
+ * Use for: styling inactive symbols in systems that only have one symbol type
+ * Note: This is different from 'empty' - these are the same symbol but inactive
+ */
+.interactive-rating-symbol--unrated {
+  /* Add your custom styles here */
+}
+
+/* 
+ * Normal symbol state (legacy compatibility)
+ * Applied to: symbols in legacy mode (deprecated)
+ * Note: This class is maintained for backward compatibility only
+ */
+.interactive-rating-symbol--normal {
+  /* Add your custom styles here */
+}
+
+/* 
+ * Empty symbol state (☆ in regular rating systems)
+ * Applied to: empty/outline symbols representing unselected portions of rating
+ * Use for: styling empty symbols in systems with distinct filled/empty symbols
+ * Note: This is different from 'unrated' - these are different symbol characters
+ */
+.interactive-rating-symbol--empty {
+  /* Add your custom styles here */
+}
+
+/* 
+ * Half symbol state (☆★ or similar in regular rating systems)
+ * Applied to: half-filled symbols representing partial ratings
+ * Use for: styling half-symbols (e.g., gradients, special colors, opacity)
+ * Common styling: gradients to show half-fill effect
+ */
+.interactive-rating-symbol--half {
+  /* Add your custom styles here */
+}
+
+/* Individual symbol spans in editor widget with half-symbol support */
+.interactive-rating-editor-widget .interactive-rating-symbols span {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+/* Enhanced hover effect for symbols with half-symbol visual feedback */
+.interactive-rating-editor-widget .interactive-rating-symbols span:hover {
+  /* No visual changes on hover */
+}
+
+/* Half-symbol visual feedback - subtle indicator for symbols that support halves */
+.interactive-rating-editor-widget[data-supports-half="true"] .interactive-rating-symbols span {
+  /* No visual changes */
+}
+
+.interactive-rating-editor-widget[data-supports-half="true"] .interactive-rating-symbols span:hover {
+  /* No visual changes */
+}
+
+/* Visual hint for half-symbol positioning */
+.interactive-rating-editor-widget[data-supports-half="true"] .interactive-rating-symbols span::before {
+  /* No visual elements */
+}
+
+/* Show the half-symbol divider on hover when half symbols are supported */
+.interactive-rating-editor-widget[data-supports-half="true"]:hover .interactive-rating-symbols span::before {
+  /* No visual elements */
+}
+
+/* Additional visual enhancement for half-symbol interactions */
+.interactive-rating-editor-widget[data-supports-half="true"] .interactive-rating-symbols span:hover::after {
+  /* No visual elements */
+}
+
+/* 
+ * FULL-ONLY SYMBOL SYSTEM THEMING HOOKS
+ * =====================================
+ * The following selectors target symbols in full-only rating systems specifically.
+ * These provide more granular control when you want different styling for symbols
+ * in full-only systems (which only have one symbol type) vs regular systems.
+ * No default styling is applied - add your own styles as needed.
+ */
+
+/* Full-only symbol styles - structural transitions only */
+.interactive-rating-editor-widget[data-full-only="true"] .interactive-rating-symbols span {
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
+
+/* 
+ * Full-only unrated symbols (★ beyond rating in full-only systems)
+ * Applied to: symbols beyond the current rating in systems with only one symbol type
+ * Use for: custom styling of inactive symbols in full-only systems
+ * Default styling: Essential for functionality - without this, full-only ratings would be unreadable
+ */
+.interactive-rating-editor-widget[data-full-only="true"] .interactive-rating-symbol--unrated {
+  opacity: 0.5 !important;
+  filter: grayscale(100%) !important;
+}
+
+/* 
+ * Full-only rated symbols (★ within rating in full-only systems)  
+ * Applied to: symbols within the current rating in systems with only one symbol type
+ * Use for: custom styling of active symbols in full-only systems
+ * Default styling: Ensures rated symbols remain fully visible
+ */
+.interactive-rating-editor-widget[data-full-only="true"] .interactive-rating-symbol--rated {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Support for display symbol count different from pattern length */
+.interactive-rating-editor-widget[data-display-symbol-count] .interactive-rating-symbols {
+  /* Styles for symbols with extended display count */
+}
+
+/* Mobile/touch enhancements for editor */
+@media (max-width: 768px) {
+  .interactive-rating-editor-widget {
+    padding: 0;
+    display: inline;
+  }
+}
+
+/* High contrast accessibility for editor */
+@media (prefers-contrast: high) {
+  .interactive-rating-editor-widget:hover {
+    /* No visual changes */
+  }
+
+  /* Enhanced visibility for half-symbol indicators in high contrast */
+  .interactive-rating-editor-widget[data-supports-half="true"] .interactive-rating-symbols span::before {
+    /* No visual elements */
+  }
+
+  .interactive-rating-editor-widget[data-supports-half="true"]:hover .interactive-rating-symbols span::before {
+    /* No visual elements */
+  }
+
+  /* Enhanced contrast for full-only symbols using class-based approach */
+  .interactive-rating-editor-widget[data-full-only="true"] .interactive-rating-symbol--unrated {
+    opacity: 0.3 !important;
+    filter: grayscale(100%) contrast(0.7) !important;
+  }
+  
+  /* Enhanced contrast for empty symbols in regular rating systems */
+  .interactive-rating-symbol--empty {
+    opacity: 0.3 !important;
+    filter: grayscale(100%) contrast(0.7) !important;
+  }
+  
+  /* Enhanced contrast for half symbols in regular rating systems */
+  .interactive-rating-symbol--half {
+    opacity: 0.6 !important;
+    filter: contrast(1.2) !important;
+  }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .interactive-rating-editor-widget,
+  .interactive-rating-editor-widget .interactive-rating-symbols span,
+  .interactive-rating-editor-widget .interactive-rating-symbols span::before,
+  .interactive-rating-editor-widget .interactive-rating-symbols span::after,
+  .interactive-rating-symbol {
+    transition: none;
+  }
+}
+
+/* Animation for rating transitions */
+.interactive-rating-editor-widget .interactive-rating-symbols {
+  /* No transitions */
+}
+
+.interactive-rating-editor-widget .interactive-rating-text {
+  /* No transitions */
+}
+
+/* Smooth symbol transitions during preview */
+.interactive-rating-editor-widget .interactive-rating-symbols span {
+  /* Transitions defined above */
+}

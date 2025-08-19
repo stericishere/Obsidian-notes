@@ -6,8 +6,8 @@ tags:
   - 💬
 category: 📖 Favourite Quote
 type: Life
-rating: 4
+rating: ★★★★
 ---
 **Category:** 📖 Favourite Quote
 **Type:** life
-
+★★★★★

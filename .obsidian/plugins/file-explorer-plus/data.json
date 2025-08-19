@@ -74,6 +74,13 @@
         "type": "DIRECTORIES",
         "pattern": "copilot-custom-prompts",
         "patternType": "STRICT"
+      },
+      {
+        "name": "",
+        "active": true,
+        "type": "DIRECTORIES",
+        "pattern": "/",
+        "patternType": "STRICT"
       }
     ],
     "frontMatter": [
