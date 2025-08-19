@@ -10,6 +10,42 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ""
+    },
+    {
+      "url": "https://gemini.google.com/app",
+      "displayName": "Gemini",
+      "icon": "bot",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://chatgpt.com/g/g-p-68a3ef7ebe84819198c202e4f33a9371/project",
+      "displayName": "ChatGPT",
+      "icon": "message-circle-plus",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://notebooklm.google.com/notebook/dc7b0cbb-955e-46ef-b320-01fc39eb161e",
+      "displayName": "NotebookLM",
+      "icon": "notebook-pen",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
     }
   ],
   "padding": 5

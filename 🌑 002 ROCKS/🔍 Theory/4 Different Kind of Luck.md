@@ -4,13 +4,10 @@ aliases:
   - 4 different kind of luck
 tags:
   - 💬
-  - phase/📜 Life
 category: theory
 type: Life
 rating: 3
 ---
-**Category:** 📜 Life
-**Type:** framework
 ## 4 different kind of luck
 ><u>1. Blind Luck</u>
 	- like a 100 dollar on the floor

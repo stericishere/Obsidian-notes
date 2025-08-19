@@ -5,8 +5,9 @@
   "translucency": false,
   "cssTheme": "Border",
   "enabledCssSnippets": [
-    "Obsidian Banner Fix",
-    "banner-color"
+    "banner-color",
+    "Hide Properties",
+    "Obsidian Banner Fix"
   ],
   "textFontFamily": "",
   "monospaceFontFamily": "",
