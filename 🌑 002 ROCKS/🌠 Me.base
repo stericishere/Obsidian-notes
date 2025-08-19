@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.hasLink("🌑 002 ROCKS/🌠 Me.base")
+    - category == "🌠 Me"
+views:
+  - type: table
+    name: Table

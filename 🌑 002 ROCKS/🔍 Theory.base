@@ -1,12 +1,13 @@
 filters:
   and:
-    - file.inFolder("🌑 002 ROCKS/🧠 Framework")
+    - category == "theory"
+    - file.inFolder("🌑 002 ROCKS/🌱 Theory")
 views:
   - type: table
     name: Table
     order:
       - file.name
-      - type
       - rating
+      - type
     columnSize:
-      file.name: 568
+      file.name: 260

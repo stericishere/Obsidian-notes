@@ -6,7 +6,7 @@ tags:
   - 💬
   - phase/👔 Interview
 category: 👔 Interview
-type: trick
+type: people
 ---
 **Category:** 👔 Interview
 **Type:** trick

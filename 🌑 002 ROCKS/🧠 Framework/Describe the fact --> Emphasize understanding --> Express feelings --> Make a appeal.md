@@ -6,7 +6,7 @@ tags:
   - 💬
   - phase/🧑‍🤝‍🧑 Talking
 category: 🧑‍🤝‍🧑 Talking
-type: framework
+type: people
 ---
 **Category:** 🧑‍🤝‍🧑 Talking
 **Type:** framework

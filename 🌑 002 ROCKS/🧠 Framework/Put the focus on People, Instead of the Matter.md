@@ -7,7 +7,7 @@ tags:
   - 💬
   - phase/📜 Life
 category: 📜 Life
-type: quote
+type: people
 ---
 **Category:** 📜 Life
 **Type:** quote

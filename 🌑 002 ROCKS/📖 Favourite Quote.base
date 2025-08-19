@@ -1,6 +1,5 @@
 filters:
   and:
-    - category == "📖 Favourite Quote"
     - file.inFolder("🌑 002 ROCKS/Favourite Quote")
 views:
   - type: table

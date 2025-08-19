@@ -4,9 +4,9 @@ aliases:
   - Theory of Evolution
 tags:
   - 💬
-  - phase/📜 Life
-category: 📜 Life
-type: framework
+category: theory
+type: Life
+rating: 3.5
 ---
 **Category:** 📜 Life
 **Type:** framework

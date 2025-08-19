@@ -1,9 +1,15 @@
 filters:
   and:
+    - file.inFolder("🌑 002 ROCKS/💼 Professional")
     - category == "💼 Professional"
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - rating
+    columnSize:
+      file.name: 573
   - type: table
     name: Meeting
     filters:

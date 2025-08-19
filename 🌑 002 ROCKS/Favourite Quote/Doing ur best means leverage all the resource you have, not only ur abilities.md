@@ -7,7 +7,8 @@ tags:
   - 💬
   - phase/
 category: 📜 Life
-type: quote
+type: Life
+rating: 5
 ---
 **Category:** 📜 Life
 **Type:** quote

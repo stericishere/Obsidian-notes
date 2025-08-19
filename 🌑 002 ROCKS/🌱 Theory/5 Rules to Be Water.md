@@ -4,11 +4,10 @@ aliases:
   - Five Heart Methods
 tags:
   - 💬
-  - phase/📜 Life
-category: 📜 Life
+category: theory
 type: framework
+rating: 5
 ---
-**Category:** 📜 Life
-**Type:** framework
+
 
 ![["大成若缺"5条心法#Practical Wisdom (“Five Heart Methods”)]]

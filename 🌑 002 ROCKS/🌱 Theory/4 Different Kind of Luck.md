@@ -5,8 +5,9 @@ aliases:
 tags:
   - 💬
   - phase/📜 Life
-category: 📜 Life
-type: framework
+category: theory
+type: Life
+rating: 3
 ---
 **Category:** 📜 Life
 **Type:** framework

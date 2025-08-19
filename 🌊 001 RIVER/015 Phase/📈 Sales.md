@@ -8,6 +8,6 @@ action QuickAdd: New Phase ✨
 ```dataview
 TABLE
 FROM "🌊 001 RIVER/015 Phase/00 Storage"
-WHERE category = "📈 Sales" AND type = "ToB"
+WHERE category = "📈 Sales"
 SORT file.ctime DESC
 ```

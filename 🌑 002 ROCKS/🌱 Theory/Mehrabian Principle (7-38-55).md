@@ -4,9 +4,9 @@ aliases:
   - Mehrabian Principle (7-38-55
 tags:
   - 💬
-  - phase/📜 Life
-category: 📜 Life
-type: framework
+category: theory
+type: people
+rating: 4
 ---
 **Category:** 📜 Life
 **Type:** framework

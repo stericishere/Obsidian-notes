@@ -38,7 +38,6 @@
   "🗄 009 BINS · 存储/092 Attachments 附件": "RiAttachment2",
   "🗄 009 BINS · 存储/093 React components": "IbEye",
   "🗄 009 BINS · 存储/094 Guide 说明": "RiQuestionFill",
-  "🌑 002 ROCKS/021 Inbox 收件箱": "FasInbox",
   "🌊 001 RIVER/012 People": "RiContactsFill",
   "🌊 001 RIVER/011 Daily": "FasCalendar",
   "🌑 002 ROCKS/022 Books": "FasBook",
@@ -53,5 +52,6 @@
   "🌊 001 RIVER/015 Phase": "RiChat3Fill",
   "🌑 002 ROCKS/0231 YT": "SiYoutube",
   "🌑 002 ROCKS/Favourite Quote": "LiMessageSquareQuote",
-  "🌑 002 ROCKS/Youtube.base": "SiYoutube"
+  "🌑 002 ROCKS/Youtube.base": "SiYoutube",
+  "🌊 001 RIVER/021 Inbox 收件箱": "FasInbox"
 }

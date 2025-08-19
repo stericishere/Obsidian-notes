@@ -9,6 +9,4 @@ tags:
 category: 💼 Professional
 type: meeting
 ---
-**Category:** 💼 Professional
-**Type:** meeting
 

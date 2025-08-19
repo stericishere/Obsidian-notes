@@ -4,13 +4,10 @@ aliases:
   - Survivorship Bias
 tags:
   - 💬
-  - phase/📜 Life
-category: 📜 Life
-type: framework
+category: theory
+type: Decision
+rating: 2
 ---
-**Category:** 📜 Life
-**Type:** framework
-
 ## About:
 >During WWII, a study aimed to armor planes more effectively.
 >	>Initially, the military planned to reinforce areas with the most bullet holes.

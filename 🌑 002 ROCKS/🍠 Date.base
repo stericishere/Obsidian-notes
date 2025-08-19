@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.folder == "🌑 002 ROCKS/🍠 Date"
+    - category == "date"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - type

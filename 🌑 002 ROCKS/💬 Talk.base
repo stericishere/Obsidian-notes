@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/💬 Talk")
+    - category == "Talk"
+views:
+  - type: table
+    name: Table

@@ -5,10 +5,6 @@ aliases:
   - I'd need to spend some time to actually think about it
 tags:
   - 💬
-  - phase/🧑‍🤝‍🧑 Talking
-category: 🧑‍🤝‍🧑 Talking
-type: quote
+category: Talk
+type: late-back
 ---
-**Category:** 🧑‍🤝‍🧑 Friends
-**Type:** quote
-
