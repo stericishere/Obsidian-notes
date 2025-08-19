@@ -1,6 +1,0 @@
-filters:
-  and:
-    - file.hasLink("📕 ")
-views:
-  - type: table
-    name: Table

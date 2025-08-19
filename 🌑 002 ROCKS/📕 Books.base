@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.folder == "🌑 002 ROCKS/022 Books"
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.name
+      - rating
+      - type
+    columnSize:
+      file.name: 410
+      note.rating: 95
