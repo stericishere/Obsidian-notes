@@ -4,7 +4,7 @@ aliases:
   - Successful people help other achieve dream while achieve their own
 tags:
   - 💬
-category: 📜 Life
+category: 📖 Favourite Quote
 type: Life
 rating: 4
 ---

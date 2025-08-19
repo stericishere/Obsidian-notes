@@ -1,5 +1,6 @@
 ---
 number headings: first-level 2, max 6, 1.1
+banner: "[[Journal-2.jpg]]"
 ---
 <%*
   let title = tp.file.title
@@ -7,15 +8,11 @@ number headings: first-level 2, max 6, 1.1
 	title = tp.date.now("YYYY-MM-DD ddd");
 	await tp.file.rename(`${title}`);
   }
-  tR += "---"
-%>
-banner: "[[Journal-2.jpg]]"
-banner_x: 0.48709
----
+%><< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').subtract(1, 'd').format('YYYY-MM-DD ddd') %>]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(1, 'd').format('YYYY-MM-DD ddd') %>]] >>
+
 ![](https://www.youtube.com/watch?v=KwatUSh-6xY)
-## Existence precedes essence
-<< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').subtract(1, 'd').format('YYYY-MM-DD ddd') %>]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(1, 'd').format('YYYY-MM-DD ddd') %>]] >>
-# <%* tR += `${title}` %>
+
+![[📖 Favourite Quote.base#Random]]
 ## Time-Block:
 ### ✅ Tasks that I want to Finish today:
 ```tasks
@@ -72,7 +69,7 @@ not done
 
 1. **What the most IMPORTANT Thing I've done today**
 	> 
-2. **What did I learn today?
+2. **What did I learn today?**
 	> 
 3. **What do I need to stop doing and start doing?**
 	> 

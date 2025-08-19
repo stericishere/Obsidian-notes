@@ -5,8 +5,7 @@ aliases:
   - not only ur abilities
 tags:
   - 💬
-  - phase/
-category: 📜 Life
+category: 📖 Favourite Quote
 type: Life
 rating: 5
 ---
