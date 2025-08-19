@@ -5,7 +5,7 @@ aliases:
   - not only ur abilities
 tags:
   - 💬
-  - phase/📜 Life
+  - phase/
 category: 📜 Life
 type: quote
 ---
