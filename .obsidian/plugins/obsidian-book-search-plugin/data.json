@@ -1,11 +1,11 @@
 {
-  "folder": "🌑 002 ROCKS/📕 Books",
+  "folder": "🌑 002 ROCKS/📕 Books/",
   "fileNameFormat": "",
   "frontmatter": "",
   "content": "",
   "useDefaultFrontmatter": true,
   "defaultFrontmatterKeyType": "Camel Case",
-  "templateFile": "🗄 009 BINS · 存储/091 Templates 模板/创建「📕 读书笔记」.md",
+  "templateFile": "🗄 009 BINS · 存储/091 Templates 模板/Create「📕 Books」.md",
   "serviceProvider": "google",
   "naverClientId": "",
   "naverClientSecret": "",
@@ -13,7 +13,7 @@
   "apiKey": "",
   "openPageOnCompletion": true,
   "showCoverImageInSearch": true,
-  "enableCoverImageSave": false,
+  "enableCoverImageSave": true,
   "enableCoverImageEdgeCurl": true,
   "coverImagePath": "🗄 009 BINS · 存储/092 Attachments 附件",
   "askForLocale": true

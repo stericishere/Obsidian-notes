@@ -1,6 +1,7 @@
 ---
 banner: "![[image-6.png]]"
-category: 📕 book
+category: 
+tag: 📚Book
 rating:
 type: productive
 cover: [[image-6.png]]
