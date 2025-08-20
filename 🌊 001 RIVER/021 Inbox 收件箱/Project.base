@@ -1,0 +1,54 @@
+filters:
+  and:
+    - file.inFolder("🌊 001 RIVER/013 Projects")
+views:
+  - type: table
+    name: ALL
+    order:
+      - complete
+      - file.name
+      - priority
+      - type
+    sort:
+      - property: type
+        direction: ASC
+      - property: priority
+        direction: ASC
+      - property: complete
+        direction: DESC
+    columnSize:
+      note.complete: 50
+      note.priority: 83
+  - type: table
+    name: Main Quest
+    filters:
+      or:
+        - priority == "*Main"
+        - priority == "Main"
+    order:
+      - complete
+      - file.name
+      - priority
+      - type
+    sort:
+      - property: priority
+        direction: ASC
+  - type: table
+    name: Side Quest
+    filters:
+      and:
+        - or:
+            - priority == "*Side"
+            - priority == "Side"
+        - type != "Project"
+    order:
+      - complete
+      - file.name
+      - priority
+      - type
+  - type: table
+    name: Side Project
+    filters:
+      and:
+        - priority == "Side"
+        - type == "Project"

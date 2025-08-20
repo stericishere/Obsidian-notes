@@ -2,12 +2,12 @@
 banner: "[[Research-2.jpg]]"
 creation date: 2025-08-19 20:07
 tag: 🏗️
-priority: 
-aliases:  Play Pokemon with Reinforcement Learning
-type: 
+priority: Side
+aliases: Play Pokemon with Reinforcement Learning
+type: Project
 complete:
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Play Pokemon with Reinforcement Learning
 
 ## 🗃️ Resources 资源

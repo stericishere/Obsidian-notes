@@ -3,17 +3,17 @@ banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:48
 tags:
   - 🏗️
-priority:
+priority: "*Main"
 aliases:
   - Business 5k a month
-type:
-complete:
+type: Goal
+complete: false
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Business 5k a month
 
 ## 🗃️ Resources 资源
-
+- [[SaaS APP]]
 
 ## 📒 Notes 笔记
 <u>Reception</u>

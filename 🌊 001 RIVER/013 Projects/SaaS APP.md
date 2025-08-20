@@ -1,16 +1,17 @@
 ---
 banner: "[[Research-2.jpg]]"
-creation date: 2025-07-19 05:20
+creation date: 2025-07-19 03:52
 tags:
   - 🏗️
-priority:
+priority: Main
 aliases:
-  - AWS cert
-type:
+  - SaaS APP
+type: Goal
 complete:
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
-# AWS cert
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+# SaaS APP
+
 
 ## 🗃️ Resources 资源
 

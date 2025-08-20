@@ -3,18 +3,18 @@ banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:56
 tags:
   - 🏗️
-priority: high
+priority: "*Main"
 aliases:
   - Landing CO-OP
-type:
+type: Job
 complete:
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Landing CO-OP
 
 ## 🗃️ Resources 资源
 
-
+![[Project.base#Side Project]]
 ## 📒 Notes 笔记
 
 

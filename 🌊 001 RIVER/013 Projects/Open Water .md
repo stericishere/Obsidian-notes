@@ -1,16 +1,14 @@
 ---
 banner: "[[Research-2.jpg]]"
-creation date: 2025-07-19 03:55
-tags:
-  - 🏗️
-priority:
-aliases:
-  - Open Water
-type: Life
+creation date: 2025-08-20 08:25
+tag: 🏗️
+priority: Main
+aliases: Open Water
+type: Goal
 complete:
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
-# Open Water
+# Open Water 
 
 ## 🗃️ Resources 资源
 
@@ -20,6 +18,6 @@ complete:
 
 ## ✅  Tasks 任务
 
-
+- [ ] #task Finish the online course
 
 

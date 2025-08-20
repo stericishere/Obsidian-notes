@@ -9,7 +9,7 @@ aliases:
 type: Life
 complete:
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Skydive
 
 ## 🗃️ Resources

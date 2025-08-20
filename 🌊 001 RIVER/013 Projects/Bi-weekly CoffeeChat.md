@@ -3,20 +3,22 @@ banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:55
 tags:
   - 🏗️
-priority: High
+priority: "*Side"
 aliases:
   - Bi-weekly CoffeeChat
 type: Networking
-complete:
+complete: false
 ---
-[[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
+[[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Bi-weekly CoffeeChat
 
 ## 🗃️ Resources 资源
 
 
 ## 📒 Notes 笔记
-
+- first time 
+	- 6 people (3 people came)
+- when the next time?
 
 ## ✅  Tasks 任务
 - [ ] email Alex for update
