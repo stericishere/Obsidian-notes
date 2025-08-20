@@ -1,5 +1,5 @@
 ---
-banner: "[[Archive-2.jpg]]"
+banner: "[[{{localCoverImage}}]]"
 tag: 📚Book
 title: "{{title}}"
 subtitle: "{{subtitle}}"
@@ -8,8 +8,7 @@ category: [{{category}}]
 publisher: {{publisher}}
 publish: {{publishDate}}
 total: {{totalPage}}
-cover: {{coverUrl}}
-localCover: {{localCoverImage}}
+cover: [[{{localCoverImage}}]]
 status: unread
 created: {{DATE:YYYY-MM-DD HH:mm:ss}}
 updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
