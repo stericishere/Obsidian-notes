@@ -8,7 +8,7 @@ type:
 complete:
 ---
 [[✅ Task Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
-#  Play Pokemon with Reinforcement Learning
+# Play Pokemon with Reinforcement Learning
 
 ## 🗃️ Resources 资源
 ![](https://www.youtube.com/watch?v=DcYLT37ImBY&t=138s)
