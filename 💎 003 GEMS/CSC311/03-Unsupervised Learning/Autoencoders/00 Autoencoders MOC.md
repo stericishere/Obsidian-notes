@@ -1,4 +1,6 @@
 ## 🔢 Table View: Autoencoder Components
+**Autoencoder Training:** 
+	Encode → bottleneck → decode → minimize reconstruction error.
 
 | Component       | Role                              | Example                               |
 | --------------- | --------------------------------- | ------------------------------------- |

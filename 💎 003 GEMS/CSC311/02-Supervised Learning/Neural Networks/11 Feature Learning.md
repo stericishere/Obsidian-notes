@@ -10,7 +10,7 @@
 	Enhancing [[Generalization]]
 3. Extracting valuable **abstract feature** from **unlabeled data**
 
-## L3:
+## L3 (Model):  
 [[00 Neural Networks MOC]]
 > - Hidden Layers as Feature Detectors
 
@@ -20,5 +20,7 @@
 > [[04 Nonlinear Autoencoders]]
 
 ---
+
 [[00 Principal Component Analysis (PCA)]]
-[[00 Matrix Factorization - Completion MOC]]
+[[00 Matrix Factorization]]
+
