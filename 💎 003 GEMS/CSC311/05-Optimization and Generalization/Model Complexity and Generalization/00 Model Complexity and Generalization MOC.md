@@ -1,6 +1,6 @@
 - [[01 Generalization]]
 - [[02 Underfitting]]
-- [[03 Overfitting]]
+- [[Overfitting]]
 - [[04 Hyperparameter]]
 - [[05 Regularization]]
 - [[06 Bayes Optimality - Bayes Error]]

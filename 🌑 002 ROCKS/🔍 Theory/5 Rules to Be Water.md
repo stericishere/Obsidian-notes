@@ -4,7 +4,7 @@ aliases:
   - Five Heart Methods
 tags:
   - 💬
-category: theory
+category: 🔍 theory
 type: framework
 rating: 5
 ---

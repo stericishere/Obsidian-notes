@@ -8,5 +8,8 @@ views:
       - file.name
       - rating
       - type
+    sort:
+      - property: rating
+        direction: ASC
     columnSize:
       file.name: 568

@@ -4,7 +4,7 @@ aliases:
   - 4 different kind of luck
 tags:
   - 💬
-category: theory
+category: 🔍 theory
 type: Life
 rating: 3
 ---

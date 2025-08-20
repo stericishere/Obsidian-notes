@@ -14,7 +14,7 @@ This is my knowledge center for systematically learning CSC311. Entrances to all
 
 ### 03-Unsupervised Learning
 1. [[00 Dimensionality Reduction MOC]]
-2. [[00 Principal Component Analysis - PCA MOC]]
+2. [[00 Principal Component Analysis (PCA)]]
 3. [[00 Matrix Factorization - Completion MOC]]
 4. [[00 Autoencoders MOC]]
 5. [[00 Clustering - K-Means MOC]]

@@ -2,7 +2,7 @@
 
 | Component       | Role                              | Example                               |
 | --------------- | --------------------------------- | ------------------------------------- |
-| ==Encoder==     | Compress input to [[Latent code]] | 784 → 32 neurons (MNIST digit images) |
+| Encoder         | Compress input to [[Latent code]] | 784 → 32 neurons (MNIST digit images) |
 | [[Latent code]] | Bottleneck representation         | 32-dimensional feature vector         |
 | Decoder         | Reconstructs input                | 32 → 784 neurons                      |
 | Loss Function   | Measures reconstruction error     | MSE or Cross-Entropy                  |
@@ -14,4 +14,4 @@
 - [[01 Feed-forward neural net for input prediction]]
 - [[02 Bottleneck layer]]
 - [[03 Linear Autoencoders and PCA relationship]]
-- [[04 Nonlinear Autoencoders - Learning nonlinear manifolds]]
+- [[04 Nonlinear Autoencoders]]

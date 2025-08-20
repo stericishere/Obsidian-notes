@@ -1,4 +1,6 @@
-- [[01 Definition and Structure]]
+## [[01 Definition and Structure]]
+> 	
+- 
 - [[02 Continuous Features - Thresholds]]
 - [[03 Discrete Features - Partition values]]
 - [[04 Classification Trees - Majority vote at leaf]]

@@ -4,7 +4,7 @@ aliases:
   - Mehrabian Principle (7-38-55
 tags:
   - 💬
-category: theory
+category: 🔍 theory
 type: people
 rating: 4
 ---

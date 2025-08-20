@@ -4,7 +4,7 @@ aliases:
   - Survivorship Bias
 tags:
   - 💬
-category: theory
+category: 🔍 theory
 type: Decision
 rating: 2
 ---

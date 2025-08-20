@@ -1,7 +1,7 @@
 filters:
   and:
-    - category == "theory"
-    - file.inFolder("🌑 002 ROCKS/🌱 Theory")
+    - file.inFolder("🌑 002 ROCKS/🔍 Theory")
+    - category == "🔍 theory"
 views:
   - type: table
     name: Table
@@ -9,5 +9,6 @@ views:
       - file.name
       - rating
       - type
+      - category
     columnSize:
       file.name: 260

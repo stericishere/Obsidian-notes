@@ -4,7 +4,7 @@ aliases:
   - Theory of Evolution
 tags:
   - 💬
-category: theory
+category: 🔍 theory
 type: Life
 rating: 3.5
 ---
