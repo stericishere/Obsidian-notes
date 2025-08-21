@@ -1,6 +1,8 @@
 ## 🔢 Table View: Autoencoder Components
+**Unsupervised Learning**
 **Autoencoder Training:** 
 	Encode → bottleneck → decode → minimize reconstruction error.
+	
 
 | Component       | Role                              | Example                               |
 | --------------- | --------------------------------- | ------------------------------------- |
@@ -15,5 +17,5 @@
 
 - [[01 Feed-forward neural net for input prediction]]
 - [[02 Bottleneck layer]]
-- [[03 Linear Autoencoders and PCA relationship]]
+- [[Linear Autoencoders and PCA relationship]]
 - [[04 Nonlinear Autoencoders]]

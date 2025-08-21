@@ -11,16 +11,16 @@
 3. Extracting valuable **abstract feature** from **unlabeled data**
 
 ## L3 (Model):  
-[[00 Neural Networks MOC]]
+[[Neural Networks MOC]]
 > - Hidden Layers as Feature Detectors
 
 ---
-[[00 Autoencoders MOC]]
-> [[03 Linear Autoencoders and PCA relationship]]
+[[Autoencoders MOC]]
+> [[Linear Autoencoders and PCA relationship]]
 > [[04 Nonlinear Autoencoders]]
 
 ---
 
-[[00 Principal Component Analysis (PCA)]]
+[[Principal Component Analysis (PCA)]]
 [[00 Matrix Factorization]]
 

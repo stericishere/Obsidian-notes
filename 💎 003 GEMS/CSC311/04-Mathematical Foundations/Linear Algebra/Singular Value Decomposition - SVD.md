@@ -2,7 +2,8 @@
 ## Definition
 Asume we have a real matrix $A∈R^{m×n}$
 	The SVD:
-	$$A=UΣVT$$
+	$$A=UΣV^T = \sum_{i=1}^r \sigma_iu_iv_i^T$$
+![[Screenshot 2025-08-21 at 02.16.17.png]]
 
 | **Component** | **Shape**                                                 | **Definition**                                                                               |
 | ------------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -17,13 +18,13 @@ $V$ will have n [[eigenvector]] --> $S_R$
 - $λ_1, \ \lambda_2, ... \ , λ_m$ ,  $λ_1, \ \lambda_2, ... \ , λ_n$ 
 	- Then we can find $\Sigma$, where $\sigma_i = \sqrt{\lambda_i}$
 		$$\sigma_1 \ge \sigma_2 \ge \dots \ge 0$$
-	- $\Sigma = diag(\sigma_1 , \sigma_2 , \dots , 0)$, $\sigma_i$ is called Singular vector
+	- $\Sigma = diag(\sigma_1 , \sigma_2 , \dots , 0)$, $\sigma_i$ is called Singular values
   $S_L$ --> $u_1, \ u_2, ... \ , u_m$ 
   $S_R$ --> $v_1, \ v_2, ... \ , v_n$ --> v
 	- The sing
 - if m > n, their eigenvalues from $v_1, \ v_2, ... \ , v_n$  are the same
 	- and the rest from $λ_{n+1}, ... \ , λ_m$ are 0
-- To conclude, $S_L$ and $S_R$ have the same number of non-zero eigenvalues
+- To conclude, $S_L$ and $S_R$ have the same number of non-zero eigenvalues and equal to $rank(A)$.
 	- and the rest of the larger matrix is just zero eigenvalues
 
 For $\Sigma$, 

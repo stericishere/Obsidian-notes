@@ -24,7 +24,7 @@
 - [[24 Matrix Powers]]
 - [[25 Matrix Inverse]]
 - [[26 Determinant Properties]]
-- [[27 Projections]]
+- [[Projections]]
 - [[28 Jacobian]]
 - [[Singular Value Decomposition - SVD]]
 - [[30 Rank-r Approximation]]

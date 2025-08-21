@@ -1,0 +1,1 @@
+**Linear autoencoders with one hidden layer are mathematically equivalent to PCA**

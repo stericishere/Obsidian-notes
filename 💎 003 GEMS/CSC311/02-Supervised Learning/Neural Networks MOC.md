@@ -29,7 +29,7 @@
 - [[Tanh]]
 - [[Composition of Functions]]
 
-- [[11 Feature Learning]]
+- [[Feature Learning]]
 - [[12 Expressivity - Hypothesis Space]]
 - [[13 Deep Linear Networks vs Non-linear Networks]]
 - [[14 Universal Function Approximators]]

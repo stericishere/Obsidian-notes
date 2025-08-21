@@ -1,3 +1,6 @@
+
+
+
 - [[01 Grouping data points]]
 - [[02 Objective - Minimize sum of squared distances]]
 - [[03 Algorithm - Random initialization]]
