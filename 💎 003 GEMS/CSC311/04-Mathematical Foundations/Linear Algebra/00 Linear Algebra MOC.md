@@ -1,5 +1,5 @@
 - [[01 Concepts - Vector operations]]
-- [[02 Concepts - Matrix multiplications]]
+- [[Matrix multiplications]]
 - [[03 Concepts - Determinants]]
 - [[04 Concepts - Traces]]
 - [[05 Concepts - Eigenvalues]]

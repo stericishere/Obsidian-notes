@@ -6,3 +6,4 @@ It guarantees that an orthogonal eigendecomposition
 ## Allowed:
 [[Orthogonal eigendecomposition]]
 [[Diagonalizable]]
+[[Orthonormal Matrix]]

@@ -27,7 +27,7 @@ $$\hat{\Sigma} v_k = \lambda_k v_k$$
 - And $\lambda_k$ **corresponding** [[eigenvalue]] (variance explained along the direction) 
 
 >	5. Select Top-$K$ Components:
-- Sort eigenvalues $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_d$, and take the top-$K$ eigenvectors to form the projection matrix:
+- Sort eigenvalues $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_d$, and take the top-$K$ eigenvectors to form the [[Projection Matrix]]
 
 > 	6. Project the data into the $K$-dimensional subspace:
 
