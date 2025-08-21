@@ -26,5 +26,5 @@
 - [[26 Determinant Properties]]
 - [[27 Projections]]
 - [[28 Jacobian]]
-- [[29 Singular Value Decomposition - SVD]]
+- [[Singular Value Decomposition - SVD]]
 - [[30 Rank-r Approximation]]

@@ -7,6 +7,28 @@
     },
     {
       "type": "group",
+      "ctime": 1753060012036,
+      "items": [
+        {
+          "type": "file",
+          "path": "🌊 001 RIVER/021 Inbox 收件箱/✅ Manager.md",
+          "ctime": 1683448653354
+        },
+        {
+          "type": "file",
+          "ctime": 1752913611839,
+          "path": "🌊 001 RIVER/021 Inbox 收件箱/🪣 Bucket List.md"
+        },
+        {
+          "type": "file",
+          "path": "🌑 002 ROCKS/022 Books/📕 Book Summary.md",
+          "ctime": 1683448653354
+        }
+      ],
+      "title": "📈 Life"
+    },
+    {
+      "type": "group",
       "ctime": 1755567448317,
       "items": [
         {
@@ -88,28 +110,6 @@
         }
       ],
       "title": "📓 Note"
-    },
-    {
-      "type": "group",
-      "ctime": 1753060012036,
-      "items": [
-        {
-          "type": "file",
-          "path": "🌊 001 RIVER/021 Inbox 收件箱/✅ Manager.md",
-          "ctime": 1683448653354
-        },
-        {
-          "type": "file",
-          "ctime": 1752913611839,
-          "path": "🌊 001 RIVER/021 Inbox 收件箱/🪣 Bucket List.md"
-        },
-        {
-          "type": "file",
-          "path": "🌑 002 ROCKS/022 Books/📕 Book Summary.md",
-          "ctime": 1683448653354
-        }
-      ],
-      "title": "📈 Life"
     }
   ]
 }
