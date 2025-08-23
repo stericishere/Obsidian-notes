@@ -1,7 +1,19 @@
 # Review and check your Statuses
 
 ## About this file
-
+- [ ] #task Sample task 1: status symbol=`space` status name='Todo'
+- [x] #task Sample task 2: status symbol=`x` status name='Done'
+- [/] #task Sample task 3: status symbol=`/` status name='In Progress'
+- [-] #task Sample task 4: status symbol=`-` status name='Cancelled'
+- [!] #task important
+- [>] #task wating
+- [@] #task contact
+- [i] idea
+- [<] #task scheduling
+- [?] question 
+# Code block
+```tasks
+```
 This file was created by the Obsidian Tasks plugin (version 7.21.0) to help visualise the task statuses in this vault.
 
 If you change the Tasks status settings, you can get an updated report by:
@@ -68,15 +80,6 @@ If you have modified the sample tasks since they were created, you can see the c
 > [!Tip] Tip: If all your checkboxes look the same...
 > If all the checkboxes look the same in Reading Mode or Live Preview, see [Style custom statuses](https://publish.obsidian.md/tasks/How+To/Style+custom+statuses) for how to select a theme or CSS snippet to style your statuses.
 
-- [ ] #task Sample task 1: status symbol=`space` status name='Todo'
-- [x] #task Sample task 2: status symbol=`x` status name='Done'
-- [/] #task Sample task 3: status symbol=`/` status name='In Progress'
-- [-] #task Sample task 4: status symbol=`-` status name='Cancelled'
-- [!] #task important
-- [>] #task wating
-- [@] #task contact
-- [i] idea
-- [
 
 ## Search the Sample Tasks
 

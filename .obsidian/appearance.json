@@ -7,10 +7,10 @@
   "enabledCssSnippets": [
     "banner-color",
     "star",
-    "S Checkboxes",
     "Hide Properties",
     "Obsidian Banner Fix",
-    "canvas-task"
+    "canvas-task",
+    "S Checkboxes"
   ],
   "textFontFamily": "",
   "monospaceFontFamily": "",

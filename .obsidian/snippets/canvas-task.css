@@ -1,44 +1,96 @@
-/* Only affect Tasks plugin results when inside Canvas cards */
-.canvas .plugin-tasks-query-result {
-    /* Keep it simple and predictable */
+/* ──────────────────────────────────────────────────────────────
+   Obsidian Canvas × Tasks plugin: layout + icon preservation
+   - Keeps checkboxes clickable (no overlap)
+   - Works with Tasks query results in Canvas cards only
+   - Preserves theme status icons (e.g., custom "its" font)
+   ────────────────────────────────────────────────────────────── */
+
+ /* Scope to Canvas + Tasks query render */
+ .canvas .plugin-tasks-query-result {
     line-height: 1.4;
   }
   
-/* Layout each Tasks item as a row with a real gap */
-.canvas .plugin-tasks-query-result li.task-list-item {
+  /* Each task item laid out as a single row */
+  .canvas .plugin-tasks-query-result li.task-list-item {
     display: flex !important;
     align-items: center !important;
     gap: 0.55em !important;
-    padding-left: 0 !important;   /* kill theme padding that expects negative margins */
+  
+    /* Kill theme assumptions that use negative margins / text-indent */
+    padding-left: 0 !important;
     text-indent: 0 !important;
     position: relative !important;
-}
+  }
   
-/* The actual checkbox */
-.canvas .plugin-tasks-query-result input.task-list-item-checkbox {
+  /* Checkbox: keep it visible, aligned, and clickable */
+  .canvas .plugin-tasks-query-result input.task-list-item-checkbox {
     flex: 0 0 auto !important;
     position: relative !important;
-    margin: 0 !important;         /* undo negative/left margins from themes */
+    margin: 0 !important;
     left: 0 !important;
     transform: none !important;
     vertical-align: middle !important;
     z-index: 2 !important;
     pointer-events: auto !important;
-}
+  }
   
-  /* Task text block should take remaining width */
-.canvas .plugin-tasks-query-result .tasks-list-text {
+  /* Main text should take remaining width (prevents overflow) */
+  .canvas .plugin-tasks-query-result .tasks-list-text {
     flex: 1 1 auto !important;
-    min-width: 0;                 /* prevent overflow in narrow cards */
-}
+    min-width: 0;
+  }
   
-  /* Extras (backlink/edit/postpone) stay on the right */
-.canvas .plugin-tasks-query-result .task-extras {
+  /* Extras (backlink / edit / postpone) stay on the right */
+  .canvas .plugin-tasks-query-result .task-extras {
     flex: 0 0 auto;
-}
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+  }
   
-  /* Short mode sometimes squeezes things too tight */
-.canvas .plugin-tasks-query-result.tasks-layout-short-mode li.task-list-item {
+  /* Short-mode spacing tweak */
+  .canvas .plugin-tasks-query-result.tasks-layout-short-mode li.task-list-item {
     gap: 0.45em !important;
-}
+  }
   
+  /* ── Preserve status icons from theme (e.g., S Checkboxes "its" font) ──
+     Many themes inject an icon via ::before on the list item.
+     We ensure it renders (not hidden/overlapped) and gets a small gap.
+  */
+  .canvas .plugin-tasks-query-result li.task-list-item::before {
+    display: inline-block !important;
+    margin-right: 0.4em !important;
+    vertical-align: middle;
+  
+    /* Use the theme’s icon font if it’s set up (falls back to normal text) */
+    font-family: "its", inherit !important;
+    /* DO NOT set `content:` here — let the theme/Tasks decide the symbol */
+  }
+  
+  /* If your theme uses a dedicated element for status (some variants do): */
+  .canvas .plugin-tasks-query-result .task-status::before {
+    display: inline-block !important;
+    margin-right: 0.3em;
+    vertical-align: middle;
+    font-family: "its", inherit !important;
+  }
+  
+  /* Safety: never let icons/checkbox get pushed under the text */
+  .canvas .plugin-tasks-query-result li.task-list-item > * {
+    position: relative;
+    z-index: 1;
+  }
+  .canvas .plugin-tasks-query-result input.task-list-item-checkbox {
+    z-index: 2; /* checkbox above text if they overlap */
+  }
+
+/* Force emoji to render with emoji fonts inside Canvas tasks */
+.canvas .plugin-tasks-query-result .tasks-list-text span {
+    font-family: var(--font-text, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans"),
+                 "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Twemoji Mozilla", sans-serif !important;
+  }
+  
+  /* Keep theme's custom bullet/icon font only for the ::before element */
+  .canvas .plugin-tasks-query-result li.task-list-item::before {
+    font-family: "its", inherit !important;
+  }

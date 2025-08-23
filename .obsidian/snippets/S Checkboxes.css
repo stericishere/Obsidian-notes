@@ -1287,6 +1287,125 @@ settings:
         id: checkbox-strike-para
         type: class-toggle
 */
+/* Default Todo */
+/* === Extend S Checkboxes theme icons to Tasks plugin query results === */
+
+:root {
+  --its-scope: .markdown-source-view.mod-cm6, .plugin-tasks-query-result;
+}
+
+/* 2) Base overlay box (same geometry as your file uses) */
+body:not(.alt-chkbx-off) :is(var(--its-scope)) .task-list-item-checkbox::after {
+  content: "";                 /* replaced per-status below */
+  position: absolute;
+  inset: 0;                    /* fill the checkbox box */
+  display: block;
+  pointer-events: none;
+  /* keep any sizing from your original (example values below) */
+  width: 1.15em;
+  height: 1.15em;
+  top: 0;
+  left: 0;
+  line-height: 1;
+  text-align: center;
+  font-family: "its";          /* your theme’s icon font */
+  font-size: 1.05em;
+}
+
+/* 3) Alignment fixes for the checked state (mirror your original) */
+body:not(.alt-chkbx-off) :is(var(--its-scope))
+  input.task-list-item-checkbox:checked::after {
+  /* if your original adjusts mask/top/left, keep the same tweaks here */
+  top: 0;
+  left: 0;
+}
+
+/* 4) STATUS → GLYPH MAP
+      Use the SAME codepoints your file defines.
+      (These are the usual ones in S Checkboxes; adjust if yours differ.)
+      The selectors match both:
+        - raw checkboxes with a data-task symbol
+        - list items with data-task-status-name from Tasks
+*/
+
+/* Layout: reserve a slot for the left icon; keep checkbox clickable */
+/* === Tasks plugin (query results + Canvas) — use ITS icons === */
+.plugin-tasks-query-result .plugin-tasks-list-item {
+  position: relative;
+  padding-left: 1.7em;            /* room for the icon */
+}
+.plugin-tasks-query-result .plugin-tasks-list-item > .task-list-item-checkbox {
+  /* keep it clickable, just hide the native box */
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  opacity: 0;
+}
+
+/* base slot for the icon */
+.plugin-tasks-query-result .plugin-tasks-list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-family: "its" !important;  /* use your ITS icon font */
+  font-size: 1.15em;
+  line-height: 1;
+  color: var(--text-normal);
+  transform: none;
+}
+
+/* ---- map Tasks statuses to your ITS glyphs ---- */
+/* In-Progress “/” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="/"]::before {
+  content: "\ec17";               /* ITS slash */            /* :contentReference[oaicite:0]{index=0} */
+  color: var(--accent, var(--interactive-accent));
+}
+
+/* Cancelled “-” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="-"]::before {
+  content: "\ec02";                                                /* :contentReference[oaicite:1]{index=1} */
+  color: rgb(var(--chbx-d));
+}
+
+/* Important “!” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="!"]::before {
+  content: "\ec08";                                                /* :contentReference[oaicite:2]{index=2} */
+  color: rgb(var(--chbx-i));
+}
+
+/* Question “?” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="?"]::before {
+  content: "\ec05";                                                /* :contentReference[oaicite:3]{index=3} */
+  color: rgb(var(--chbx-q));
+}
+
+/* Waiting “>” and Scheduling “<” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task=">"]::before {
+  content: "\ec03";                                                /* :contentReference[oaicite:4]{index=4} */
+}
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="<"]::before {
+  content: "\ec03";                                                /* :contentReference[oaicite:5]{index=5} */
+  transform: scale(-1,1);
+  color: var(--text-faint);
+}
+
+/* Contact “@” */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task="@"]::before {
+  content: "\e900";                                                /* :contentReference[oaicite:6]{index=6} */
+  color: rgb(var(--chbx-b));
+}
+
+/* Done “x” (show ITS checked type icon) */
+.plugin-tasks-query-result .plugin-tasks-list-item.is-checked[data-task="x"]::before {
+  content: "\ec01";                                                /* :contentReference[oaicite:7]{index=7} */
+  color: var(--accent2-lite, var(--text-accent));
+}
+
+/* Optional: default empty (data-task="" from Tasks) – leave blank, or pick an ITS outline if you have one */
+.plugin-tasks-query-result .plugin-tasks-list-item[data-task=""]::before {
+  content: ""; /* or set to an ITS empty box if your set has one */
+}
 body {
   --its: "its";
 }
