@@ -8,7 +8,7 @@
 				"textAlign":null,
 				"border":null
 			},
-			"x":-900,
+			"x":-1080,
 			"y":-840,
 			"width":420,
 			"height":480
@@ -18,8 +18,8 @@
 			"type":"text",
 			"text":"‼️ IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \n```\n",
 			"styleAttributes":{},
-			"x":-560,
-			"y":-600,
+			"x":-580,
+			"y":-820,
 			"width":400,
 			"height":360
 		}
