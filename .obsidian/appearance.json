@@ -5,11 +5,11 @@
   "translucency": false,
   "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
-    "Hide Properties",
-    "Obsidian Banner Fix",
     "banner-color",
     "star",
-    "S Checkboxes"
+    "S Checkboxes",
+    "Hide Properties",
+    "Obsidian Banner Fix"
   ],
   "textFontFamily": "",
   "monospaceFontFamily": "",

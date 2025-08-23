@@ -1,0 +1,44 @@
+/* Only affect Tasks plugin results when inside Canvas cards */
+.canvas .plugin-tasks-query-result {
+    /* Keep it simple and predictable */
+    line-height: 1.4;
+  }
+  
+/* Layout each Tasks item as a row with a real gap */
+.canvas .plugin-tasks-query-result li.task-list-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.55em !important;
+    padding-left: 0 !important;   /* kill theme padding that expects negative margins */
+    text-indent: 0 !important;
+    position: relative !important;
+}
+  
+/* The actual checkbox */
+.canvas .plugin-tasks-query-result input.task-list-item-checkbox {
+    flex: 0 0 auto !important;
+    position: relative !important;
+    margin: 0 !important;         /* undo negative/left margins from themes */
+    left: 0 !important;
+    transform: none !important;
+    vertical-align: middle !important;
+    z-index: 2 !important;
+    pointer-events: auto !important;
+}
+  
+  /* Task text block should take remaining width */
+.canvas .plugin-tasks-query-result .tasks-list-text {
+    flex: 1 1 auto !important;
+    min-width: 0;                 /* prevent overflow in narrow cards */
+}
+  
+  /* Extras (backlink/edit/postpone) stay on the right */
+.canvas .plugin-tasks-query-result .task-extras {
+    flex: 0 0 auto;
+}
+  
+  /* Short mode sometimes squeezes things too tight */
+.canvas .plugin-tasks-query-result.tasks-layout-short-mode li.task-list-item {
+    gap: 0.45em !important;
+}
+  
