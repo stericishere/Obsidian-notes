@@ -18,6 +18,6 @@ complete:
 
 ## ✅  Tasks 任务
 
-- [ ] #task Finish the online course
+- [x] #task Finish the online course ✅ 2025-08-22
 
 
