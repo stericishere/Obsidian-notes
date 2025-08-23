@@ -98,6 +98,13 @@
         "nextStatusSymbol": "X",
         "availableAsCommand": false,
         "type": "TODO"
+      },
+      {
+        "symbol": " ",
+        "name": "todo",
+        "nextStatusSymbol": "/",
+        "availableAsCommand": false,
+        "type": "TODO"
       }
     ]
   },

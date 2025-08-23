@@ -1289,37 +1289,295 @@ settings:
 */
 /* Default Todo */
 /* === Extend S Checkboxes theme icons to Tasks plugin query results === */
+/* === Fixed Tasks Plugin Integration for S Checkboxes === */
 
+/* Base scope for both editor and Tasks plugin */
 :root {
-  --its-scope: .markdown-source-view.mod-cm6, .plugin-tasks-query-result;
+  --its-scope: .markdown-source-view.mod-cm6, .plugin-tasks-query-result, .tasks-layout;
 }
 
-/* 2) Base overlay box (same geometry as your file uses) */
-body:not(.alt-chkbx-off) :is(var(--its-scope)) .task-list-item-checkbox::after {
-  content: "";                 /* replaced per-status below */
+/* 1) Tasks plugin list styling */
+.contains-task-list.plugin-tasks-query-result,
+.plugin-tasks-query-result ul,
+.tasks-layout .contains-task-list { 
+  list-style: none; 
+  padding-left: 0; 
+}
+
+.plugin-tasks-query-result li.task-list-item,
+.tasks-layout li.task-list-item {
+  position: relative;
+  padding-left: 1.8em;        /* room for the icon */
+  line-height: 1.45;
+  margin-bottom: 0.2em;
+}
+
+/* 2) Completely hide the native checkbox but keep it clickable */
+.plugin-tasks-query-result input.task-list-item-checkbox,
+.tasks-layout input.task-list-item-checkbox,
+.plugin-tasks-query-result input[type="checkbox"],
+.tasks-layout input[type="checkbox"] {
+  position: absolute !important;
+  left: 0 !important; 
+  top: 0 !important;
+  width: 1.4em !important; 
+  height: 1.4em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important;               /* completely invisible */
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  -webkit-mask: none !important;
+  mask: none !important;
+  z-index: 10 !important;              /* higher z-index for clicking */
+  cursor: pointer !important;
+}
+
+/* Hide any ::before or ::after pseudo-elements on the checkbox */
+.plugin-tasks-query-result input.task-list-item-checkbox::before,
+.plugin-tasks-query-result input.task-list-item-checkbox::after,
+.tasks-layout input.task-list-item-checkbox::before,
+.tasks-layout input.task-list-item-checkbox::after,
+.plugin-tasks-query-result input[type="checkbox"]::before,
+.plugin-tasks-query-result input[type="checkbox"]::after,
+.tasks-layout input[type="checkbox"]::before,
+.tasks-layout input[type="checkbox"]::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* 3) Base icon styling */
+.plugin-tasks-query-result li.task-list-item::before,
+.tasks-layout li.task-list-item::before {
+  content: "☐"; /* default fallback */
   position: absolute;
-  inset: 0;                    /* fill the checkbox box */
-  display: block;
+  left: 0; 
+  top: 0;
+  width: 1.4em; 
+  height: 1.4em;
+  text-align: center; 
+  line-height: 1.4em;
+  font-family: "its", var(--its, "its") !important;
+  font-size: 1.1em;
+  z-index: 1 !important;               /* lower than checkbox for clicking */
+  color: var(--text-muted);
   pointer-events: none;
-  /* keep any sizing from your original (example values below) */
-  width: 1.15em;
-  height: 1.15em;
-  top: 0;
-  left: 0;
-  line-height: 1;
-  text-align: center;
-  font-family: "its";          /* your theme’s icon font */
-  font-size: 1.05em;
+  background: transparent !important;
+  border: none !important;
 }
 
-/* 3) Alignment fixes for the checked state (mirror your original) */
-body:not(.alt-chkbx-off) :is(var(--its-scope))
-  input.task-list-item-checkbox:checked::after {
-  /* if your original adjusts mask/top/left, keep the same tweaks here */
-  top: 0;
-  left: 0;
+/* 4) STATUS MAPPING - Map each status to correct ITS font codepoint */
+
+/* Todo (empty checkbox) */
+.plugin-tasks-query-result li.task-list-item[data-task=""]::before,
+.plugin-tasks-query-result li.task-list-item[data-task=" "]::before,
+.plugin-tasks-query-result li.task-list-item[data-task-status-type="TODO"]::before,
+.tasks-layout li.task-list-item[data-task=""]::before,
+.tasks-layout li.task-list-item[data-task=" "]::before {
+  content: "☐"; /* Keep default empty box or use your empty codepoint */
+  color: var(--text-muted);
 }
 
+/* Done/Completed */
+.plugin-tasks-query-result li.task-list-item[data-task="x"]::before,
+.plugin-tasks-query-result li.task-list-item[data-task-status-type="DONE"]::before,
+.tasks-layout li.task-list-item[data-task="x"]::before {
+  content: "\ec01";
+  color: var(--accent2-lite, var(--text-accent));
+}
+
+/* Important */
+.plugin-tasks-query-result li.task-list-item[data-task="!"]::before,
+.tasks-layout li.task-list-item[data-task="!"]::before {
+  content: "\ec08";
+  color: rgb(var(--chbx-i));
+}
+
+/* Cancelled/Dropped */
+.plugin-tasks-query-result li.task-list-item[data-task="-"]::before,
+.plugin-tasks-query-result li.task-list-item[data-task-status-type="CANCELLED"]::before,
+.tasks-layout li.task-list-item[data-task="-"]::before {
+  content: "\ec02";
+  color: rgb(var(--chbx-d));
+}
+
+/* Waiting/Forward */
+.plugin-tasks-query-result li.task-list-item[data-task=">"]::before,
+.tasks-layout li.task-list-item[data-task=">"]::before {
+  content: "\ec03";
+  color: var(--text-normal);
+}
+
+/* Scheduling/Backward */
+.plugin-tasks-query-result li.task-list-item[data-task="<"]::before,
+.tasks-layout li.task-list-item[data-task="<"]::before {
+  content: "\ec03";
+  color: var(--text-faint);
+  transform: scale(-1, 1);
+}
+
+/* In Progress/Half Done */
+.plugin-tasks-query-result li.task-list-item[data-task="/"]::before,
+.plugin-tasks-query-result li.task-list-item[data-task-status-name="doing" i]::before,
+.tasks-layout li.task-list-item[data-task="/"]::before {
+  content: "\ec17";
+  color: var(--accent, var(--interactive-accent));
+}
+
+/* Question */
+.plugin-tasks-query-result li.task-list-item[data-task="?"]::before,
+.tasks-layout li.task-list-item[data-task="?"]::before {
+  content: "\ec05";
+  color: rgb(var(--chbx-q));
+}
+
+/* Person/Character */
+.plugin-tasks-query-result li.task-list-item[data-task="@"]::before,
+.tasks-layout li.task-list-item[data-task="@"]::before {
+  content: "\e900";
+  color: rgb(var(--chbx-b));
+}
+
+/* Add/Plus */
+.plugin-tasks-query-result li.task-list-item[data-task="+"]::before,
+.tasks-layout li.task-list-item[data-task="+"]::before {
+  content: "\ec06";
+  color: rgb(var(--chbx-a));
+}
+
+/* Research */
+.plugin-tasks-query-result li.task-list-item[data-task="R"]::before,
+.tasks-layout li.task-list-item[data-task="R"]::before {
+  content: "\ec07";
+  color: rgb(var(--chbx-R));
+}
+
+/* Idea */
+.plugin-tasks-query-result li.task-list-item[data-task="i"]::before,
+.tasks-layout li.task-list-item[data-task="i"]::before {
+  content: "\ec09";
+  color: rgb(var(--chbx-id));
+}
+
+/* Project/Paraphrase */
+.plugin-tasks-query-result li.task-list-item[data-task="p"]::before,
+.tasks-layout li.task-list-item[data-task="p"]::before {
+  content: "\ec19";
+  color: rgb(var(--chbx-R));
+}
+
+/* Contact */
+.plugin-tasks-query-result li.task-list-item[data-task="c"]::before,
+.tasks-layout li.task-list-item[data-task="c"]::before {
+  content: "\ec29";
+  color: rgb(var(--chbx-c));
+}
+
+/* Date/Defer */
+.plugin-tasks-query-result li.task-list-item[data-task="D"]::before,
+.tasks-layout li.task-list-item[data-task="D"]::before {
+  content: "\ec04";
+  color: rgb(var(--chbx-h));
+}
+
+/* Brainstorm */
+.plugin-tasks-query-result li.task-list-item[data-task="B"]::before,
+.tasks-layout li.task-list-item[data-task="B"]::before {
+  content: "\ec10";
+  color: rgb(var(--chbx-B));
+}
+
+/* Pro */
+.plugin-tasks-query-result li.task-list-item[data-task="P"]::before,
+.tasks-layout li.task-list-item[data-task="P"]::before {
+  content: "\ec11";
+  color: rgb(var(--chbx-P));
+}
+
+/* Con */
+.plugin-tasks-query-result li.task-list-item[data-task="C"]::before,
+.tasks-layout li.task-list-item[data-task="C"]::before {
+  content: "\ec12";
+  color: rgb(var(--chbx-C));
+}
+
+/* Additional status mappings */
+.plugin-tasks-query-result li.task-list-item[data-task="O"]::before,
+.tasks-layout li.task-list-item[data-task="O"]::before { 
+  content: "\e805"; 
+  color: hsl(var(--interactive-accent-hsl));
+}
+
+.plugin-tasks-query-result li.task-list-item[data-task="W"]::before,
+.tasks-layout li.task-list-item[data-task="W"]::before { 
+  content: "\e813"; 
+  color: rgb(var(--chbx-P));
+}
+
+.plugin-tasks-query-result li.task-list-item[data-task="F"]::before,
+.tasks-layout li.task-list-item[data-task="F"]::before { 
+  content: "\ec28"; 
+  color: rgb(var(--chbx-h));
+}
+
+/* 5) Special handling for completed tasks with custom statuses */
+.plugin-tasks-query-result li.task-list-item.is-checked::before,
+.tasks-layout li.task-list-item.is-checked::before {
+  /* This will be overridden by specific data-task selectors above */
+}
+
+/* 6) Ensure font family is properly loaded */
+body {
+  --its: "its";
+}
+
+/* 7) Override any conflicting styles from other plugins and themes */
+.plugin-tasks-query-result .task-list-item-checkbox::after,
+.tasks-layout .task-list-item-checkbox::after,
+.plugin-tasks-query-result .task-list-item-checkbox::before,
+.tasks-layout .task-list-item-checkbox::before {
+  display: none !important; /* Hide any other pseudo-elements */
+  content: none !important;
+  background: none !important;
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+
+/* Force hide any default checkbox styling */
+.plugin-tasks-query-result li.task-list-item input,
+.tasks-layout li.task-list-item input {
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  background-image: none !important;
+}
+
+/* Ensure the custom icons show above everything else except the clickable area */
+.plugin-tasks-query-result li.task-list-item,
+.tasks-layout li.task-list-item {
+  position: relative;
+  z-index: 0;
+}
+
+/* 8) Text styling for completed tasks (optional) */
+.plugin-tasks-query-result li.task-list-item[data-task="x"] .task-description,
+.plugin-tasks-query-result li.task-list-item[data-task-status-type="DONE"] .task-description,
+.tasks-layout li.task-list-item[data-task="x"] .task-description {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.plugin-tasks-query-result li.task-list-item[data-task="-"] .task-description,
+.plugin-tasks-query-result li.task-list-item[data-task-status-type="CANCELLED"] .task-description,
+.tasks-layout li.task-list-item[data-task="-"] .task-description {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
 /* 4) STATUS → GLYPH MAP
       Use the SAME codepoints your file defines.
       (These are the usual ones in S Checkboxes; adjust if yours differ.)
@@ -1329,83 +1587,7 @@ body:not(.alt-chkbx-off) :is(var(--its-scope))
 */
 
 /* Layout: reserve a slot for the left icon; keep checkbox clickable */
-/* === Tasks plugin (query results + Canvas) — use ITS icons === */
-.plugin-tasks-query-result .plugin-tasks-list-item {
-  position: relative;
-  padding-left: 1.7em;            /* room for the icon */
-}
-.plugin-tasks-query-result .plugin-tasks-list-item > .task-list-item-checkbox {
-  /* keep it clickable, just hide the native box */
-  position: absolute;
-  left: 0;
-  top: 0.15em;
-  opacity: 0;
-}
 
-/* base slot for the icon */
-.plugin-tasks-query-result .plugin-tasks-list-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.05em;
-  font-family: "its" !important;  /* use your ITS icon font */
-  font-size: 1.15em;
-  line-height: 1;
-  color: var(--text-normal);
-  transform: none;
-}
-
-/* ---- map Tasks statuses to your ITS glyphs ---- */
-/* In-Progress “/” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="/"]::before {
-  content: "\ec17";               /* ITS slash */            /* :contentReference[oaicite:0]{index=0} */
-  color: var(--accent, var(--interactive-accent));
-}
-
-/* Cancelled “-” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="-"]::before {
-  content: "\ec02";                                                /* :contentReference[oaicite:1]{index=1} */
-  color: rgb(var(--chbx-d));
-}
-
-/* Important “!” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="!"]::before {
-  content: "\ec08";                                                /* :contentReference[oaicite:2]{index=2} */
-  color: rgb(var(--chbx-i));
-}
-
-/* Question “?” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="?"]::before {
-  content: "\ec05";                                                /* :contentReference[oaicite:3]{index=3} */
-  color: rgb(var(--chbx-q));
-}
-
-/* Waiting “>” and Scheduling “<” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task=">"]::before {
-  content: "\ec03";                                                /* :contentReference[oaicite:4]{index=4} */
-}
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="<"]::before {
-  content: "\ec03";                                                /* :contentReference[oaicite:5]{index=5} */
-  transform: scale(-1,1);
-  color: var(--text-faint);
-}
-
-/* Contact “@” */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task="@"]::before {
-  content: "\e900";                                                /* :contentReference[oaicite:6]{index=6} */
-  color: rgb(var(--chbx-b));
-}
-
-/* Done “x” (show ITS checked type icon) */
-.plugin-tasks-query-result .plugin-tasks-list-item.is-checked[data-task="x"]::before {
-  content: "\ec01";                                                /* :contentReference[oaicite:7]{index=7} */
-  color: var(--accent2-lite, var(--text-accent));
-}
-
-/* Optional: default empty (data-task="" from Tasks) – leave blank, or pick an ITS outline if you have one */
-.plugin-tasks-query-result .plugin-tasks-list-item[data-task=""]::before {
-  content: ""; /* or set to an ITS empty box if your set has one */
-}
 body {
   --its: "its";
 }

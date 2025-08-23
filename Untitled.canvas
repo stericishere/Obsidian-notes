@@ -1,52 +1,12 @@
 {
 	"nodes":[
 		{
-			"id":"99fd492812331521",
-			"type":"text",
-			"text":"## Doing\n```tasks  \nfilter by function task.status.name === 'doing'  \nshort mode  \n```\n",
-			"styleAttributes":{},
-			"x":-620,
-			"y":-840,
-			"width":440,
-			"height":480
-		},
-		{
 			"id":"69138b369022a840",
 			"type":"text",
 			"text":"## Done\n```tasks  \nfilter by function task.status.name === 'done'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
 			"styleAttributes":{},
 			"x":-140,
 			"y":-840,
-			"width":440,
-			"height":480
-		},
-		{
-			"id":"9a4ce11380d8cb6b",
-			"type":"text",
-			"text":"# Waiting\n```tasks  \nfilter by function task.status.name === 'waiting'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
-			"styleAttributes":{},
-			"x":-1090,
-			"y":-280,
-			"width":440,
-			"height":460
-		},
-		{
-			"id":"ba9adaa4e9e2e68e",
-			"type":"text",
-			"text":"# 📌 IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
-			"styleAttributes":{},
-			"x":-620,
-			"y":-300,
-			"width":440,
-			"height":480
-		},
-		{
-			"id":"490caf754d30efcf",
-			"type":"text",
-			"text":"# 👥 Contact\n```tasks  \nfilter by function task.status.name === 'contact'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
-			"styleAttributes":{},
-			"x":-140,
-			"y":-300,
 			"width":440,
 			"height":480
 		},
@@ -61,15 +21,56 @@
 			"height":480
 		},
 		{
+			"id":"ba9adaa4e9e2e68e",
+			"type":"text",
+			"text":"# 📌 IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-1090,
+			"y":280,
+			"width":440,
+			"height":520,
+			"color":"1"
+		},
+		{
+			"id":"9a4ce11380d8cb6b",
+			"type":"text",
+			"text":"# Waiting\n```tasks  \nfilter by function task.status.name === 'waiting'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-580,
+			"y":280,
+			"width":440,
+			"height":520
+		},
+		{
 			"id":"6d8fbf97c536cf05",
 			"type":"text",
-			"text":"# TO DO\n``` tasks\nnot done\nsort by priority\nshort mode\n```\n",
+			"text":"# TO DO\n``` tasks\nnot done\nfilter by function task.status.name === 'todo'  \nsort by priority\nlimit 5\nshort mode\n```\n",
 			"styleAttributes":{
 				"textAlign":null,
 				"border":null
 			},
+			"x":-1640,
+			"y":240,
+			"width":440,
+			"height":520
+		},
+		{
+			"id":"490caf754d30efcf",
+			"type":"text",
+			"text":"# 👥 Contact\n```tasks  \nfilter by function task.status.name === 'contact'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-1640,
+			"y":880,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"99fd492812331521",
+			"type":"text",
+			"text":"## Doing\n```tasks  \nfilter by function task.status.name === 'doing'  \nshort mode  \n```\n",
+			"styleAttributes":{},
 			"x":-1090,
-			"y":-840,
+			"y":880,
 			"width":440,
 			"height":480
 		}

@@ -2,14 +2,14 @@
 
 ## About this file
 - [ ] #task Sample task 1: status symbol=`space` status name='Todo'
-- [x] #task Sample task 2: status symbol=`x` status name='Done'
+- [X] #task Sample task 2: status symbol=`x` status name='Done'
 - [/] #task Sample task 3: status symbol=`/` status name='In Progress'
 - [-] #task Sample task 4: status symbol=`-` status name='Cancelled'
 - [!] #task important
 - [>] #task wating
-- [@] #task contact
+- [@] #task contact ✅ 2025-08-23
 - [i] idea
-- [<] #task scheduling
+- [<] #task scheduling ✅ 2025-08-23
 - [?] question 
 # Code block
 ```tasks
