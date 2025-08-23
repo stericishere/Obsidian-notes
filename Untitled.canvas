@@ -3,25 +3,75 @@
 		{
 			"id":"6d8fbf97c536cf05",
 			"type":"text",
-			"text":"``` tasks\ndone\npath does not include 从这里开始\ngroup by due\nsort by priority\nshort mode\n```\n",
+			"text":"# TO DO\n``` tasks\nnot done\nsort by priority\nshort mode\n```\n",
 			"styleAttributes":{
 				"textAlign":null,
 				"border":null
 			},
-			"x":-1080,
+			"x":-1090,
 			"y":-840,
-			"width":420,
+			"width":440,
 			"height":480
 		},
 		{
 			"id":"99fd492812331521",
 			"type":"text",
-			"text":"‼️ IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \n```\n",
+			"text":"## Doing\n```tasks  \nfilter by function task.status.name === 'doing'  \nshort mode  \n```\n",
 			"styleAttributes":{},
-			"x":-580,
-			"y":-820,
-			"width":400,
-			"height":360
+			"x":-620,
+			"y":-840,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"69138b369022a840",
+			"type":"text",
+			"text":"## Done\n```tasks  \nfilter by function task.status.name === 'done'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-140,
+			"y":-840,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"9a4ce11380d8cb6b",
+			"type":"text",
+			"text":"# Waiting\n```tasks  \nfilter by function task.status.name === 'waiting'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-1090,
+			"y":-300,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"ba9adaa4e9e2e68e",
+			"type":"text",
+			"text":"# 📌 IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-620,
+			"y":-300,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"490caf754d30efcf",
+			"type":"text",
+			"text":"# 📌 IMPORTANT\n```tasks  \nfilter by function task.status.name === 'contact'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-140,
+			"y":-300,
+			"width":440,
+			"height":480
+		},
+		{
+			"id":"5a8b10d372e6d174",
+			"type":"text",
+			"text":"# 📌 IMPORTANT\n```tasks  \nfilter by function task.status.name === 'contact'  \nshort mode  \nsort by done reverse  \nlimit 5\n```\n",
+			"styleAttributes":{},
+			"x":-1090,
+			"y":240,
+			"width":440,
+			"height":480
 		}
 	],
 	"edges":[],

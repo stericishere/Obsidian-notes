@@ -45,8 +45,8 @@
     "customStatuses": [
       {
         "symbol": "/",
-        "name": "In Progress",
-        "nextStatusSymbol": "x",
+        "name": "doing",
+        "nextStatusSymbol": "X",
         "availableAsCommand": true,
         "type": "IN_PROGRESS"
       },
@@ -66,22 +66,36 @@
       },
       {
         "symbol": ">",
-        "name": "Waiting",
+        "name": "waiting",
         "nextStatusSymbol": "/",
         "availableAsCommand": false,
-        "type": "IN_PROGRESS"
+        "type": "TODO"
       },
       {
         "symbol": "<",
         "name": "scheduling",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "X",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
         "symbol": "?",
         "name": "question",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "/",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "X",
+        "name": "done",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "DONE"
+      },
+      {
+        "symbol": "@",
+        "name": "contact",
+        "nextStatusSymbol": "X",
         "availableAsCommand": false,
         "type": "TODO"
       }
