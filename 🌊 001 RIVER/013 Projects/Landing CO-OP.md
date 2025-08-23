@@ -12,10 +12,10 @@ complete:
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Landing CO-OP
 
-## 🗃️ Resources 资源
+## 🗃️ Resources 
 
 ![[Project.base#Side Project]]
-## 📒 Notes 笔记
+## 📒 Notes 
 
 
 ## ✅  Tasks 任务

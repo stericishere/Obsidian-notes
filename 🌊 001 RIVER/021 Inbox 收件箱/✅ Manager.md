@@ -19,14 +19,14 @@ path does not include 从这里开始
 group by due
 sort by priority
 ```
-## ➡️ Recent Task
+## ➡️ Ready
 ```tasks
 path does not include guide 使用说明
 not done
-due before tomorrow
 path does not include 从这里开始
 group by due
 sort by priority
+short mode
 ```
 ## 🔮 Future Task
 ```tasks

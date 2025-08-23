@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{
+			"id":"6d8fbf97c536cf05",
+			"type":"text",
+			"text":"``` tasks\ndone\npath does not include 从这里开始\ngroup by due\nsort by priority\nshort mode\n```\n",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":null
+			},
+			"x":-320,
+			"y":-680,
+			"width":400,
+			"height":480
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"1abf1493f97aaac0"
+	}
+}
