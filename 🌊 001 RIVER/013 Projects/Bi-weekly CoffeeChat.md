@@ -2,7 +2,7 @@
 banner: "[[Research-2.jpg]]"
 creation date: 2025-07-19 03:55
 tags:
-  - 🏗️
+  - project
 priority: "*Side"
 aliases:
   - Bi-weekly CoffeeChat

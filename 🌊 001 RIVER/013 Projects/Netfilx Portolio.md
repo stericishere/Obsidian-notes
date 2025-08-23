@@ -6,6 +6,7 @@ priority: Side
 aliases: Netfilx Portolio
 type: Project
 complete:
+Project: Netfilx-portolio
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Netfilx Portolio

@@ -2,13 +2,13 @@
   "progressBarDisplayMode": "both",
   "supportHoverToShowProgressInfo": false,
   "addProgressBarToNonTaskBullet": false,
-  "addTaskProgressBarToHeading": false,
-  "enableProgressbarInReadingMode": false,
+  "addTaskProgressBarToHeading": true,
+  "enableProgressbarInReadingMode": true,
   "countSubLevel": false,
   "displayMode": "bracketFraction",
   "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
-  "showPercentage": true,
-  "customizeProgressRanges": true,
+  "showPercentage": false,
+  "customizeProgressRanges": false,
   "progressRanges": [
     {
       "min": 0,
@@ -36,7 +36,7 @@
       "text": "Almost there {{PROGRESS}}% "
     }
   ],
-  "allowCustomProgressGoal": true,
+  "allowCustomProgressGoal": false,
   "hideProgressBarBasedOnConditions": false,
   "hideProgressBarTags": "no-progress,hide-progress",
   "hideProgressBarFolders": "",
@@ -59,10 +59,10 @@
   "excludeTaskMarks": "",
   "useOnlyCountMarks": false,
   "onlyCountTaskMarks": "x|X|>|/",
-  "enableTaskStatusSwitcher": true,
+  "enableTaskStatusSwitcher": false,
   "enableCustomTaskMarks": false,
   "enableTextMarkInSourceMode": false,
-  "enableCycleCompleteStatus": true,
+  "enableCycleCompleteStatus": false,
   "taskStatusCycle": [
     "Not Started",
     "In Progress",
@@ -79,36 +79,19 @@
   },
   "excludeMarksFromCycle": [],
   "enableTaskGeniusIcons": false,
-  "enablePriorityPicker": true,
+  "enablePriorityPicker": false,
   "enablePriorityKeyboardShortcuts": false,
-  "enableDatePicker": true,
+  "enableDatePicker": false,
   "recurrenceDateBase": "due",
   "taskFilter": {
-    "enableTaskFilter": true,
-    "presetTaskFilters": [
-      {
-        "id": "17559299352939z80epi94",
-        "name": "task",
-        "options": {
-          "includeCompleted": true,
-          "includeInProgress": true,
-          "includeAbandoned": true,
-          "includeNotStarted": true,
-          "includePlanned": true,
-          "includeParentTasks": true,
-          "includeChildTasks": true,
-          "includeSiblingTasks": false,
-          "advancedFilterQuery": "AND #task",
-          "filterMode": "INCLUDE"
-        }
-      }
-    ]
+    "enableTaskFilter": false,
+    "presetTaskFilters": []
   },
   "taskGutter": {
     "enableTaskGutter": false
   },
   "completedTaskMover": {
-    "enableCompletedTaskMover": true,
+    "enableCompletedTaskMover": false,
     "taskMarkerType": "date",
     "versionMarker": "version 1.0",
     "dateMarker": "archived on {{date}}",
@@ -132,7 +115,7 @@
     "incompletedDefaultHeadingName": "Incomplete Tasks"
   },
   "quickCapture": {
-    "enableQuickCapture": true,
+    "enableQuickCapture": false,
     "targetFile": "QuickCapture.md",
     "placeholder": "Capture your thoughts...",
     "appendToFile": "append",
@@ -149,8 +132,8 @@
     }
   },
   "workflow": {
-    "enableWorkflow": true,
-    "autoAddTimestamp": true,
+    "enableWorkflow": false,
+    "autoAddTimestamp": false,
     "timestampFormat": "YYYY-MM-DD HH:mm:ss",
     "removeTimestampOnTransition": false,
     "calculateSpentTime": false,
@@ -243,7 +226,13 @@
   },
   "projectConfig": {
     "enableEnhancedProject": true,
-    "pathMappings": [],
+    "pathMappings": [
+      {
+        "pathPattern": "🌊 001 RIVER/013 Projects",
+        "projectName": "Projec",
+        "enabled": true
+      }
+    ],
     "metadataConfig": {
       "metadataKey": "project",
       "enabled": false,
@@ -251,11 +240,11 @@
         {
           "type": "metadata",
           "propertyKey": "project",
-          "enabled": false
+          "enabled": true
         },
         {
           "type": "tag",
-          "propertyKey": "project",
+          "propertyKey": "#project",
           "enabled": false
         },
         {
@@ -271,7 +260,13 @@
       "searchRecursively": false,
       "enabled": false
     },
-    "metadataMappings": [],
+    "metadataMappings": [
+      {
+        "sourceKey": "",
+        "targetKey": "project",
+        "enabled": true
+      }
+    ],
     "defaultProjectNaming": {
       "strategy": "filename",
       "stripExtension": false,
@@ -306,7 +301,12 @@
   "enableInlineEditor": true,
   "enableDynamicMetadataPositioning": true,
   "defaultViewMode": "list",
-  "globalFilterRules": {},
+  "globalFilterRules": {
+    "advancedFilter": {
+      "rootCondition": "any",
+      "filterGroups": []
+    }
+  },
   "viewConfiguration": [
     {
       "id": "inbox",
@@ -353,6 +353,26 @@
       "filterBlanks": false
     },
     {
+      "id": "flagged",
+      "name": "Flagged",
+      "icon": "flag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "icon": "eye",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
       "id": "calendar",
       "name": "Events",
       "icon": "calendar",
@@ -383,6 +403,31 @@
         "defaultSortOrder": "desc",
         "groupBy": "status"
       }
+    },
+    {
+      "id": "gantt",
+      "name": "Plan",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    },
+    {
+      "id": "habit",
+      "name": "Habit",
+      "icon": "calendar-clock",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
     },
     {
       "id": "table",
@@ -436,51 +481,6 @@
         "defaultSortField": "",
         "defaultSortOrder": "asc"
       }
-    },
-    {
-      "id": "flagged",
-      "name": "Flagged",
-      "icon": "flag",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": true,
-      "filterRules": {},
-      "filterBlanks": false
-    },
-    {
-      "id": "review",
-      "name": "Review",
-      "icon": "eye",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false
-    },
-    {
-      "id": "gantt",
-      "name": "Plan",
-      "icon": "chart-gantt",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false,
-      "specificConfig": {
-        "viewType": "gantt",
-        "showTaskLabels": true,
-        "useMarkdownRenderer": true
-      }
-    },
-    {
-      "id": "habit",
-      "name": "Habit",
-      "icon": "calendar-clock",
-      "type": "default",
-      "visible": true,
-      "hideCompletedAndAbandonedTasks": false,
-      "filterRules": {},
-      "filterBlanks": false
     },
     {
       "id": "quadrant",
@@ -591,7 +591,7 @@
     }
   ],
   "autoDateManager": {
-    "enabled": true,
+    "enabled": false,
     "manageCompletedDate": true,
     "manageStartDate": true,
     "manageCancelledDate": true,
@@ -712,11 +712,11 @@
   "enableCustomDateFormats": false,
   "customDateFormats": [],
   "onboarding": {
-    "completed": true,
+    "completed": false,
     "version": "9.7.7",
-    "configMode": "advanced",
-    "skipOnboarding": false,
-    "completedAt": "2025-08-23T06:03:47.272Z"
+    "configMode": "beginner",
+    "skipOnboarding": true,
+    "completedAt": ""
   },
   "enhancedProjectData": {
     "fileProjectMap": {},
@@ -820,11 +820,11 @@
         ],
         "type": null
       },
-      "💎 003 GEMS/032 Evergreen/02 Philosophy/Cynicism (low-desire, minimalist lifestyle).md": {
+      "💎 003 GEMS/032 Evergreen/一个普通的长青笔记.md": {
         "banner": "[[Notes-2.jpg]]",
-        "creation date": "2025-08-07 16:30",
+        "creation date": "2023-04-01 18:22",
         "aliases": [
-          "ml"
+          "一个普通的长青笔记"
         ],
         "tags": [
           "🤔"
@@ -858,15 +858,26 @@
           "🤔"
         ]
       },
-      "💎 003 GEMS/032 Evergreen/一个普通的长青笔记.md": {
+      "💎 003 GEMS/032 Evergreen/02 Philosophy/Cynicism (low-desire, minimalist lifestyle).md": {
         "banner": "[[Notes-2.jpg]]",
-        "creation date": "2023-04-01 18:22",
+        "creation date": "2025-08-07 16:30",
         "aliases": [
-          "一个普通的长青笔记"
+          "ml"
         ],
         "tags": [
           "🤔"
         ]
+      },
+      "💎 003 GEMS/032 Evergreen/00 Prompt/ReAct.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 18:02",
+        "aliases": [
+          "ReAct"
+        ],
+        "tags": [
+          "💡"
+        ],
+        "type": "fw"
       },
       "💎 003 GEMS/032 Evergreen/00 Prompt/Manus Prompt.md": {
         "banner": "![[Notes-2.jpg]]",
@@ -879,16 +890,16 @@
         ],
         "type": null
       },
-      "💎 003 GEMS/032 Evergreen/00 Prompt/ReAct.md": {
+      "💎 003 GEMS/032 Evergreen/00 Programming/Testing data.md": {
         "banner": "[[Notes-2.jpg]]",
-        "creation date": "2025-07-24 18:02",
+        "creation date": "2025-08-02 01:23",
         "aliases": [
-          "ReAct"
+          "Testing data"
         ],
         "tags": [
-          "💡"
+          "🧠"
         ],
-        "type": "fw"
+        "type": "ml"
       },
       "💎 003 GEMS/032 Evergreen/00 Programming/k-Means Clustering.md": {
         "banner": "[[Notes-2.jpg]]",
@@ -978,17 +989,6 @@
         ],
         "type": "l4"
       },
-      "💎 003 GEMS/032 Evergreen/00 Programming/Testing data.md": {
-        "banner": "[[Notes-2.jpg]]",
-        "creation date": "2025-08-02 01:23",
-        "aliases": [
-          "Testing data"
-        ],
-        "tags": [
-          "🧠"
-        ],
-        "type": "ml"
-      },
       "💎 003 GEMS/032 Evergreen/00 Programming/Taskweaver.md": {
         "banner": "[[Notes-2.jpg]]",
         "creation date": "2025-07-30 04:22",
@@ -1052,17 +1052,6 @@
         ],
         "tags": [
           "👨‍💻"
-        ],
-        "type": null
-      },
-      "💎 003 GEMS/032 Evergreen/00 Programming/Conditional_Agent - LangGraph.md": {
-        "banner": "[[Notes-2.jpg]]",
-        "creation date": "2025-08-07 03:19",
-        "aliases": [
-          "Conditional_Agent - LangGraph"
-        ],
-        "tags": [
-          "🤖"
         ],
         "type": null
       },
@@ -1552,17 +1541,6 @@
         ],
         "type": "l4"
       },
-      "💎 003 GEMS/032 Evergreen/00 Programming/Data Models Dictate Capabilities.md": {
-        "banner": "[[Notes-2.jpg]]",
-        "creation date": "2025-08-11 23:53",
-        "aliases": [
-          "Data Models Dictate Capabilities"
-        ],
-        "tags": [
-          "👨‍💻"
-        ],
-        "type": "l4"
-      },
       "💎 003 GEMS/032 Evergreen/00 Programming/Evaluation Metrics & Model Selection.md": {
         "banner": "[[Notes-2.jpg]]",
         "creation date": "2025-08-15 20:04",
@@ -1641,6 +1619,17 @@
         ],
         "type": "ch"
       },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Data Models Dictate Capabilities.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-11 23:53",
+        "aliases": [
+          "Data Models Dictate Capabilities"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
       "💎 003 GEMS/032 Evergreen/00 Programming/Consensus as a Fundamental Problem.md": {
         "banner": "[[Notes-2.jpg]]",
         "creation date": "2025-08-12 00:04",
@@ -1662,6 +1651,17 @@
           "🧠"
         ],
         "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Conditional_Agent - LangGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 03:19",
+        "aliases": [
+          "Conditional_Agent - LangGraph"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": null
       },
       "💎 003 GEMS/032 Evergreen/00 Programming/Classification.md": {
         "banner": "[[Notes-2.jpg]]",
@@ -1837,18 +1837,6 @@
         "category": "👔 Interview",
         "type": "people"
       },
-      "🌑 002 ROCKS/🔍 Theory/4 Different Kind of Luck.md": {
-        "creation date": "2025-07-21 21:27",
-        "aliases": [
-          "4 different kind of luck"
-        ],
-        "tags": [
-          "💬"
-        ],
-        "category": "🔍 theory",
-        "type": "Life",
-        "rating": 3
-      },
       "🌑 002 ROCKS/🔍 Theory/Survivorship Bias.md": {
         "creation date": "2025-07-21 22:39",
         "aliases": [
@@ -1897,6 +1885,18 @@
         "type": "framework",
         "rating": 5
       },
+      "🌑 002 ROCKS/🔍 Theory/4 Different Kind of Luck.md": {
+        "creation date": "2025-07-21 21:27",
+        "aliases": [
+          "4 different kind of luck"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "Life",
+        "rating": 3
+      },
       "🌑 002 ROCKS/📕 Books/Deep Work.md": {
         "banner": "![[image-6.png]]",
         "category": null,
@@ -1932,6 +1932,22 @@
         "created": "2025-08-19 20:29:39",
         "updated": "2025-08-19 20:29:39"
       },
+      "🌑 002 ROCKS/💼 Professional/We’ve structured today’s discussion into three parts, first, [A], then [B], and finally [C].md": {
+        "creation date": "2025-07-20 22:38",
+        "aliases": [
+          "We’ve structured today’s discussion into three parts",
+          "first",
+          "[A]",
+          "then [B]",
+          "and finally [C]"
+        ],
+        "tags": [
+          "💬",
+          "phase/💼 Professional"
+        ],
+        "category": "💼 Professional",
+        "type": "meeting"
+      },
       "🌑 002 ROCKS/💼 Professional/Thank you all for joining today. We’ll walk you through the key insights and next steps on topic. We’ve structured today’s discussion into three parts, first, A, then B, and finally C.md": {
         "creation date": "2025-07-20 22:37",
         "aliases": [
@@ -1948,22 +1964,6 @@
         "creation date": "2025-07-20 22:37",
         "aliases": [
           "Our goal today is to align on X and make a decision on Y."
-        ],
-        "tags": [
-          "💬",
-          "phase/💼 Professional"
-        ],
-        "category": "💼 Professional",
-        "type": "meeting"
-      },
-      "🌑 002 ROCKS/💼 Professional/We’ve structured today’s discussion into three parts, first, [A], then [B], and finally [C].md": {
-        "creation date": "2025-07-20 22:38",
-        "aliases": [
-          "We’ve structured today’s discussion into three parts",
-          "first",
-          "[A]",
-          "then [B]",
-          "and finally [C]"
         ],
         "tags": [
           "💬",
@@ -1997,22 +1997,22 @@
         "category": "Talk",
         "type": "late-back"
       },
-      "🌑 002 ROCKS/Favourite Quote/Successful people help other achieveing dream while achieve their own.md": {
-        "creation date": "2025-07-27 04:34",
+      "🌑 002 ROCKS/Favourite Quote/專注地做好一件事.md": {
+        "category": "📖 Favourite Quote",
+        "rating": 5,
+        "type": "Present"
+      },
+      "🌑 002 ROCKS/Favourite Quote/Your dream must be big enough to accommodated others' dreams.md": {
+        "creation date": "2025-07-27 04:42",
         "aliases": [
-          "Successful people help other achieve dream while achieve their own"
+          "Your dream must be big enough to accommodated others' dreams"
         ],
         "tags": [
           "💬"
         ],
         "category": "📖 Favourite Quote",
         "type": "Life",
-        "rating": 4
-      },
-      "🌑 002 ROCKS/Favourite Quote/專注地做好一件事.md": {
-        "category": "📖 Favourite Quote",
-        "rating": 5,
-        "type": "Present"
+        "rating": 4.5
       },
       "🌑 002 ROCKS/Favourite Quote/The unexamined life is not worth living, The unlifed life is not worth examining.md": {
         "creation date": "2025-07-20 19:58",
@@ -2027,18 +2027,6 @@
         "type": "Life",
         "rating": 5
       },
-      "🌑 002 ROCKS/Favourite Quote/Your dream must be big enough to accommodated others' dreams.md": {
-        "creation date": "2025-07-27 04:42",
-        "aliases": [
-          "Your dream must be big enough to accommodated others' dreams"
-        ],
-        "tags": [
-          "💬"
-        ],
-        "category": "📖 Favourite Quote",
-        "type": "Life",
-        "rating": 4.5
-      },
       "🌑 002 ROCKS/Favourite Quote/Future and past is the composition of present.md": {
         "creation date": "2025-07-22 02:49",
         "aliases": [
@@ -2050,6 +2038,18 @@
         "category": "📖 Favourite Quote",
         "type": "Present",
         "rating": 5
+      },
+      "🌑 002 ROCKS/Favourite Quote/Successful people help other achieveing dream while achieve their own.md": {
+        "creation date": "2025-07-27 04:34",
+        "aliases": [
+          "Successful people help other achieve dream while achieve their own"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Life",
+        "rating": 4
       },
       "🌑 002 ROCKS/Favourite Quote/Existence precedes Essence.md": {
         "rating": 5,
@@ -2083,10 +2083,6 @@
         "type": "people",
         "IMPORTANCE": 5
       },
-      "🌑 002 ROCKS/0231 YT/Zero-cost holding strategy(零成本持倉策略).md": {
-        "IMPORTANCE": 5,
-        "type": "trading"
-      },
       "🌑 002 ROCKS/0231 YT/七個可以提升人生上限的思維模型！.md": {
         "banner": "[[Archive-2.jpg]]",
         "banner_x": 0.5,
@@ -2096,6 +2092,10 @@
         ],
         "type": "mindset",
         "IMPORTANCE": 4
+      },
+      "🌑 002 ROCKS/0231 YT/Zero-cost holding strategy(零成本持倉策略).md": {
+        "IMPORTANCE": 5,
+        "type": "trading"
       },
       "🌑 002 ROCKS/0231 YT/\"大成若缺\"5条心法.md": {
         "banner": "[[Archive-2.jpg]]",
@@ -2111,19 +2111,6 @@
         "IMPORTANCE": null,
         "type": null
       },
-      "🌊 001 RIVER/014 BucketList/03 Skydive.md": {
-        "banner": "[[Research-2.jpg]]",
-        "creation date": "2025-07-19 05:17",
-        "tags": [
-          "🏗️"
-        ],
-        "priority": null,
-        "aliases": [
-          "Skydive"
-        ],
-        "type": "Life",
-        "complete": null
-      },
       "🌊 001 RIVER/014 BucketList/02 Open Water.md": {
         "banner": "[[Research-2.jpg]]",
         "creation date": "2025-07-19 03:55",
@@ -2133,6 +2120,19 @@
         "priority": null,
         "aliases": [
           "Open Water"
+        ],
+        "type": "Life",
+        "complete": null
+      },
+      "🌊 001 RIVER/014 BucketList/03 Skydive.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 05:17",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": null,
+        "aliases": [
+          "Skydive"
         ],
         "type": "Life",
         "complete": null
@@ -2150,6 +2150,15 @@
         "type": "Life",
         "complete": null
       },
+      "🌊 001 RIVER/013 Projects/Research Papers.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-21 00:04",
+        "tag": "🏗️",
+        "priority": "Main",
+        "aliases": "Research Papers",
+        "type": "Job",
+        "complete": null
+      },
       "🌊 001 RIVER/013 Projects/SaaS APP.md": {
         "banner": "[[Research-2.jpg]]",
         "creation date": "2025-07-19 03:52",
@@ -2163,13 +2172,13 @@
         "type": "Goal",
         "complete": null
       },
-      "🌊 001 RIVER/013 Projects/Research Papers.md": {
+      "🌊 001 RIVER/013 Projects/Open Water .md": {
         "banner": "[[Research-2.jpg]]",
-        "creation date": "2025-08-21 00:04",
+        "creation date": "2025-08-20 08:25",
         "tag": "🏗️",
         "priority": "Main",
-        "aliases": "Research Papers",
-        "type": "Job",
+        "aliases": "Open Water",
+        "type": "Goal",
         "complete": null
       },
       "🌊 001 RIVER/013 Projects/Play Pokemon with Reinforcement Learning.md": {
@@ -2181,15 +2190,6 @@
         "type": "Project",
         "complete": null
       },
-      "🌊 001 RIVER/013 Projects/Open Water .md": {
-        "banner": "[[Research-2.jpg]]",
-        "creation date": "2025-08-20 08:25",
-        "tag": "🏗️",
-        "priority": "Main",
-        "aliases": "Open Water",
-        "type": "Goal",
-        "complete": null
-      },
       "🌊 001 RIVER/013 Projects/Netfilx Portolio.md": {
         "banner": "[[Research-2.jpg]]",
         "creation date": "2025-08-20 08:45",
@@ -2197,7 +2197,8 @@
         "priority": "Side",
         "aliases": "Netfilx Portolio",
         "type": "Project",
-        "complete": null
+        "complete": null,
+        "Project": "Netfilx-portolio"
       },
       "🌊 001 RIVER/013 Projects/Landing CO-OP.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2251,7 +2252,7 @@
         "banner": "[[Research-2.jpg]]",
         "creation date": "2025-07-19 03:55",
         "tags": [
-          "🏗️"
+          "project"
         ],
         "priority": "*Side",
         "aliases": [
@@ -2263,7 +2264,8 @@
       "🌊 001 RIVER/013 Projects/Agent dating show.md": {
         "priority": "Side",
         "complete": null,
-        "type": "Project"
+        "type": "Project",
+        "Project": "Agent dating show"
       },
       "🌊 001 RIVER/013 Projects/AWS cert.md": {
         "banner": "[[Research-2.jpg]]",

@@ -28,7 +28,8 @@
     "Route": 16,
     "Resume": 17,
     "Lec": 18,
-    "Topic": 19
+    "Topic": 19,
+    "project": 20
   },
   "_version": 3
 }

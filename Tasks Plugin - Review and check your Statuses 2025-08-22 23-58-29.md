@@ -1,12 +1,6 @@
 # Review and check your Statuses
 
 ## About this file
-- [ ] #task Sample task 1: status symbol=`space` status name='Todo'
-- [X] #task Sample task 2: status symbol=`x` status name='Done'
-- [/] #task Sample task 3: status symbol=`/` status name='In Progress'
-- [-] #task Sample task 4: status symbol=`-` status name='Cancelled'
-
-
 # Code block
 ```tasks
 ```
