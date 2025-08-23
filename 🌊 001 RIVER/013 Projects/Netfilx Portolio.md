@@ -1,7 +1,7 @@
 ---
 banner: "[[Research-2.jpg]]"
 creation date: 2025-08-20 08:45
-tag: 🏗️
+tag: project
 priority: Side
 aliases: Netfilx Portolio
 type: Project
@@ -19,5 +19,4 @@ Project: Netfilx-portolio
 
 ## ✅  Tasks 任务
 - [ ] #task Finish Netfilx Portolio ⛔ xlf6sg ✅ 2025-08-22
-
-
+- [ ] hiii

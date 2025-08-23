@@ -6,6 +6,7 @@ priority: Main
 aliases: Open Water
 type: Goal
 complete:
+Project: Open-Water
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Open Water 

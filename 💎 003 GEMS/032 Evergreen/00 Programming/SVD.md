@@ -9,7 +9,7 @@ type: ml
 ---
 # SVD
 reading: https://gregorygundersen.com/blog/2018/12/10/svd/
-- [ ] finish this part (not too important)
+
 ## <u>Main points:</u>
 <u>For what data?</u>
 > -

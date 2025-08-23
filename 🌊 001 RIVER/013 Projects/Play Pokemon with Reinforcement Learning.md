@@ -6,6 +6,7 @@ priority: Side
 aliases: Play Pokemon with Reinforcement Learning
 type: Project
 complete:
+Project: AI-play-game
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Play Pokemon with Reinforcement Learning
@@ -18,7 +19,6 @@ complete:
 
 
 ## ✅  Tasks 任务
-
-
+- [ ] Ai play game
 
 

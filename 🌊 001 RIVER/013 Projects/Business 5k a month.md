@@ -8,6 +8,7 @@ aliases:
   - Business 5k a month
 type: Goal
 complete: false
+Project: Business-5k-a-month
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Business 5k a month
@@ -36,7 +37,7 @@ info@dentalland.ca
 
 > there's 2 type business
 ## ✅  Tasks 任务
-- [ ] Call 5 business 🔼 🔁 every day 🛫 2025-07-19
-- [ ] Demo ⏫ 📅 2025-07-28
+- [ ] Call 5 business #task 🔼 🔁 every day 🛫 2025-07-19
+- [ ] Demo #task ⏫ 📅 2025-07-28
 
 

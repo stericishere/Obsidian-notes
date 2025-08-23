@@ -8,6 +8,7 @@ aliases:
   - Landing CO-OP
 type: Job
 complete:
+Project: Landing-CO-OP
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Landing CO-OP
@@ -19,16 +20,6 @@ complete:
 
 
 ## ✅  Tasks 任务
-```tasks
-not done
-no due date
-```
+- [ ] Application for UTMIST #task #🏗️ ⏫ 📅 2025-08-23
 
-```tasks
-not done
-priority is above none
-```
-
-
-
-
+- [ ] Application for Hackthevally #task ⏳ 2025-08-23 🔼 

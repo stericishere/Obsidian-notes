@@ -8,6 +8,7 @@ aliases:
   - Contribute to Glass
 type: Job
 complete:
+Project: Contributing-to-Glass
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Contribute to Glass
@@ -19,7 +20,7 @@ complete:
 
 
 ## ✅  Tasks 任务
-
+- [ ] Contribute to Glass
 
 
 

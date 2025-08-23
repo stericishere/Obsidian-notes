@@ -119,7 +119,7 @@
     "targetFile": "QuickCapture.md",
     "placeholder": "Capture your thoughts...",
     "appendToFile": "append",
-    "targetType": "fixed",
+    "targetType": "daily-note",
     "targetHeading": "",
     "dailyNoteSettings": {
       "format": "YYYY-MM-DD",
@@ -226,20 +226,14 @@
   },
   "projectConfig": {
     "enableEnhancedProject": true,
-    "pathMappings": [
-      {
-        "pathPattern": "🌊 001 RIVER/013 Projects",
-        "projectName": "Projec",
-        "enabled": true
-      }
-    ],
+    "pathMappings": [],
     "metadataConfig": {
       "metadataKey": "project",
       "enabled": false,
       "detectionMethods": [
         {
           "type": "metadata",
-          "propertyKey": "project",
+          "propertyKey": "Project",
           "enabled": true
         },
         {
@@ -367,7 +361,7 @@
       "name": "Review",
       "icon": "eye",
       "type": "default",
-      "visible": true,
+      "visible": false,
       "hideCompletedAndAbandonedTasks": false,
       "filterRules": {},
       "filterBlanks": false
@@ -449,11 +443,8 @@
           "content",
           "priority",
           "dueDate",
-          "startDate",
           "scheduledDate",
-          "tags",
           "project",
-          "context",
           "filePath"
         ],
         "columnWidths": {
@@ -719,8 +710,81 @@
     "completedAt": ""
   },
   "enhancedProjectData": {
-    "fileProjectMap": {},
+    "fileProjectMap": {
+      "🌊 001 RIVER/013 Projects/Research Papers.md": {
+        "project": "Research-paper",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/SaaS APP.md": {
+        "project": "SaaS-app",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Open Water .md": {
+        "project": "Open-Water",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Play Pokemon with Reinforcement Learning.md": {
+        "project": "AI-play-game",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Netfilx Portolio.md": {
+        "project": "Netfilx-portolio",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Landing CO-OP.md": {
+        "project": "Landing-CO-OP",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Driver Licence.md": {
+        "project": "Driver-Licence",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Contribute to Glass.md": {
+        "project": "Contributing-to-Glass",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Business 5k a month.md": {
+        "project": "Business-5k-a-month",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Bi-weekly CoffeeChat.md": {
+        "project": "Bi-weekly-CoffeeChat",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/Agent dating show.md": {
+        "project": "Agent-dating-show",
+        "source": "Project",
+        "readonly": true
+      },
+      "🌊 001 RIVER/013 Projects/AWS cert.md": {
+        "project": "AWS-cert",
+        "source": "Project",
+        "readonly": true
+      }
+    },
     "fileMetadataMap": {
+      "hi.md": {
+        "aliases": [
+          "Obsidian Git同步",
+          "Git同步Obsidian"
+        ],
+        "tags": [
+          "Obsidian",
+          "Git",
+          "Sync"
+        ],
+        "status": "evergreen"
+      },
       "🗄 009 BINS · 存储/093 React components/birthday countdown.md": {
         "defines-react-components": true
       },
@@ -2157,7 +2221,8 @@
         "priority": "Main",
         "aliases": "Research Papers",
         "type": "Job",
-        "complete": null
+        "complete": null,
+        "Project": "Research-paper"
       },
       "🌊 001 RIVER/013 Projects/SaaS APP.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2170,7 +2235,8 @@
           "SaaS APP"
         ],
         "type": "Goal",
-        "complete": null
+        "complete": null,
+        "Project": "SaaS-app"
       },
       "🌊 001 RIVER/013 Projects/Open Water .md": {
         "banner": "[[Research-2.jpg]]",
@@ -2179,7 +2245,8 @@
         "priority": "Main",
         "aliases": "Open Water",
         "type": "Goal",
-        "complete": null
+        "complete": null,
+        "Project": "Open-Water"
       },
       "🌊 001 RIVER/013 Projects/Play Pokemon with Reinforcement Learning.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2188,12 +2255,13 @@
         "priority": "Side",
         "aliases": "Play Pokemon with Reinforcement Learning",
         "type": "Project",
-        "complete": null
+        "complete": null,
+        "Project": "AI-play-game"
       },
       "🌊 001 RIVER/013 Projects/Netfilx Portolio.md": {
         "banner": "[[Research-2.jpg]]",
         "creation date": "2025-08-20 08:45",
-        "tag": "🏗️",
+        "tag": "project",
         "priority": "Side",
         "aliases": "Netfilx Portolio",
         "type": "Project",
@@ -2211,7 +2279,8 @@
           "Landing CO-OP"
         ],
         "type": "Job",
-        "complete": null
+        "complete": null,
+        "Project": "Landing-CO-OP"
       },
       "🌊 001 RIVER/013 Projects/Driver Licence.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2220,7 +2289,8 @@
         "priority": "Main",
         "aliases": "Driver Licence",
         "type": "Goal",
-        "complete": false
+        "complete": false,
+        "Project": "Driver-Licence"
       },
       "🌊 001 RIVER/013 Projects/Contribute to Glass.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2233,7 +2303,8 @@
           "Contribute to Glass"
         ],
         "type": "Job",
-        "complete": null
+        "complete": null,
+        "Project": "Contributing-to-Glass"
       },
       "🌊 001 RIVER/013 Projects/Business 5k a month.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2246,7 +2317,8 @@
           "Business 5k a month"
         ],
         "type": "Goal",
-        "complete": false
+        "complete": false,
+        "Project": "Business-5k-a-month"
       },
       "🌊 001 RIVER/013 Projects/Bi-weekly CoffeeChat.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2259,13 +2331,14 @@
           "Bi-weekly CoffeeChat"
         ],
         "type": "Networking",
-        "complete": false
+        "complete": false,
+        "Project": "Bi-weekly-CoffeeChat"
       },
       "🌊 001 RIVER/013 Projects/Agent dating show.md": {
         "priority": "Side",
         "complete": null,
         "type": "Project",
-        "Project": "Agent dating show"
+        "Project": "Agent-dating-show"
       },
       "🌊 001 RIVER/013 Projects/AWS cert.md": {
         "banner": "[[Research-2.jpg]]",
@@ -2278,7 +2351,8 @@
           "AWS cert"
         ],
         "type": "Job",
-        "complete": null
+        "complete": null,
+        "Project": "AWS-cert"
       },
       "🌊 001 RIVER/012 People/👥 Birthday Calendar.md": {
         "banner": "[[Birthday-2.jpg]]"
@@ -2311,18 +2385,6 @@
       "🌊 001 RIVER/011 Daily/2025-08-17 Sun.md": {
         "banner": "[[Journal-2.jpg]]",
         "banner_x": 0.48709
-      },
-      "hi.md": {
-        "aliases": [
-          "Obsidian Git同步",
-          "Git同步Obsidian"
-        ],
-        "tags": [
-          "Obsidian",
-          "Git",
-          "Sync"
-        ],
-        "status": "evergreen"
       },
       "copilot-custom-prompts/Translate to Chinese.md": {
         "copilot-command-context-menu-enabled": true,

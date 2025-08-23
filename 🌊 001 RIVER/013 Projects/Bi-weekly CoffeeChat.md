@@ -8,6 +8,7 @@ aliases:
   - Bi-weekly CoffeeChat
 type: Networking
 complete: false
+Project: Bi-weekly-CoffeeChat
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Bi-weekly CoffeeChat
@@ -21,7 +22,7 @@ complete: false
 - when the next time?
 
 ## ✅  Tasks 任务
-- [ ] email Alex for update
+- [ ] Email Alex for money #project
 > should we charge people
 > What's our budget
 > how to make our coffee chat

@@ -6,6 +6,7 @@ priority: Main
 aliases: Research Papers
 type: Job
 complete:
+Project: Research-paper
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # Research Papers

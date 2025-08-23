@@ -8,6 +8,7 @@ aliases:
   - AWS cert
 type: Job
 complete:
+Project: AWS-cert
 ---
 [[✅ Manager#🏗️ Projects 项目|<< 🏗️ 项目主页]]
 # AWS cert
