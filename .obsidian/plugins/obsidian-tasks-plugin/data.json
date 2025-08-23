@@ -52,7 +52,7 @@
       },
       {
         "symbol": "-",
-        "name": "Cancelled",
+        "name": "cancelled",
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
@@ -60,14 +60,28 @@
       {
         "symbol": "!",
         "name": "important",
-        "nextStatusSymbol": " ",
+        "nextStatusSymbol": "/",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
-        "symbol": "",
-        "name": "",
-        "nextStatusSymbol": "",
+        "symbol": ">",
+        "name": "Waiting",
+        "nextStatusSymbol": "/",
+        "availableAsCommand": false,
+        "type": "IN_PROGRESS"
+      },
+      {
+        "symbol": "<",
+        "name": "scheduling",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
+        "symbol": "?",
+        "name": "question",
+        "nextStatusSymbol": "x",
         "availableAsCommand": false,
         "type": "TODO"
       }
