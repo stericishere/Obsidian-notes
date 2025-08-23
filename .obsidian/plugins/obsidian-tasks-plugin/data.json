@@ -58,6 +58,13 @@
         "type": "CANCELLED"
       },
       {
+        "symbol": "!",
+        "name": "important",
+        "nextStatusSymbol": " ",
+        "availableAsCommand": false,
+        "type": "TODO"
+      },
+      {
         "symbol": "",
         "name": "",
         "nextStatusSymbol": "",

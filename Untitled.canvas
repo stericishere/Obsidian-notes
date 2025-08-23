@@ -8,10 +8,20 @@
 				"textAlign":null,
 				"border":null
 			},
-			"x":-320,
-			"y":-680,
-			"width":400,
+			"x":-900,
+			"y":-840,
+			"width":420,
 			"height":480
+		},
+		{
+			"id":"99fd492812331521",
+			"type":"text",
+			"text":"‼️ IMPORTANT\n```tasks  \nfilter by function task.status.name === 'important'  \nshort mode  \n```\n",
+			"styleAttributes":{},
+			"x":-560,
+			"y":-600,
+			"width":400,
+			"height":360
 		}
 	],
 	"edges":[],
