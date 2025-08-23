@@ -13,7 +13,7 @@ Project: Research-paper
 
 ## 🗃️ Resources 资源
 - https://docs.google.com/forms/d/e/1FAIpQLSeIeHJjYNGP5EcERkFADJd-UFNe_Mpk5VBWeIh7U69Tol5rNQ/viewform
-- [ ] #task Talk to Max 🆔 xlf6sg ✅ 2025-08-22
+- [ ] Talk to Max #task #important 🆔 xlf6sg
 
 ## 📒 Notes 笔记
 
