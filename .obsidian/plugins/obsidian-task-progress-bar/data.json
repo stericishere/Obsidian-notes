@@ -1,0 +1,2419 @@
+{
+  "progressBarDisplayMode": "both",
+  "supportHoverToShowProgressInfo": false,
+  "addProgressBarToNonTaskBullet": false,
+  "addTaskProgressBarToHeading": false,
+  "enableProgressbarInReadingMode": false,
+  "countSubLevel": false,
+  "displayMode": "bracketFraction",
+  "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
+  "showPercentage": true,
+  "customizeProgressRanges": true,
+  "progressRanges": [
+    {
+      "min": 0,
+      "max": 20,
+      "text": "Just started {{PROGRESS}}%"
+    },
+    {
+      "min": 20,
+      "max": 40,
+      "text": "Making progress {{PROGRESS}}% "
+    },
+    {
+      "min": 40,
+      "max": 60,
+      "text": "Half way {{PROGRESS}}% "
+    },
+    {
+      "min": 60,
+      "max": 80,
+      "text": "Good progress {{PROGRESS}}% "
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "text": "Almost there {{PROGRESS}}% "
+    }
+  ],
+  "allowCustomProgressGoal": true,
+  "hideProgressBarBasedOnConditions": false,
+  "hideProgressBarTags": "no-progress,hide-progress",
+  "hideProgressBarFolders": "",
+  "hideProgressBarMetadata": "hide-progress-bar",
+  "showProgressBarBasedOnHeading": "",
+  "projectViewDefaultMode": "list",
+  "projectTreeAutoExpand": false,
+  "projectTreeShowEmptyFolders": false,
+  "projectPathSeparator": "/",
+  "autoCompleteParent": false,
+  "markParentInProgressWhenPartiallyComplete": false,
+  "taskStatuses": {
+    "completed": "x|X",
+    "inProgress": ">|/",
+    "abandoned": "-",
+    "planned": "?",
+    "notStarted": " "
+  },
+  "countOtherStatusesAs": "notStarted",
+  "excludeTaskMarks": "",
+  "useOnlyCountMarks": false,
+  "onlyCountTaskMarks": "x|X|>|/",
+  "enableTaskStatusSwitcher": true,
+  "enableCustomTaskMarks": false,
+  "enableTextMarkInSourceMode": false,
+  "enableCycleCompleteStatus": true,
+  "taskStatusCycle": [
+    "Not Started",
+    "In Progress",
+    "Completed",
+    "Abandoned",
+    "Planned"
+  ],
+  "taskStatusMarks": {
+    "Not Started": " ",
+    "In Progress": "/",
+    "Completed": "x",
+    "Abandoned": "-",
+    "Planned": "?"
+  },
+  "excludeMarksFromCycle": [],
+  "enableTaskGeniusIcons": false,
+  "enablePriorityPicker": true,
+  "enablePriorityKeyboardShortcuts": false,
+  "enableDatePicker": true,
+  "recurrenceDateBase": "due",
+  "taskFilter": {
+    "enableTaskFilter": true,
+    "presetTaskFilters": [
+      {
+        "id": "17559299352939z80epi94",
+        "name": "task",
+        "options": {
+          "includeCompleted": true,
+          "includeInProgress": true,
+          "includeAbandoned": true,
+          "includeNotStarted": true,
+          "includePlanned": true,
+          "includeParentTasks": true,
+          "includeChildTasks": true,
+          "includeSiblingTasks": false,
+          "advancedFilterQuery": "AND #task",
+          "filterMode": "INCLUDE"
+        }
+      }
+    ]
+  },
+  "taskGutter": {
+    "enableTaskGutter": false
+  },
+  "completedTaskMover": {
+    "enableCompletedTaskMover": true,
+    "taskMarkerType": "date",
+    "versionMarker": "version 1.0",
+    "dateMarker": "archived on {{date}}",
+    "customMarker": "moved {{DATE:YYYY-MM-DD HH:mm}}",
+    "treatAbandonedAsCompleted": false,
+    "completeAllMovedTasks": true,
+    "withCurrentFileLink": true,
+    "enableAutoMove": false,
+    "defaultTargetFile": "Archive.md",
+    "defaultInsertionMode": "end",
+    "defaultHeadingName": "Completed Tasks",
+    "enableIncompletedTaskMover": true,
+    "incompletedTaskMarkerType": "date",
+    "incompletedVersionMarker": "version 1.0",
+    "incompletedDateMarker": "moved on {{date}}",
+    "incompletedCustomMarker": "moved {{DATE:YYYY-MM-DD HH:mm}}",
+    "withCurrentFileLinkForIncompleted": true,
+    "enableIncompletedAutoMove": false,
+    "incompletedDefaultTargetFile": "Backlog.md",
+    "incompletedDefaultInsertionMode": "end",
+    "incompletedDefaultHeadingName": "Incomplete Tasks"
+  },
+  "quickCapture": {
+    "enableQuickCapture": true,
+    "targetFile": "QuickCapture.md",
+    "placeholder": "Capture your thoughts...",
+    "appendToFile": "append",
+    "targetType": "fixed",
+    "targetHeading": "",
+    "dailyNoteSettings": {
+      "format": "YYYY-MM-DD",
+      "folder": "",
+      "template": ""
+    },
+    "enableMinimalMode": false,
+    "minimalModeSettings": {
+      "suggestTrigger": "/"
+    }
+  },
+  "workflow": {
+    "enableWorkflow": true,
+    "autoAddTimestamp": true,
+    "timestampFormat": "YYYY-MM-DD HH:mm:ss",
+    "removeTimestampOnTransition": false,
+    "calculateSpentTime": false,
+    "spentTimeFormat": "HH:mm:ss",
+    "calculateFullSpentTime": false,
+    "autoRemoveLastStageMarker": false,
+    "autoAddNextTask": false,
+    "definitions": [
+      {
+        "id": "project_workflow",
+        "name": "Project Workflow",
+        "description": "Standard project management workflow",
+        "stages": [
+          {
+            "id": "planning",
+            "name": "Planning",
+            "type": "linear",
+            "next": "in_progress"
+          },
+          {
+            "id": "in_progress",
+            "name": "In Progress",
+            "type": "cycle",
+            "subStages": [
+              {
+                "id": "development",
+                "name": "Development",
+                "next": "testing"
+              },
+              {
+                "id": "testing",
+                "name": "Testing",
+                "next": "development"
+              }
+            ],
+            "canProceedTo": [
+              "review",
+              "cancelled"
+            ]
+          },
+          {
+            "id": "review",
+            "name": "Review",
+            "type": "cycle",
+            "canProceedTo": [
+              "in_progress",
+              "completed"
+            ]
+          },
+          {
+            "id": "completed",
+            "name": "Completed",
+            "type": "terminal"
+          },
+          {
+            "id": "cancelled",
+            "name": "Cancelled",
+            "type": "terminal"
+          }
+        ],
+        "metadata": {
+          "version": "1.0",
+          "created": "2024-03-20",
+          "lastModified": "2024-03-20"
+        }
+      }
+    ]
+  },
+  "useDailyNotePathAsDate": false,
+  "dailyNoteFormat": "yyyy-MM-dd",
+  "useAsDateType": "due",
+  "dailyNotePath": "",
+  "preferMetadataFormat": "tasks",
+  "projectTagPrefix": {
+    "tasks": "project",
+    "dataview": "project"
+  },
+  "contextTagPrefix": {
+    "tasks": "@",
+    "dataview": "context"
+  },
+  "areaTagPrefix": {
+    "tasks": "area",
+    "dataview": "area"
+  },
+  "fileMetadataInheritance": {
+    "enabled": true,
+    "inheritFromFrontmatter": true,
+    "inheritFromFrontmatterForSubtasks": false
+  },
+  "projectConfig": {
+    "enableEnhancedProject": true,
+    "pathMappings": [],
+    "metadataConfig": {
+      "metadataKey": "project",
+      "enabled": false,
+      "detectionMethods": [
+        {
+          "type": "metadata",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "tag",
+          "propertyKey": "project",
+          "enabled": false
+        },
+        {
+          "type": "link",
+          "propertyKey": "category",
+          "linkFilter": "",
+          "enabled": false
+        }
+      ]
+    },
+    "configFile": {
+      "fileName": "project.md",
+      "searchRecursively": false,
+      "enabled": false
+    },
+    "metadataMappings": [],
+    "defaultProjectNaming": {
+      "strategy": "filename",
+      "stripExtension": false,
+      "enabled": false
+    }
+  },
+  "fileParsingConfig": {
+    "enableFileMetadataParsing": false,
+    "metadataFieldsToParseAsTasks": [
+      "dueDate",
+      "todo",
+      "complete",
+      "task"
+    ],
+    "enableTagBasedTaskParsing": false,
+    "tagsToParseAsTasks": [
+      "#todo",
+      "#task",
+      "#action",
+      "#due"
+    ],
+    "taskContentFromMetadata": "title",
+    "defaultTaskStatus": " ",
+    "enableWorkerProcessing": true,
+    "enableMtimeOptimization": true,
+    "mtimeCacheSize": 10000
+  },
+  "useRelativeTimeForDate": false,
+  "ignoreHeading": "",
+  "focusHeading": "",
+  "enableView": true,
+  "enableInlineEditor": true,
+  "enableDynamicMetadataPositioning": true,
+  "defaultViewMode": "list",
+  "globalFilterRules": {},
+  "viewConfiguration": [
+    {
+      "id": "inbox",
+      "name": "Inbox",
+      "icon": "inbox",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "forecast",
+      "name": "Forecast",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "forecast",
+        "hideWeekends": false
+      }
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "icon": "folders",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "tags",
+      "name": "Tags",
+      "icon": "tag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "calendar",
+      "name": "Events",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "calendar",
+        "hideWeekends": false
+      }
+    },
+    {
+      "id": "kanban",
+      "name": "Status",
+      "icon": "kanban",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "kanban",
+        "showCheckbox": true,
+        "hideEmptyColumns": false,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "groupBy": "status"
+      }
+    },
+    {
+      "id": "table",
+      "name": "Table",
+      "icon": "table",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "table",
+        "enableTreeView": true,
+        "enableLazyLoading": true,
+        "pageSize": 50,
+        "enableInlineEditing": true,
+        "visibleColumns": [
+          "status",
+          "content",
+          "priority",
+          "dueDate",
+          "startDate",
+          "scheduledDate",
+          "tags",
+          "project",
+          "context",
+          "filePath"
+        ],
+        "columnWidths": {
+          "status": 80,
+          "content": 300,
+          "priority": 100,
+          "dueDate": 120,
+          "startDate": 120,
+          "scheduledDate": 120,
+          "createdDate": 120,
+          "completedDate": 120,
+          "tags": 150,
+          "project": 150,
+          "context": 120,
+          "recurrence": 120,
+          "estimatedTime": 120,
+          "actualTime": 120,
+          "filePath": 200
+        },
+        "sortableColumns": true,
+        "resizableColumns": true,
+        "showRowNumbers": true,
+        "enableRowSelection": true,
+        "enableMultiSelect": true,
+        "defaultSortField": "",
+        "defaultSortOrder": "asc"
+      }
+    },
+    {
+      "id": "flagged",
+      "name": "Flagged",
+      "icon": "flag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "icon": "eye",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "gantt",
+      "name": "Plan",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    },
+    {
+      "id": "habit",
+      "name": "Habit",
+      "icon": "calendar-clock",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "quadrant",
+      "name": "Matrix",
+      "icon": "layout-grid",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "quadrant",
+        "hideEmptyQuadrants": false,
+        "autoUpdatePriority": true,
+        "autoUpdateTags": true,
+        "showTaskCount": true,
+        "defaultSortField": "priority",
+        "defaultSortOrder": "desc",
+        "urgentTag": "#urgent",
+        "importantTag": "#important",
+        "urgentThresholdDays": 3,
+        "usePriorityForClassification": false,
+        "urgentPriorityThreshold": 4,
+        "importantPriorityThreshold": 3,
+        "customQuadrantColors": false,
+        "quadrantColors": {
+          "urgentImportant": "#dc3545",
+          "notUrgentImportant": "#28a745",
+          "urgentNotImportant": "#ffc107",
+          "notUrgentNotImportant": "#6c757d"
+        }
+      }
+    }
+  ],
+  "reviewSettings": {},
+  "rewards": {
+    "enableRewards": false,
+    "rewardItems": [
+      {
+        "id": "reward-tea",
+        "name": "Drink a cup of good tea",
+        "occurrence": "common",
+        "inventory": -1
+      },
+      {
+        "id": "reward-series-episode",
+        "name": "Watch an episode of a favorite series",
+        "occurrence": "rare",
+        "inventory": 20
+      },
+      {
+        "id": "reward-champagne-project",
+        "name": "Play a game",
+        "occurrence": "legendary",
+        "inventory": 1,
+        "condition": "#project AND #milestone"
+      },
+      {
+        "id": "reward-chocolate-quick",
+        "name": "Eat a piece of chocolate",
+        "occurrence": "common",
+        "inventory": 10,
+        "condition": "#quickwin",
+        "imageUrl": ""
+      }
+    ],
+    "occurrenceLevels": [
+      {
+        "name": "common",
+        "chance": 70
+      },
+      {
+        "name": "rare",
+        "chance": 25
+      },
+      {
+        "name": "legendary",
+        "chance": 5
+      }
+    ],
+    "showRewardType": "modal"
+  },
+  "habit": {
+    "enableHabits": true,
+    "habits": []
+  },
+  "filterConfig": {
+    "enableSavedFilters": true,
+    "savedConfigs": []
+  },
+  "sortTasks": true,
+  "sortCriteria": [
+    {
+      "field": "completed",
+      "order": "asc"
+    },
+    {
+      "field": "status",
+      "order": "asc"
+    },
+    {
+      "field": "priority",
+      "order": "asc"
+    },
+    {
+      "field": "dueDate",
+      "order": "asc"
+    }
+  ],
+  "autoDateManager": {
+    "enabled": true,
+    "manageCompletedDate": true,
+    "manageStartDate": true,
+    "manageCancelledDate": true,
+    "completedDateFormat": "YYYY-MM-DD",
+    "startDateFormat": "YYYY-MM-DD",
+    "cancelledDateFormat": "YYYY-MM-DD",
+    "completedDateMarker": "✅",
+    "startDateMarker": "🚀",
+    "cancelledDateMarker": "❌"
+  },
+  "betaTest": {
+    "enableBaseView": false
+  },
+  "icsIntegration": {
+    "sources": [],
+    "globalRefreshInterval": 60,
+    "maxCacheAge": 24,
+    "enableBackgroundRefresh": false,
+    "networkTimeout": 30,
+    "maxEventsPerSource": 1000,
+    "showInCalendar": false,
+    "showInTaskLists": false,
+    "defaultEventColor": "#3b82f6"
+  },
+  "timelineSidebar": {
+    "enableTimelineSidebar": false,
+    "autoOpenOnStartup": false,
+    "showCompletedTasks": true,
+    "focusModeByDefault": false,
+    "maxEventsToShow": 100,
+    "quickInputCollapsed": false,
+    "quickInputDefaultHeight": 150,
+    "quickInputAnimationDuration": 300,
+    "quickInputCollapseOnCapture": false,
+    "quickInputShowQuickActions": true
+  },
+  "fileFilter": {
+    "enabled": false,
+    "mode": "blacklist",
+    "rules": []
+  },
+  "onCompletion": {
+    "enableOnCompletion": true,
+    "defaultArchiveFile": "Archive/Completed Tasks.md",
+    "defaultArchiveSection": "Completed Tasks",
+    "showAdvancedOptions": false
+  },
+  "timeParsing": {
+    "enabled": true,
+    "supportedLanguages": [
+      "en",
+      "zh"
+    ],
+    "dateKeywords": {
+      "start": [
+        "start",
+        "begin",
+        "from",
+        "starting",
+        "begins",
+        "开始",
+        "从",
+        "起始",
+        "起",
+        "始于",
+        "自"
+      ],
+      "due": [
+        "due",
+        "deadline",
+        "by",
+        "until",
+        "before",
+        "expires",
+        "ends",
+        "截止",
+        "到期",
+        "之前",
+        "期限",
+        "最晚",
+        "结束",
+        "终止",
+        "完成于"
+      ],
+      "scheduled": [
+        "scheduled",
+        "on",
+        "at",
+        "planned",
+        "set for",
+        "arranged",
+        "安排",
+        "计划",
+        "在",
+        "定于",
+        "预定",
+        "约定",
+        "设定"
+      ]
+    },
+    "removeOriginalText": true,
+    "perLineProcessing": true,
+    "realTimeReplacement": true
+  },
+  "taskTimer": {
+    "enabled": false,
+    "metadataDetection": {
+      "frontmatter": "task-timer",
+      "folders": [],
+      "tags": [
+        "timer",
+        "tracked"
+      ]
+    },
+    "timeFormat": "{h}hrs {m}mins",
+    "blockRefPrefix": "timer"
+  },
+  "enableCustomDateFormats": false,
+  "customDateFormats": [],
+  "onboarding": {
+    "completed": true,
+    "version": "9.7.7",
+    "configMode": "advanced",
+    "skipOnboarding": false,
+    "completedAt": "2025-08-23T06:03:47.272Z"
+  },
+  "enhancedProjectData": {
+    "fileProjectMap": {},
+    "fileMetadataMap": {
+      "🗄 009 BINS · 存储/093 React components/birthday countdown.md": {
+        "defines-react-components": true
+      },
+      "🗄 009 BINS · 存储/091 Templates 模板/Create「📕 Books」.md": {
+        "banner": "[[{{localCoverImage}}]]",
+        "tag": "📚Book",
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}",
+        "author": [
+          {
+            "{ author }": null
+          }
+        ],
+        "category": [
+          {
+            "{ category }": null
+          }
+        ],
+        "publisher": {
+          "{ publisher }": null
+        },
+        "publish": {
+          "{ publishDate }": null
+        },
+        "total": {
+          "{ totalPage }": null
+        },
+        "cover": [
+          [
+            {
+              "{ localCoverImage }": null
+            }
+          ]
+        ],
+        "status": "unread",
+        "created": {
+          "{ DATE:YYYY-MM-DD HH:mm:ss }": null
+        },
+        "updated": {
+          "{ DATE:YYYY-MM-DD HH:mm:ss }": null
+        }
+      },
+      "🗄 009 BINS · 存储/091 Templates 模板/Create「⏲ Daily Note」.md": {
+        "number headings": "first-level 2, max 6, 1.1",
+        "banner": "[[Journal-2.jpg]]"
+      },
+      "🔨 004 TOOLS/041 Health/驼背.md": {
+        "banner": "[[Health-2.jpg]]",
+        "creation date": "2023-03-02 21:45",
+        "aliases": [
+          "驼背"
+        ],
+        "tags": [
+          "👨‍⚕"
+        ]
+      },
+      "🔨 004 TOOLS/041 Health/脱发.md": {
+        "banner": "[[Health-2.jpg]]",
+        "creation date": "2023-03-02 21:47",
+        "aliases": [
+          "脱发"
+        ],
+        "tags": [
+          "👨‍⚕"
+        ]
+      },
+      "💎 003 GEMS/CSC311/03-Unsupervised Learning/Autoencoders/Latent code.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-18 00:32",
+        "aliases": [
+          "Latent code"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/CSC311/03-Unsupervised Learning/Autoencoders/02 Bottleneck layer.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-17 21:06",
+        "aliases": [
+          "02 Bottleneck layer"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/CSC311/03-Unsupervised Learning/Autoencoders/01 Feed-forward neural net for input prediction.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-17 21:06",
+        "aliases": [
+          "01 Feed-forward neural net for input prediction"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/02 Philosophy/Cynicism (low-desire, minimalist lifestyle).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 16:30",
+        "aliases": [
+          "ml"
+        ],
+        "tags": [
+          "🤔"
+        ]
+      },
+      "💎 003 GEMS/032 Evergreen/02 Philosophy/Theory of Evolution by Natural Selection.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-21 21:48",
+        "aliases": null,
+        "tags": [
+          "🌲"
+        ]
+      },
+      "💎 003 GEMS/032 Evergreen/02 Philosophy/Nature (Physis) vs. Convention (Nomos).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 16:41",
+        "aliases": [
+          "Nature (Physis) vs. Convention (Nomos)"
+        ],
+        "tags": [
+          "🤔"
+        ]
+      },
+      "💎 003 GEMS/032 Evergreen/02 Philosophy/Epicureanism.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 17:20",
+        "aliases": [
+          "Epicureanism"
+        ],
+        "tags": [
+          "🤔"
+        ]
+      },
+      "💎 003 GEMS/032 Evergreen/一个普通的长青笔记.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2023-04-01 18:22",
+        "aliases": [
+          "一个普通的长青笔记"
+        ],
+        "tags": [
+          "🤔"
+        ]
+      },
+      "💎 003 GEMS/032 Evergreen/00 Prompt/Manus Prompt.md": {
+        "banner": "![[Notes-2.jpg]]",
+        "creation date": "2025-07-24 19:12",
+        "aliases": [
+          "Manus Prompt"
+        ],
+        "tags": [
+          "💡"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Prompt/ReAct.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 18:02",
+        "aliases": [
+          "ReAct"
+        ],
+        "tags": [
+          "💡"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/k-Means Clustering.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:32",
+        "aliases": [
+          "k-Means Clustering"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Unsupervised Learning.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 05:32",
+        "aliases": [
+          "Unsupervised Learning"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Unbundling Databases and Dataflow Architectures.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:07",
+        "aliases": [
+          "Unbundling Databases and Dataflow Architectures"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Type of AI agent.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 17:43",
+        "aliases": [
+          "Type of AI agent"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Transformer.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 19:48",
+        "aliases": [
+          "Transformer"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Training data.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:09",
+        "aliases": [
+          "Training data"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Total Ordering Enables Strong Consistency.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:04",
+        "aliases": [
+          "Total Ordering Enables Strong Consistency"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/The End-to-End Argument for Correctness.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:08",
+        "aliases": [
+          "The End-to-End Argument for Correctness"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Testing data.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:23",
+        "aliases": [
+          "Testing data"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Taskweaver.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-30 04:22",
+        "aliases": [
+          "Taskweaver"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/TF-IDF (Term Frequency–Inverse Document Frequency).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:29",
+        "aliases": [
+          "TF-IDF"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "em"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Support Vector Machines (SVM).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:54",
+        "aliases": [
+          "Support Vector Machines"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Supervised Learning.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 05:31",
+        "aliases": [
+          "Supervised Learning"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Simple AgentState - LangGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 02:45",
+        "aliases": [
+          "AgentState - LangGraph"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "state"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Sharding (Data Partitioning).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-25 00:14",
+        "aliases": [
+          "Sharding"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Conditional_Agent - LangGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 03:19",
+        "aliases": [
+          "Conditional_Agent - LangGraph"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Sequential Agent -LangGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 03:05",
+        "aliases": [
+          "Sequential_Agent.ipynb"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "state"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Scalability.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-11 23:49",
+        "aliases": [
+          "Scalability"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/SVD.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:41",
+        "aliases": [
+          "SVD"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/SOLID.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-26 12:25",
+        "aliases": [
+          "SOLID"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "pp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Replication.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-25 00:22",
+        "aliases": [
+          "Partitioning"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Replication Requires Change Management.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:06",
+        "aliases": [
+          "Replication Requires Change Management"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Relu function.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:18",
+        "aliases": [
+          "Relu function"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "af",
+        "banner_x": 0.499
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Reliability.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-27 05:06",
+        "aliases": [
+          "Reliability"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Recall.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 20:10",
+        "aliases": [
+          "Recall (Evaluation Metric)"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/ReWOO.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 17:55",
+        "aliases": [
+          "ReWOO"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "type"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/ReAct (Reasoning & Action).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 17:47",
+        "aliases": [
+          "ReAct (Reasoning & Action)"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "type"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Random Search.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:32",
+        "aliases": [
+          "Random Search"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Random Forest.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 22:25",
+        "aliases": [
+          "Random Forest"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/RNNs (Recurrent Neural Networks).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:03",
+        "aliases": [
+          "RNNs"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/QPS (Queries Per Second).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-25 00:06",
+        "aliases": [
+          "QPS (Queries Per Second)"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Precision.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:42",
+        "aliases": [
+          "Precision"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Partitioning for Scalability.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:06",
+        "aliases": [
+          "Partitioning for Scalability"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Overfitting and Underfitting.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 22:06",
+        "aliases": [
+          "Overfitting and Underfitting"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ch"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Optimization & Convexity.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 18:07",
+        "aliases": [
+          "Optimization"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/No Single Source of Truth in Distributed Systems.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:03",
+        "aliases": [
+          "No Single Source of Truth in Distributed Systems"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Neural Network.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:20",
+        "aliases": [
+          "Neural Networks"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Maintainability.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-11 23:52",
+        "aliases": [
+          "Maintainability"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/MVC (model - view - controller).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-26 19:09",
+        "aliases": [
+          "MVC (model - view - controller)"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "pp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/MLE & Bayesian Inference.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:28",
+        "aliases": [
+          "MLE & Bayesian Inference"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Log-Structured Data Storage.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:00",
+        "aliases": [
+          "Log-Structured Data Storage"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Linear Regression.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 18:47",
+        "aliases": [
+          "Linear Regression"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Learning Rate.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 02:21",
+        "aliases": [
+          "Learning Rate"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/LangGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-01 22:45",
+        "aliases": [
+          "LangGraph"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/LangChain.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-30 04:20",
+        "aliases": [
+          "LangChain"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/LSTM (Long Short-Term Memory).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:01",
+        "aliases": [
+          "LSTM (Long Short-Term Memory)"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/LLM Compiler.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 17:55",
+        "aliases": [
+          "LLM Compiler"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "type"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/JARVIS.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-30 04:22",
+        "aliases": [
+          "JARVIS"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Interaction of Web browser & Web server.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-26 19:13",
+        "aliases": [
+          "Interaction of Web browser & Web server"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "web"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Inherent Unreliability of Networks in Distributed Systems.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:02",
+        "aliases": [
+          "Inherent Unreliability of Networks in Distributed Systems"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Information Theory.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 18:12",
+        "aliases": [
+          "Information Theory"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Indexing for Efficient Retrieval.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:01",
+        "aliases": [
+          "Indexing for Efficient Retrieval"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Hyperparameters.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:26",
+        "aliases": [
+          "Hyperparameters"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Hyperparameter Tuning in the Cloud.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:33",
+        "aliases": [
+          "Hyperparameter Tuning in the Cloud"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Grid Search.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:31",
+        "aliases": [
+          "Grid Search"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Gradients & Matrix Decomposition.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:25",
+        "aliases": [
+          "Gradients & Matrix Decomposition"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Gradient vanishing & exploding.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:13",
+        "aliases": [
+          "Gradient vanishing"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ch",
+        "banner_x": 0.5
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Gradient descent.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:37",
+        "aliases": [
+          "Gradient descent"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/FNN (Feedforward Neural Network).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 02:28",
+        "aliases": [
+          "Feedforward Neural Network (FNN)"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Expectation–Maximization (EM) Algorithm.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:26",
+        "aliases": [
+          "Expectation–Maximization (EM) Algorithm"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Data Models Dictate Capabilities.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-11 23:53",
+        "aliases": [
+          "Data Models Dictate Capabilities"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Evaluation Metrics & Model Selection.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 20:04",
+        "aliases": [
+          "Evaluation Metrics & Model Selection"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Ethical Responsibility in Software Engineering.md": {
+        "banner": "![[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:09",
+        "aliases": [
+          "Ethical Responsibility in Software Engineering"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4",
+        "banner_x": 0.5
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Ensemble Methods.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:59",
+        "aliases": [
+          "Ensemble Methods"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Derived Data is Pervasive.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:07",
+        "aliases": [
+          "Derived Data is Pervasive"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Defining state.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-01 22:23",
+        "aliases": [
+          "Defining state"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "state"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Declarative vs. Imperative Query Languages.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-11 23:59",
+        "aliases": [
+          "Declarative vs. Imperative Query Languages"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Data Sparsity.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:28",
+        "aliases": [
+          "Data Sparsity"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ch"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Consensus as a Fundamental Problem.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:04",
+        "aliases": [
+          "Consensus as a Fundamental Problem"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Confusion Matrix.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 05:44",
+        "aliases": [
+          "Confusion Matrix"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ml"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Classification.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:09",
+        "aliases": [
+          "Classification"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Causality Defines Concurrency.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:03",
+        "aliases": [
+          "Causality Defines Concurrency"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/CSC311.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-07 19:25",
+        "aliases": [
+          "CSC311"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/CNN (Convolutional Neural Network).md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 01:44",
+        "aliases": [
+          "CNN"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Bias–Variance Tradeoff.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 22:15",
+        "aliases": [
+          "bias",
+          "variance tradeoff"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "ch"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Bayesian Optimization.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-02 01:34",
+        "aliases": [
+          "Bayesian Optimization"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/AutoGen.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-30 04:21",
+        "aliases": [
+          "AutoGen"
+        ],
+        "tags": [
+          "🤖"
+        ],
+        "type": "fw"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Attention Mechanism.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-22 03:45",
+        "aliases": [
+          "Attention Mechanism"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": "dp"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/Accuracy.md": {
+        "banner": "![[Notes-2.jpg]]",
+        "creation date": "2025-08-15 19:40",
+        "aliases": [
+          "Accuracy"
+        ],
+        "tags": [
+          "🧠"
+        ],
+        "type": null,
+        "banner_x": 0.5,
+        "banner_y": 0.47115
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/ACID Properties of Transactions.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-12 00:05",
+        "aliases": [
+          "ACID Properties of Transactions"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "l4"
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/A single Node langGraph.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-08-01 23:07",
+        "aliases": null,
+        "tags": [
+          "🤖"
+        ],
+        "type": null
+      },
+      "💎 003 GEMS/032 Evergreen/00 Programming/3 ways to scale a database.md": {
+        "banner": "[[Notes-2.jpg]]",
+        "creation date": "2025-07-24 23:45",
+        "aliases": [
+          "3 ways to scale a database"
+        ],
+        "tags": [
+          "👨‍💻"
+        ],
+        "type": "db"
+      },
+      "🌑 002 ROCKS/🧠 Framework/Put the focus on People, Instead of the Matter.md": {
+        "creation date": "2025-07-27 04:27",
+        "aliases": [
+          "Put the focus on People",
+          "Instead of the matter"
+        ],
+        "tags": [
+          "💬",
+          "phase/📜 Life"
+        ],
+        "category": "📜 Life",
+        "type": "people"
+      },
+      "🌑 002 ROCKS/🧠 Framework/OKR (Objectives and key results).md": {
+        "rating": 5,
+        "type": "Life"
+      },
+      "🌑 002 ROCKS/🧠 Framework/Describe the fact --> Emphasize understanding --> Express feelings --> Make a appeal.md": {
+        "creation date": "2025-07-21 21:14",
+        "aliases": [
+          "Describe the fact --> Emphasize understanding --> Express feelings --> Make a appeal"
+        ],
+        "tags": [
+          "💬",
+          "phase/🧑‍🤝‍🧑 Talking"
+        ],
+        "category": "🧑‍🤝‍🧑 Talking",
+        "type": "people"
+      },
+      "🌑 002 ROCKS/🧠 Framework/Context -> Action -> Result -> Learning (CARL).md": {
+        "creation date": "2025-07-20 21:22",
+        "aliases": [
+          "Context -> Action -> Result -> Learning (CARL)"
+        ],
+        "tags": [
+          "💬",
+          "phase/👔 Interview"
+        ],
+        "category": "👔 Interview",
+        "type": "people"
+      },
+      "🌑 002 ROCKS/🔍 Theory/4 Different Kind of Luck.md": {
+        "creation date": "2025-07-21 21:27",
+        "aliases": [
+          "4 different kind of luck"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "Life",
+        "rating": 3
+      },
+      "🌑 002 ROCKS/🔍 Theory/Survivorship Bias.md": {
+        "creation date": "2025-07-21 22:39",
+        "aliases": [
+          "Survivorship Bias"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "Decision",
+        "rating": 2
+      },
+      "🌑 002 ROCKS/🔍 Theory/Mosquito framework.md": {
+        "creation date": "2025-07-21 21:47",
+        "aliases": [
+          "Theory of Evolution"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "Life",
+        "rating": 3.5
+      },
+      "🌑 002 ROCKS/🔍 Theory/Mehrabian Principle (7-38-55).md": {
+        "creation date": "2025-07-21 21:58",
+        "aliases": [
+          "Mehrabian Principle (7-38-55"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "people",
+        "rating": 4
+      },
+      "🌑 002 ROCKS/🔍 Theory/5 Rules to Be Water.md": {
+        "creation date": "2025-07-21 22:32",
+        "aliases": [
+          "Five Heart Methods"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "🔍 theory",
+        "type": "framework",
+        "rating": 5
+      },
+      "🌑 002 ROCKS/📕 Books/Deep Work.md": {
+        "banner": "![[image-6.png]]",
+        "category": null,
+        "tag": "📚Book",
+        "rating": null,
+        "type": "productive",
+        "cover": [
+          [
+            "image-6.png"
+          ]
+        ]
+      },
+      "🌑 002 ROCKS/📕 Books/AI Engineering - Chip Huyen.md": {
+        "banner": "[[🗄 009 BINS · 存储/092 Attachments 附件/AI Engineering - Chip Huyen.jpg]]",
+        "tag": "📚Book",
+        "title": "AI Engineering",
+        "subtitle": "",
+        "author": [
+          "Chip Huyen"
+        ],
+        "category": [
+          "Computers"
+        ],
+        "publisher": "O'Reilly Media, Inc.",
+        "publish": "2024-12-04",
+        "total": 535,
+        "cover": [
+          [
+            "🗄 009 BINS · 存储/092 Attachments 附件/AI Engineering - Chip Huyen.jpg"
+          ]
+        ],
+        "status": "unread",
+        "created": "2025-08-19 20:29:39",
+        "updated": "2025-08-19 20:29:39"
+      },
+      "🌑 002 ROCKS/💼 Professional/Thank you all for joining today. We’ll walk you through the key insights and next steps on topic. We’ve structured today’s discussion into three parts, first, A, then B, and finally C.md": {
+        "creation date": "2025-07-20 22:37",
+        "aliases": [
+          "Thank you all for joining today. We’ll walk you through the key insights and next steps on [topic]."
+        ],
+        "tags": [
+          "💬",
+          "phase/💼 Professional"
+        ],
+        "category": "💼 Professional",
+        "type": "meeting"
+      },
+      "🌑 002 ROCKS/💼 Professional/Our goal today is to align on X and make a decision on Y.md": {
+        "creation date": "2025-07-20 22:37",
+        "aliases": [
+          "Our goal today is to align on X and make a decision on Y."
+        ],
+        "tags": [
+          "💬",
+          "phase/💼 Professional"
+        ],
+        "category": "💼 Professional",
+        "type": "meeting"
+      },
+      "🌑 002 ROCKS/💼 Professional/We’ve structured today’s discussion into three parts, first, [A], then [B], and finally [C].md": {
+        "creation date": "2025-07-20 22:38",
+        "aliases": [
+          "We’ve structured today’s discussion into three parts",
+          "first",
+          "[A]",
+          "then [B]",
+          "and finally [C]"
+        ],
+        "tags": [
+          "💬",
+          "phase/💼 Professional"
+        ],
+        "category": "💼 Professional",
+        "type": "meeting"
+      },
+      "🌑 002 ROCKS/💼 Professional/Before we dive in, let me quickly set the frame for today’s conversation.md": {
+        "creation date": "2025-07-20 22:39",
+        "aliases": [
+          "Before we dive in",
+          "let me quickly set the frame for today’s conversation."
+        ],
+        "tags": [
+          "💬",
+          "phase/💼 Professional"
+        ],
+        "category": "💼 Professional",
+        "type": "meeting"
+      },
+      "🌑 002 ROCKS/💬 Talk/that's a really good question, I might actually need some time to think about it, lemme tell the answer you late tonight.md": {
+        "creation date": "2025-07-27 03:56",
+        "aliases": [
+          "that's a really good question",
+          "I'd need to spend some time to actually think about it"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "Talk",
+        "type": "late-back"
+      },
+      "🌑 002 ROCKS/Favourite Quote/Successful people help other achieveing dream while achieve their own.md": {
+        "creation date": "2025-07-27 04:34",
+        "aliases": [
+          "Successful people help other achieve dream while achieve their own"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Life",
+        "rating": 4
+      },
+      "🌑 002 ROCKS/Favourite Quote/專注地做好一件事.md": {
+        "category": "📖 Favourite Quote",
+        "rating": 5,
+        "type": "Present"
+      },
+      "🌑 002 ROCKS/Favourite Quote/The unexamined life is not worth living, The unlifed life is not worth examining.md": {
+        "creation date": "2025-07-20 19:58",
+        "aliases": [
+          "The unexamined life is not worth living",
+          "the unlifed life is not worth examining"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Life",
+        "rating": 5
+      },
+      "🌑 002 ROCKS/Favourite Quote/Your dream must be big enough to accommodated others' dreams.md": {
+        "creation date": "2025-07-27 04:42",
+        "aliases": [
+          "Your dream must be big enough to accommodated others' dreams"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Life",
+        "rating": 4.5
+      },
+      "🌑 002 ROCKS/Favourite Quote/Future and past is the composition of present.md": {
+        "creation date": "2025-07-22 02:49",
+        "aliases": [
+          "Future and past is the compresstion of present"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Present",
+        "rating": 5
+      },
+      "🌑 002 ROCKS/Favourite Quote/Existence precedes Essence.md": {
+        "rating": 5,
+        "type": "Life",
+        "by": null,
+        "category": "📖 Favourite Quote",
+        "tags": [
+          "💬"
+        ]
+      },
+      "🌑 002 ROCKS/Favourite Quote/Doing ur best means leverage all the resource you have, not only ur abilities.md": {
+        "creation date": "2025-07-27 04:26",
+        "aliases": [
+          "Doing ur best means leverage all the resource you have",
+          "not only ur abilities"
+        ],
+        "tags": [
+          "💬"
+        ],
+        "category": "📖 Favourite Quote",
+        "type": "Life",
+        "rating": 5
+      },
+      "🌑 002 ROCKS/0231 YT/四個方法教你如何去“對人不對事”、升級金錢格局！.md": {
+        "banner": "[[Archive-2.jpg]]",
+        "banner_x": 0.5,
+        "author": null,
+        "tags": [
+          "📺"
+        ],
+        "type": "people",
+        "IMPORTANCE": 5
+      },
+      "🌑 002 ROCKS/0231 YT/Zero-cost holding strategy(零成本持倉策略).md": {
+        "IMPORTANCE": 5,
+        "type": "trading"
+      },
+      "🌑 002 ROCKS/0231 YT/七個可以提升人生上限的思維模型！.md": {
+        "banner": "[[Archive-2.jpg]]",
+        "banner_x": 0.5,
+        "author": null,
+        "tags": [
+          "📺"
+        ],
+        "type": "mindset",
+        "IMPORTANCE": 4
+      },
+      "🌑 002 ROCKS/0231 YT/\"大成若缺\"5条心法.md": {
+        "banner": "[[Archive-2.jpg]]",
+        "banner_x": 0.5,
+        "author": null,
+        "tags": [
+          "📺"
+        ],
+        "type": "mindset",
+        "IMPORTANCE": 5
+      },
+      "🌑 002 ROCKS/023 Internet/0231 YT/null.md": {
+        "IMPORTANCE": null,
+        "type": null
+      },
+      "🌊 001 RIVER/014 BucketList/03 Skydive.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 05:17",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": null,
+        "aliases": [
+          "Skydive"
+        ],
+        "type": "Life",
+        "complete": null
+      },
+      "🌊 001 RIVER/014 BucketList/02 Open Water.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:55",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": null,
+        "aliases": [
+          "Open Water"
+        ],
+        "type": "Life",
+        "complete": null
+      },
+      "🌊 001 RIVER/014 BucketList/01 Driver license.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:56",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": null,
+        "aliases": [
+          "Driver license"
+        ],
+        "type": "Life",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/SaaS APP.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:52",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "Main",
+        "aliases": [
+          "SaaS APP"
+        ],
+        "type": "Goal",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Research Papers.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-21 00:04",
+        "tag": "🏗️",
+        "priority": "Main",
+        "aliases": "Research Papers",
+        "type": "Job",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Play Pokemon with Reinforcement Learning.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-19 20:07",
+        "tag": "🏗️",
+        "priority": "Side",
+        "aliases": "Play Pokemon with Reinforcement Learning",
+        "type": "Project",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Open Water .md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-20 08:25",
+        "tag": "🏗️",
+        "priority": "Main",
+        "aliases": "Open Water",
+        "type": "Goal",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Netfilx Portolio.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-20 08:45",
+        "tag": "🏗️",
+        "priority": "Side",
+        "aliases": "Netfilx Portolio",
+        "type": "Project",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Landing CO-OP.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:56",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "*Main",
+        "aliases": [
+          "Landing CO-OP"
+        ],
+        "type": "Job",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Driver Licence.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-08-20 08:26",
+        "tag": "🏗️",
+        "priority": "Main",
+        "aliases": "Driver Licence",
+        "type": "Goal",
+        "complete": false
+      },
+      "🌊 001 RIVER/013 Projects/Contribute to Glass.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-23 01:35",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "Side",
+        "aliases": [
+          "Contribute to Glass"
+        ],
+        "type": "Job",
+        "complete": null
+      },
+      "🌊 001 RIVER/013 Projects/Business 5k a month.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:48",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "*Main",
+        "aliases": [
+          "Business 5k a month"
+        ],
+        "type": "Goal",
+        "complete": false
+      },
+      "🌊 001 RIVER/013 Projects/Bi-weekly CoffeeChat.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 03:55",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "*Side",
+        "aliases": [
+          "Bi-weekly CoffeeChat"
+        ],
+        "type": "Networking",
+        "complete": false
+      },
+      "🌊 001 RIVER/013 Projects/Agent dating show.md": {
+        "priority": "Side",
+        "complete": null,
+        "type": "Project"
+      },
+      "🌊 001 RIVER/013 Projects/AWS cert.md": {
+        "banner": "[[Research-2.jpg]]",
+        "creation date": "2025-07-19 05:20",
+        "tags": [
+          "🏗️"
+        ],
+        "priority": "Side",
+        "aliases": [
+          "AWS cert"
+        ],
+        "type": "Job",
+        "complete": null
+      },
+      "🌊 001 RIVER/012 People/👥 Birthday Calendar.md": {
+        "banner": "[[Birthday-2.jpg]]"
+      },
+      "🌊 001 RIVER/012 People/Jay.md": {
+        "banner": "[[People-2.jpg]]",
+        "tags": [
+          "👤"
+        ],
+        "aliases": null,
+        "birthday": null,
+        "type": null
+      },
+      "🌊 001 RIVER/011 Daily/2025-08-25 Mon.md": {
+        "number headings": "first-level 2, max 6, 1.1",
+        "banner": "[[Journal-2.jpg]]"
+      },
+      "🌊 001 RIVER/011 Daily/2025-08-20 Wed.md": {
+        "number headings": "first-level 2, max 6, 1.1",
+        "banner": "[[Journal-2.jpg]]"
+      },
+      "🌊 001 RIVER/011 Daily/2025-08-19 Tue.md": {
+        "banner": "[[Journal-2.jpg]]",
+        "banner_x": 0.48709
+      },
+      "🌊 001 RIVER/011 Daily/2025-08-18 Mon.md": {
+        "banner": "[[Journal-2.jpg]]",
+        "banner_x": 0.48709
+      },
+      "🌊 001 RIVER/011 Daily/2025-08-17 Sun.md": {
+        "banner": "[[Journal-2.jpg]]",
+        "banner_x": 0.48709
+      },
+      "hi.md": {
+        "aliases": [
+          "Obsidian Git同步",
+          "Git同步Obsidian"
+        ],
+        "tags": [
+          "Obsidian",
+          "Git",
+          "Sync"
+        ],
+        "status": "evergreen"
+      },
+      "copilot-custom-prompts/Translate to Chinese.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1010,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Summarize.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1020,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Simplify.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1030,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Rewrite as tweet.md": {
+        "copilot-command-context-menu-enabled": false,
+        "copilot-command-slash-enabled": false,
+        "copilot-command-context-menu-order": 1110,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Rewrite as tweet thread.md": {
+        "copilot-command-context-menu-enabled": false,
+        "copilot-command-slash-enabled": false,
+        "copilot-command-context-menu-order": 1120,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Remove URLs.md": {
+        "copilot-command-context-menu-enabled": false,
+        "copilot-command-slash-enabled": false,
+        "copilot-command-context-menu-order": 1100,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Make shorter.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1060,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Make longer.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1070,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Generate table of contents.md": {
+        "copilot-command-context-menu-enabled": false,
+        "copilot-command-slash-enabled": false,
+        "copilot-command-context-menu-order": 1080,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Generate glossary.md": {
+        "copilot-command-context-menu-enabled": false,
+        "copilot-command-slash-enabled": false,
+        "copilot-command-context-menu-order": 1090,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Fix grammar and spelling.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1000,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Explain like I am 5.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1040,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      },
+      "copilot-custom-prompts/Emojify.md": {
+        "copilot-command-context-menu-enabled": true,
+        "copilot-command-slash-enabled": true,
+        "copilot-command-context-menu-order": 1050,
+        "copilot-command-model-key": "",
+        "copilot-command-last-used": 0
+      }
+    },
+    "projectConfigMap": {}
+  }
+}

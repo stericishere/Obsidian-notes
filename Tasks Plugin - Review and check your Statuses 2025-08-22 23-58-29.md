@@ -5,12 +5,8 @@
 - [X] #task Sample task 2: status symbol=`x` status name='Done'
 - [/] #task Sample task 3: status symbol=`/` status name='In Progress'
 - [-] #task Sample task 4: status symbol=`-` status name='Cancelled'
-- [!] #task important
-- [>] #task wating
-- [@] #task contact ✅ 2025-08-23
-- [i] idea
-- [<] #task scheduling ✅ 2025-08-23
-- [?] question 
+
+
 # Code block
 ```tasks
 ```
