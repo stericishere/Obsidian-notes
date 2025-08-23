@@ -3,14 +3,14 @@
 		{
 			"id":"6d8fbf97c536cf05",
 			"type":"text",
-			"text":"``` tasks\ndone\npath does not include 从这里开始\ngroup by due\nsort by priority\nshort mode\n```\n",
+			"text":"``` tasks\nnot done\npath does not include 从这里开始\ngroup by due\nsort by priority\nshort mode\n```\n",
 			"styleAttributes":{
 				"textAlign":null,
 				"border":null
 			},
-			"x":-320,
-			"y":-680,
-			"width":400,
+			"x":-340,
+			"y":-760,
+			"width":420,
 			"height":480
 		}
 	],
