@@ -29,7 +29,8 @@
     "Resume": 17,
     "Lec": 18,
     "Topic": 19,
-    "project": 20
+    "project": 20,
+    "tas": 21
   },
   "_version": 3
 }

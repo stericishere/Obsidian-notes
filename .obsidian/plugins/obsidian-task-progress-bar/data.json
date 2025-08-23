@@ -115,11 +115,11 @@
     "incompletedDefaultHeadingName": "Incomplete Tasks"
   },
   "quickCapture": {
-    "enableQuickCapture": false,
+    "enableQuickCapture": true,
     "targetFile": "QuickCapture.md",
     "placeholder": "Capture your thoughts...",
     "appendToFile": "append",
-    "targetType": "daily-note",
+    "targetType": "fixed",
     "targetHeading": "",
     "dailyNoteSettings": {
       "format": "YYYY-MM-DD",
@@ -254,13 +254,7 @@
       "searchRecursively": false,
       "enabled": false
     },
-    "metadataMappings": [
-      {
-        "sourceKey": "",
-        "targetKey": "project",
-        "enabled": true
-      }
-    ],
+    "metadataMappings": [],
     "defaultProjectNaming": {
       "strategy": "filename",
       "stripExtension": false,
