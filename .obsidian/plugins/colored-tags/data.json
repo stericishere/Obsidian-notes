@@ -32,7 +32,16 @@
     "project": 20,
     "tas": 21,
     "urgent": 22,
-    "important": 23
+    "important": 23,
+    "day": 24,
+    "day/review": 1,
+    "day/changes": 2,
+    "day/aff": 3,
+    "day/affirmation": 4,
+    "day/action": 5,
+    "day/plan": 6,
+    "day/highlight": 7,
+    "day/insight": 8
   },
   "_version": 3
 }

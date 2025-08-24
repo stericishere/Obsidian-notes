@@ -20,7 +20,7 @@ banner: "[[Journal-2.jpg]]"
 
 ![[📖 Favourite Quote.base#Random]]
 ## Time-Block:
-### ✅ Tasks that I want to Finish today:
+### ✅ Tasks that I want to Finish today
 ```tasks
 due after {{query.file.filenameWithoutExtension}}
 not done
@@ -86,15 +86,17 @@ not done
 _“You are 42% more likely to achieve your goals, simply by writing them down on a regular basis.”_
 
 1. **What the most IMPORTANT Thing I've done today**
-	> 
-2. **What do I need to stop doing and start doing?**
-	> 
-3. **What Im grateful for?**
-	> I
-4. **How can I make TMR even better?**
-	> 
-5. **Top 3 priority TMR??**
-	> 
+	> #day/review
+2. **What the HIGHLIGHT of the day and Im grateful for or **?**
+	> #day/highlight
+3. **What's something I'm proud of today?**
+	> #day/affirmation
+4. **What do I need to stop doing and start doing?**
+	> #day/insight
+5. **How can I make TMR even better?**
+	> #day/action
+6. **Top 3 priority TMR??**
+	> #day/plan
 ---
 ## Notes Created / Modified Today
 ```dataview
@@ -109,4 +111,4 @@ sort file.mtime desc
 🏃‍♂️ [exercise ::] 
 🔖 [reading ::] 
 🎓 [learning ::]
-<% tp.file.move ("/🌊 001 RIVER/01 My Journal/ Daily/"+ `${title}`) %>
+<% tp.file.move ("/🌊 001 RIVER/01 My Journal/ 01 Daily/"+ `${title}`) %>
