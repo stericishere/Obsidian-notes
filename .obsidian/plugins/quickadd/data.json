@@ -321,6 +321,34 @@
         "name": "读书笔记",
         "commands": []
       }
+    },
+    {
+      "id": "582d04f9-7c41-4372-9ad5-53ad4cc66e81",
+      "name": "New Weekly Plan",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Create「⏲ Weekly Note」.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "multi-line",

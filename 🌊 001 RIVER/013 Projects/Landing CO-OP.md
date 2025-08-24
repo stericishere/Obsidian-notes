@@ -20,6 +20,6 @@ Project: Landing-CO-OP
 
 
 ## ✅  Tasks 任务
-- [ ] Application for UTMIST #task #🏗️ ⏫ 📅 2025-08-23
+- [ ] Application for UTMIST #task #🏗️ ⏫ 📅 2025-08-24
 
 - [ ] Application for Hackthevally #task ⏳ 2025-08-23 🔼 

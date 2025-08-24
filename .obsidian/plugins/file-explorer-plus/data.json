@@ -57,13 +57,6 @@
       {
         "name": "",
         "active": true,
-        "type": "FILES_AND_DIRECTORIES",
-        "pattern": "",
-        "patternType": "WILDCARD"
-      },
-      {
-        "name": "",
-        "active": true,
         "type": "DIRECTORIES",
         "pattern": "🗄 009 BINS · 存储",
         "patternType": "STRICT"

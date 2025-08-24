@@ -10,7 +10,7 @@
   },
   "weekly": {
     "format": "",
-    "template": "",
+    "template": "Create「⏲ Weekly Note」.md",
     "folder": "🌊 001 RIVER/01 My Journal/02 Weekly",
     "enabled": true
   },
