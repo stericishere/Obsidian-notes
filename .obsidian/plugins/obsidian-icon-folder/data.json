@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCalendarWeek",
+      "🌗",
+      "🈷",
       "SiMinds",
-      "SiYoutube",
-      "LiMessageSquareQuote",
-      "🍠",
-      "LiBriefcaseBusiness"
+      "SiYoutube"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,7 +39,6 @@
   "🗄 009 BINS · 存储/093 React components": "IbEye",
   "🗄 009 BINS · 存储/094 Guide 说明": "RiQuestionFill",
   "🌊 001 RIVER/012 People": "RiContactsFill",
-  "🌊 001 RIVER/011 Daily": "FasCalendar",
   "💎 003 GEMS/031 MOC 导航笔记": "FasGlobe",
   "💎 003 GEMS/033 Output": "FasPenClip",
   "💎 003 GEMS/032 Evergreen": "FasTree",
@@ -51,5 +50,9 @@
   "🌑 002 ROCKS/0231 YT": "SiYoutube",
   "🌑 002 ROCKS/Favourite Quote": "LiMessageSquareQuote",
   "🌑 002 ROCKS/Youtube.base": "SiYoutube",
-  "🌊 001 RIVER/021 Inbox 收件箱": "FasInbox"
+  "🌊 001 RIVER/021 Inbox 收件箱": "FasInbox",
+  "🌊 001 RIVER/01 My Journal/01 Daily": "FasCalendar",
+  "🌊 001 RIVER/01 My Journal/02 Weekly": "FasCalendarWeek",
+  "🌊 001 RIVER/01 My Journal/03 Monthly": "🈷",
+  "🌊 001 RIVER/01 My Journal/04 Quarterly": "🌗"
 }

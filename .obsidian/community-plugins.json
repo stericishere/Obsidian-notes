@@ -34,7 +34,6 @@
   "obsidian42-brat",
   "file-explorer-note-count",
   "ninja-cursor",
-  "omnisearch",
   "colored-tags",
   "interactive-ratings",
   "file-explorer-plus",
@@ -43,5 +42,6 @@
   "simple-canvasearch",
   "chronos",
   "d2-obsidian",
-  "obsidian-task-progress-bar"
+  "obsidian-task-progress-bar",
+  "omnisearch"
 ]
