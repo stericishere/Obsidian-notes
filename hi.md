@@ -23,7 +23,7 @@ status: evergreen
 2.  **在你的电脑上已安装 Git**: 可以从 [git-scm.com](https://git-scm.com/downloads) 下载安装。
 
 ---
-[[Create「⏲ Weekly Note」#📕 Dairy]]
+[[Create「🔄 Weekly Note」#📕 Dairy]]
 
 ## 步骤简介
 | 步骤    | 核心任务       | 全新仓库的操作                            | 已有仓库的操作                            |

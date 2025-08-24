@@ -41,7 +41,16 @@
     "day/action": 5,
     "day/plan": 6,
     "day/highlight": 7,
-    "day/insight": 8
+    "day/insight": 8,
+    "day/feeling": 9,
+    "monthly": 25,
+    "monthly/review": 1,
+    "weekly": 26,
+    "weekly/review": 1,
+    "Monly": 27,
+    "Monthly": 28,
+    "Monthly/goal": 1,
+    "monthly/goal": 2
   },
   "_version": 3
 }

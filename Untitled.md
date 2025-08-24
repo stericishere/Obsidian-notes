@@ -1,0 +1,3 @@
+<< [[<% moment(`${title}`, 'YYYY-MM-DD ddd').add(-6, 'days').format('YYYY-[W]ww') %> | Previous Week]] | [[<% moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[W]ww') %>]] | [[<% moment(`${title}`, 'YYYY-MM-DD ddd').endOf('week').add(6, 'days').format('YYYY-[W]ww') %> | Next Week]] >>
+<< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[W]ww') %>]] | [[<%  fileDate = 
+moment(`${title}`, 'YYYY-MM-DD ddd') %>]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[Q]Q') %>]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY') %>]] >>

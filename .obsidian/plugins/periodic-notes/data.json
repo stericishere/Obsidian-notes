@@ -10,26 +10,26 @@
   },
   "weekly": {
     "format": "",
-    "template": "Create「⏲ Weekly Note」.md",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「🔄 Weekly Note」.md",
     "folder": "🌊 001 RIVER/01 My Journal/02 Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
-    "template": "",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「📅 Monthly Note」.md",
     "folder": "🌊 001 RIVER/01 My Journal/03 Monthly",
     "enabled": true
   },
   "quarterly": {
     "format": "",
-    "template": "",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「🔮 Quarterly Note」.md",
     "folder": "🌊 001 RIVER/01 My Journal/04 Quarterly",
     "enabled": true
   },
   "yearly": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "🗄 009 BINS · 存储/091 Templates 模板/Create「⏳ Yearly Note」.md",
+    "folder": "🌊 001 RIVER/01 My Journal",
     "enabled": true
   }
 }
