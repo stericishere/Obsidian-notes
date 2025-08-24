@@ -11,7 +11,7 @@ aliases:
   }
 %><< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[W]ww') %>]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[Q]Q') %>]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY') %>]] >>
 << [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(-6, 'days').format('YYYY-[W]ww') %> | Previous Week]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-[W]ww') %>]] | [[<% moment(`${title}`, 'YYYY-MM-DD ddd').endOf('week').add(6, 'days').format('YYYY-[W]ww') %> | Next Week]] >>
-<< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').subtract(1, 'd').format('YYYY-MM-DD ddd') %>]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-MM-DD ddd') %> | Yesterday]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(1, 'd').format('YYYY-MM-DD ddd') %> | Tomorrow]] >>
+<< [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').subtract(1, 'd').format('YYYY-MM-DD ddd') %> | Yesterday]] | [[<%  fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').format('YYYY-MM-DD ddd') %> | Today]] | [[<% fileDate = moment(`${title}`, 'YYYY-MM-DD ddd').add(1, 'd').format('YYYY-MM-DD ddd') %> | Tomorrow]] >>
 
 > [!tips]- Jorunaling
 > ![](https://www.youtube.com/watch?v=KwatUSh-6xY)
@@ -111,4 +111,4 @@ _“You are 42% more likely to achieve your goals, simply by writing them down o
 🏃‍♂️ [exercise ::] 
 🔖 [reading ::] 
 🎓 [learning ::]
-<% tp.file.move ("/🌊 001 RIVER/01 My Journal/ 01 Daily/"+ `${title}`) %>
+<% tp.file.move ("/🌊 001 RIVER/01 My Journal/01 Daily/"+ `${title}`) %>
