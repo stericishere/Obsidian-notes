@@ -30,7 +30,9 @@
     "Lec": 18,
     "Topic": 19,
     "project": 20,
-    "tas": 21
+    "tas": 21,
+    "urgent": 22,
+    "important": 23
   },
   "_version": 3
 }
