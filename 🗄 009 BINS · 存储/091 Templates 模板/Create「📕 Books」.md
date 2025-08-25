@@ -13,10 +13,10 @@ status: unread
 created: {{DATE:YYYY-MM-DD HH:mm:ss}}
 updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 ---
-## ✨内容概述
+## ✨Summary
 
+## 💭 Reflection
 
-## 💭我的反思
+## ✍ Highlights
 
-
-## ✍全文高亮
+## 📄 PDF
