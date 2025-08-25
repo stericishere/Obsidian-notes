@@ -20,5 +20,6 @@ Project: Open-Water
 ## ✅  Tasks 任务
 
 - [x] #task Finish the online course ✅ 2025-08-22
-
-
+- [ ] #task times to come on friday: 5pm 1187 Hurontario St, Mississauga, ON L5G 3H2 ⏳ 2025-09-05 
+- [ ] #task  7am for 300 Humber Bay Park Rd W, Etobicoke, ON M8V 3X7 ⏳ 2025-09-06 
+- [ ] #task  7am for 300 Humber Bay Park Rd W, Etobicoke, ON M8V 3X7 ⏳ 2025-09-07 

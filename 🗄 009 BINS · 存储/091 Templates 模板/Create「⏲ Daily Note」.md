@@ -22,14 +22,17 @@ aliases:
 > [!abstract]- 📌 Due Today
 > ```tasks
 > not done
-> (due on {{query.file.filenameWithoutExtension}}  OR (scheduled on {{query.file.filenameWithoutExtension}})
+> happens on {{query.file.filenameWithoutExtension}}
 > ```
 #### 📅 Upcoming Task
 > [!warning]- 📅 Due This Week
 > ```tasks
 > not done
-> (due after {{query.file.filenameWithoutExtension}} and due before in 7 days) OR (scheduled after {{query.file.filenameWithoutExtension}} and scheduled before in 7 days)
+> happens after {{query.file.filenameWithoutExtension}}
+> happens on 7 days after {{query.file.filenameWithoutExtension}}
 > ```
+
+---
 ### 🌅 Morning
 <span style="background:#fff88f">#Routine</span>
 - [ ] 10:30 — First Alarm 
@@ -94,6 +97,8 @@ _“You are 42% more likely to achieve your goals, simply by writing them down o
 - [ ] #day/action 
 1. **Top 3 priority TMR??**
 - [ ] #day/plan 
+
+## New Task
 
 ---
 ### Notes

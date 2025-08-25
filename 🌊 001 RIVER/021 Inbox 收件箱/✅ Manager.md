@@ -12,7 +12,7 @@ action QuickAdd: New Project 👨‍💻
 ![[Project.base#Side Quest]]
 
 ---
-## 👍 Task Finished tdy
+## 👍 Task Finished Today
 
 ```tasks
 done today

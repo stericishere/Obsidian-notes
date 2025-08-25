@@ -19,6 +19,7 @@ Project: Driver-Licence
 
 ## ✅  Tasks 任务
 
-- [ ] Driver course 11:00 - 14:30 #task @m 🔺 ⏳ 2025-08-25
+- [ ] Driver course 11:00 - 14:30 #task 🔺 ⏳ 2025-08-25
+- [ ] 2:00 G2 test, Please arrive 30 minutes early to complete check-in procedures. #task  ⏳ 2025-09-05 
 
 
