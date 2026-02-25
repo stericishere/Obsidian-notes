@@ -1,0 +1,22 @@
+# Obsidian-specific files
+.obsidian/
+.obsidian.mobile/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules (if any)
+node_modules/
+

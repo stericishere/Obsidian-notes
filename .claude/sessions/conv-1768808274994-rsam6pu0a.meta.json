@@ -1,0 +1,25 @@
+{
+  "id": "conv-1768808274994-rsam6pu0a",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1768808275000,
+  "updatedAt": 1768809153773,
+  "lastResponseAt": 1768809153773,
+  "sessionId": "09a81f50-f246-473c-87e8-caf0bbaebc27",
+  "sdkSessionId": "09a81f50-f246-473c-87e8-caf0bbaebc27",
+  "previousSdkSessionIds": [
+    "e66daf0f-0c8f-43f0-922d-c5097c35ab38",
+    "4206a9e2-5edf-462e-8ea5-24e45aebc083",
+    "51e38dfa-2bde-4090-9c28-448aca0d4deb"
+  ],
+  "currentNote": "🔨 004 TOOLS/Productives/Obsidian AI Agent 配置指南：Claudian + Obsidian Skills.md",
+  "usage": {
+    "model": "claude-haiku-4-5-20251001",
+    "inputTokens": 623,
+    "cacheCreationInputTokens": 52755,
+    "cacheReadInputTokens": 51012,
+    "contextWindow": 200000,
+    "contextTokens": 104390,
+    "percentage": 52
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "conv-1769983184931-vwrfao1b0",
+  "title": "Create CSC209 Study Canvas from NotebookLM",
+  "titleGenerationStatus": "success",
+  "createdAt": 1769983184932,
+  "updatedAt": 1770056543321,
+  "lastResponseAt": 1769985024110,
+  "sessionId": "c40316af-9e48-43fc-a694-b037baaa3035",
+  "sdkSessionId": "c40316af-9e48-43fc-a694-b037baaa3035",
+  "usage": {
+    "model": "claude-haiku-4-5-20251001",
+    "inputTokens": 36,
+    "cacheCreationInputTokens": 139215,
+    "cacheReadInputTokens": 454607,
+    "contextWindow": 200000,
+    "contextTokens": 593858,
+    "percentage": 100
+  }
+}

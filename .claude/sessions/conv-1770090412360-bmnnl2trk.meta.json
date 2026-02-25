@@ -1,0 +1,19 @@
+{
+  "id": "conv-1770090412360-bmnnl2trk",
+  "title": "Validate C array initialization syntax",
+  "titleGenerationStatus": "success",
+  "createdAt": 1770090412362,
+  "updatedAt": 1770405473999,
+  "lastResponseAt": 1770291714492,
+  "sessionId": "4782984a-fe31-4e45-917b-d14f1090b8d6",
+  "sdkSessionId": "4782984a-fe31-4e45-917b-d14f1090b8d6",
+  "usage": {
+    "model": "claude-haiku-4-5-20251001",
+    "inputTokens": 565,
+    "cacheCreationInputTokens": 237530,
+    "cacheReadInputTokens": 707835,
+    "contextWindow": 200000,
+    "contextTokens": 945930,
+    "percentage": 100
+  }
+}
