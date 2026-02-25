@@ -1,0 +1,89 @@
+filters:
+  and:
+    - file.inFolder("00  📥 INBOX/Favourite Quote")
+    - category == "📖 Favourite Quote"
+formulas:
+  fullstars: if(rating>=0, ["11111".split("").slice(0, number(rating).floor()).map(icon("star"))], "")
+  halfstars: '[if(number(rating) - number(rating).floor() >= 0.5, icon("star-half"), "")]'
+  stars: "[formula.fullstars, formula.halfstars].flat()"
+views:
+  - type: table
+    name: 📖 Favourite Quote
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - type
+      - file.name
+      - by
+      - formula.stars
+      - rating
+    sort:
+      - property: formula.stars
+        direction: DESC
+      - property: category
+        direction: DESC
+    columnSize:
+      note.type: 79
+      file.name: 809
+      note.by: 64
+      formula.stars: 123
+      note.rating: 53
+  - type: table
+    name: Life
+    filters:
+      and:
+        - and:
+            - type == "Life"
+    order:
+      - file.name
+      - formula.stars
+      - type
+      - tags
+    sort:
+      - property: rating
+        direction: DESC
+    columnSize:
+      file.name: 530
+  - type: table
+    name: Present
+    filters:
+      and:
+        - category == "📖 Favourite Quote"
+        - type == "Present"
+    order:
+      - file.name
+      - formula.stars
+      - type
+  - type: table
+    name: Past
+    filters:
+      and:
+        - category == "📖 Favourite Quote"
+        - and:
+            - type == "Past"
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 530
+  - type: table
+    name: Random
+    order:
+      - type
+      - file.name
+      - formula.stars
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 1
+    rowHeight: tall
+    cardSize: 800
+    imageAspectRatio: 0.9
+    columnSize:
+      file.name: 435

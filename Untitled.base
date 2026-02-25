@@ -1,0 +1,9 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/Favourite Quote")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: file.folder
+      direction: ASC

@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/🧠 Framework")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: reviewed
+      direction: ASC
+    order:
+      - reviewed
+      - file.name
+      - rating
+      - type
+    sort:
+      - property: rating
+        direction: ASC
+    columnSize:
+      file.name: 568

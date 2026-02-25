@@ -1,0 +1,3 @@
+---
+category: output/idea
+---

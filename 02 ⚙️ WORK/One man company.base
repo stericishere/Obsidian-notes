@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.inFolder("Old/0 ONE MAN COMPANY")
+views:
+  - type: table
+    name: Table

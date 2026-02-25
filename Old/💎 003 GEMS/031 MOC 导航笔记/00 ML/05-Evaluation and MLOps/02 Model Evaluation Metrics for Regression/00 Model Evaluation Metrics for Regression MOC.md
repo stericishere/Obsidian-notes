@@ -1,0 +1,3 @@
+- [[01 Mean Absolute Error (MAE)]]
+- [[02 Mean Squared Error (MSE)]]
+- [[03 R-squared (R2)]]

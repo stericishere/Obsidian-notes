@@ -1,0 +1,3 @@
+- [[01 Unsupervised Learning]]
+- [[02 Latent Variable Models]]
+- [[03 Dimensionality Reduction]]

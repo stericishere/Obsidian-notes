@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/🔍 Theory")
+    - category == "🔍 theory"
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - rating
+      - type
+      - category
+    columnSize:
+      file.name: 585
+      note.type: 176

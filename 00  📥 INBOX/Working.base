@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.inFolder("02 ⚙️ WORK/Projects")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+    columnSize:
+      file.name: 383

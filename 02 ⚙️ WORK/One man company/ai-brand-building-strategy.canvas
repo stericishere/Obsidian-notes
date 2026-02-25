@@ -1,0 +1,49 @@
+{
+	"nodes":[
+		{"id":"7q7f8a9b0c1d2e3f","type":"group","x":-488,"y":750,"width":380,"height":450,"color":"5","label":"Phase 6: Visual Branding"},
+		{"id":"0t0c1d2e3f4a5b6c","type":"group","x":-88,"y":750,"width":380,"height":450,"color":"4","label":"Phase 7: Website Design"},
+		{"id":"3w3f4a5b6c7d8e9f","type":"group","x":312,"y":750,"width":380,"height":450,"color":"3","label":"Phase 8: Viral Content"},
+		{"id":"6z6c7d8e9f0a1b2c","type":"group","x":712,"y":750,"width":380,"height":450,"color":"2","label":"Phase 9: Retargeting"},
+		{"id":"2b3c4d5e6f7a8b9c","type":"group","x":-650,"y":200,"width":300,"height":400,"color":"1","label":"Phase 1: Market Selection"},
+		{"id":"5e5f6a7b8c9d0e1f","type":"group","x":-325,"y":200,"width":300,"height":400,"color":"2","label":"Phase 2: AI Product Discovery"},
+		{"id":"8h8c9d0e1f2a3b4c","type":"group","x":0,"y":200,"width":300,"height":400,"color":"3","label":"Phase 3: Audience Research"},
+		{"id":"1k1f2a3b4c5d6e7f","type":"group","x":325,"y":200,"width":300,"height":400,"color":"4","label":"Phase 4: Brand Identity"},
+		{"id":"4n4c5d6e7f8a9b0c","type":"group","x":650,"y":200,"width":300,"height":400,"color":"6","label":"Phase 5: Manufacturing"},
+		{"id":"1a2b3c4d5e6f7a8b","type":"text","text":"# $2.7M Brand in 30 Days\n## Using AI Market Research Strategy\n\n**Case Study:** Pilates Grip Socks (GROUNDED)\n100,000+ orders | Shopify Award | 7.19% conversion","x":300,"y":-150,"width":600,"height":200,"color":"5"},
+		{"id":"3c3d4e5f6a7b8c9d","type":"text","text":"## Google Trends\n\n✓ Growing YoY\n✓ CAGR 11.5%+\n✓ 5-10 year growth\n\n❌ Avoid declining markets","x":-630,"y":250,"width":260,"height":120},
+		{"id":"4d4e5f6a7b8c9d0e","type":"text","text":"## Market Validation\n\nPilates ✓\n• Consistent growth\n• 11.5% CAGR\n• Demand evident","x":-630,"y":410,"width":260,"height":100},
+		{"id":"6f6a7b8c9d0e1f2a","type":"text","text":"## YouTube Research\n\n1. Search: \"Day in life of [niche]\"\n2. Pick 5-10 micro-influencer videos\n3. Download transcripts\n4. Copy full text","x":-305,"y":250,"width":260,"height":120},
+		{"id":"7g7b8c9d0e1f2a3b","type":"text","text":"## ChatGPT Prompt\n\n\"List emerging products\nmentioned in this video\nfor early adopters\"","x":-305,"y":410,"width":260,"height":100},
+		{"id":"9i9d0e1f2a3b4c5d","type":"text","text":"## Listen to Language\n\n✓ \"I need grippy socks\"\n✓ \"I forgot my grip socks\"\n✓ \"$18 is expensive\"\n\nNOTE: Product aware,\nNOT brand aware","x":20,"y":250,"width":260,"height":120},
+		{"id":"0j0e1f2a3b4c5d6e","type":"text","text":"## Find Identity\n\n✓ \"That girl\" movement\n✓ Aesthetic culture\n✓ Aspirational identity\n= Who you're selling to","x":20,"y":410,"width":260,"height":100},
+		{"id":"2l2a3b4c5d6e7f8a","type":"text","text":"## Inspiration Brand\n\nGlossier ✓\n• Same audience avatar\n• Not competitor\n• Study their aesthetic:\n  - Blue pastels\n  - Dreamy skies\n  - Aspirational vibe","x":345,"y":250,"width":260,"height":120},
+		{"id":"3m3b4c5d6e7f8a9b","type":"text","text":"## Brand Name\n\nGirls stay GROUNDED\nwhile doing Pilates\n\"That girl\" = grounded\n\n= GROUNDED","x":345,"y":410,"width":260,"height":100},
+		{"id":"5o5d6e7f8a9b0c1d","type":"text","text":"## Alibaba Sourcing\n\n1. Create manufacturing doc\n2. Filter: Trade Assurance\n3. Message 20-50 suppliers\n4. Compare options\n5. Negotiate price","x":670,"y":250,"width":260,"height":120},
+		{"id":"6p6e7f8a9b0c1d2e","type":"text","text":"## Quality First\n\n✓ Premium materials\n✓ Custom logo placement\n✓ Perfect grip pattern\n= Match brand positioning","x":670,"y":410,"width":260,"height":100},
+		{"id":"8r8a9b0c1d2e3f4a","type":"text","text":"## Professional Photoshoot\n\n• Hire fashion photographer\n• Match backdrop aesthetic\n• Cast models matching avatar\n• Dreamy, clean, aspirational","x":-468,"y":810,"width":340,"height":100},
+		{"id":"9s9b0c1d2e3f4a5b","type":"text","text":"## 4 Content Types\n\n1. Full-body lifestyle (hero)\n2. Product close-ups\n3. Ad hero images\n4. Short video clips","x":-468,"y":950,"width":340,"height":110},
+		{"id":"1u1d2e3f4a5b6c7d","type":"text","text":"## Hero Section\n\n✓ Lifestyle girl image\n✓ \"Stay Grounded\" overlay\n✓ Professional & polished\n✓ First impression = hook","x":-68,"y":810,"width":340,"height":100},
+		{"id":"2v2e3f4a5b6c7d8e","type":"text","text":"## Product Section\n\n✓ Minimal, clean layout\n✓ Same backdrop for all\n✓ Hover animations\n✓ Girl twirling effect\n= 10x conversion lift","x":-68,"y":950,"width":340,"height":110},
+		{"id":"4x4a5b6c7d8e9f0a","type":"text","text":"## 1-3 Second Rule ⭐\n\nAt 30-second mark:\n✓ Beat drops\n✓ Product revealed\n✓ X-factor shown\n✓ Re-engagement point","x":332,"y":810,"width":340,"height":100},
+		{"id":"5y5b6c7d8e9f0a1b","type":"text","text":"## Works on ALL videos\n\n✓ E-commerce\n✓ Personal brand\n✓ Educational\n✓ Narrative\n= 10-100x views","x":332,"y":950,"width":340,"height":110},
+		{"id":"7aa7d8e9f0a1b2c3","type":"text","text":"## Warm Audience\n\n• People who watched 50%+\n• Already product-aware\n• Know YOUR brand exists\n• Perfect retargeting pool","x":732,"y":810,"width":340,"height":100},
+		{"id":"8ab8e9f0a1b2c3d4","type":"text","text":"## Campaign Results\n\n✓ 7.19% conversion rate\n✓ Very high (normal 2-3%)\n✓ Meta + TikTok ads\n✓ Same hero images","x":732,"y":950,"width":340,"height":110},
+		{"id":"9ac9f0a1b2c3d4e5","type":"text","text":"## 🔑 Key: Diffusion of Innovation\n\n**Find the Early Adopters** (13.5%)\n• They validate products before mainstream\n• They influence others\n• They share and review\n• They bridge niche → mainstream\n\n**Supply-Demand Gap** = Opportunity\n• Early adopters finding product\n• Very new (low supply)\n• High demand (growing interest)\n• No brand saturation yet","x":0,"y":1350,"width":1000,"height":180,"color":"6"}
+	],
+	"edges":[
+		{"id":"10a1b2c3d4e5f6a7","fromNode":"1a2b3c4d5e6f7a8b","fromSide":"bottom","toNode":"2b3c4d5e6f7a8b9c","toSide":"top","color":"1","label":"Start"},
+		{"id":"11b2c3d4e5f6a7b8","fromNode":"2b3c4d5e6f7a8b9c","fromSide":"right","toNode":"5e5f6a7b8c9d0e1f","toSide":"left","color":"2","label":"→"},
+		{"id":"12c3d4e5f6a7b8c9","fromNode":"5e5f6a7b8c9d0e1f","fromSide":"right","toNode":"8h8c9d0e1f2a3b4c","toSide":"left","color":"3","label":"→"},
+		{"id":"13d4e5f6a7b8c9da","fromNode":"8h8c9d0e1f2a3b4c","fromSide":"right","toNode":"1k1f2a3b4c5d6e7f","toSide":"left","color":"4","label":"→"},
+		{"id":"14e5f6a7b8c9daeb","fromNode":"1k1f2a3b4c5d6e7f","fromSide":"right","toNode":"4n4c5d6e7f8a9b0c","toSide":"left","color":"6","label":"→"},
+		{"id":"15f6a7b8c9daebfc","fromNode":"4n4c5d6e7f8a9b0c","fromSide":"bottom","toNode":"7q7f8a9b0c1d2e3f","toSide":"top","color":"5","label":"→"},
+		{"id":"16g7b8c9daebfcd10","fromNode":"7q7f8a9b0c1d2e3f","fromSide":"right","toNode":"0t0c1d2e3f4a5b6c","toSide":"left","color":"4","label":"→"},
+		{"id":"17h8c9daebfcd1021","fromNode":"0t0c1d2e3f4a5b6c","fromSide":"right","toNode":"3w3f4a5b6c7d8e9f","toSide":"left","color":"3","label":"→"},
+		{"id":"18i9daebfcd102132","fromNode":"3w3f4a5b6c7d8e9f","fromSide":"right","toNode":"6z6c7d8e9f0a1b2c","toSide":"left","color":"2","label":"→"},
+		{"id":"19jaebecd102d32e4","fromNode":"6z6c7d8e9f0a1b2c","fromSide":"bottom","toNode":"9ac9f0a1b2c3d4e5","toSide":"top","color":"1","label":"Results"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"health","type":"text","text":"## Health\nBody & Mind Wellness\n\n*Add notes here*","x":-40,"y":320,"width":250,"height":120},
+		{"id":"growth","type":"text","text":"## Personal Growth\nLearning & Development\n\n*Add notes here*","x":-40,"y":480,"width":250,"height":160},
+		{"id":"values","type":"text","text":"## Values\nWhat matters most\n","x":-40,"y":120,"width":250,"height":140},
+		{"id":"philosophy","type":"text","text":"## Philosophy\nLife principles & beliefs","x":-40,"y":-75,"width":250,"height":150},
+		{"id":"self_hub","type":"text","text":"# 🧠 SELF\n","x":360,"y":200,"width":180,"height":80,"color":"5"},
+		{"id":"inbox_self","type":"text","text":"📥 Raw captures\n\nFrom inbox → here","x":1120,"y":170,"width":200,"height":140,"color":"1"},
+		{"id":"purpose","type":"text","text":"## Purpose\nWhy you do things","x":700,"y":480,"width":250,"height":160},
+		{"id":"regret","type":"text","text":"## Regret & Loss\nLessons from mistakes","x":700,"y":310,"width":250,"height":130},
+		{"id":"decision","type":"text","text":"## Decision Making\nHow you choose","x":700,"y":120,"width":250,"height":160},
+		{"id":"mindset","type":"text","text":"## Mindset\nMental Frameworks","x":700,"y":-75,"width":250,"height":150}
+	],
+	"edges":[
+		{"id":"edge_phil","fromNode":"philosophy","fromSide":"right","toNode":"self_hub","toSide":"left"},
+		{"id":"edge_val","fromNode":"values","fromSide":"right","toNode":"self_hub","toSide":"left"},
+		{"id":"edge_health","fromNode":"health","fromSide":"right","toNode":"self_hub","toSide":"left"},
+		{"id":"edge_growth","fromNode":"growth","fromSide":"right","toNode":"self_hub","toSide":"left"},
+		{"id":"edge_mind","fromNode":"mindset","fromSide":"left","toNode":"self_hub","toSide":"right"},
+		{"id":"edge_dec","fromNode":"decision","fromSide":"left","toNode":"self_hub","toSide":"right"},
+		{"id":"edge_reg","fromNode":"regret","fromSide":"left","toNode":"self_hub","toSide":"right"},
+		{"id":"edge_purp","fromNode":"purpose","fromSide":"left","toNode":"self_hub","toSide":"right"},
+		{"id":"edge_inbox","fromNode":"inbox_self","fromSide":"left","toNode":"self_hub","toSide":"right","color":"1","label":"feed"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

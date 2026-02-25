@@ -1,0 +1,12 @@
+- parameters/non-parameters
+- kNN
+- supervised/unsupervised
+- validation set --> overfitting, underfitting
+- curse of dimensionality
+	- we need more data for higher dimension
+	- we need O(1/r)^d
+- entropy
+	- if  a
+- variance and bias 
+- Bayes error --> noise
+- Bagging  

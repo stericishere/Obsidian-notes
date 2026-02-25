@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"systems_hub","type":"text","text":"# 🔧 SYSTEMS & FRAMEWORKS\n\nMental Models, Methodologies, Thinking Tools, Processes","x":300,"y":200,"width":350,"height":120,"color":"5"},
+		{"id":"inbox_systems","type":"text","text":"📥 Raw captures\n\nFrom inbox → here","x":375,"y":-200,"width":200,"height":80,"color":"1"},
+		{"id":"decision_framework","type":"text","text":"## Decision Frameworks\nHow to choose wisely","x":-200,"y":-160,"width":330,"height":160},
+		{"id":"mental_models","type":"text","text":"## Mental Models\nThinking patterns & tools","x":-200,"y":50,"width":330,"height":170},
+		{"id":"problem_solving","type":"text","text":"## Problem Solving\nApproaches & methodologies","x":-200,"y":290,"width":330,"height":170},
+		{"id":"systems_thinking","type":"text","text":"## Systems Thinking\nWhole-system understanding","x":-200,"y":520,"width":330,"height":160},
+		{"id":"creativity","type":"text","text":"## Creative Process\nGenerating new ideas","x":800,"y":520,"width":370,"height":160},
+		{"id":"learning_methodology","type":"text","text":"## Learning Methodology\nHow to learn effectively","x":800,"y":-160,"width":370,"height":160},
+		{"id":"organization","type":"text","text":"## Organization Systems\nStructuring work & info\n","x":800,"y":50,"width":370,"height":170},
+		{"id":"productivity","type":"text","text":"## Productivity\nWorking smart & efficiently\n","x":800,"y":290,"width":370,"height":170}
+	],
+	"edges":[
+		{"id":"edge_decision","fromNode":"decision_framework","fromSide":"right","toNode":"systems_hub","toSide":"left"},
+		{"id":"edge_mental","fromNode":"mental_models","fromSide":"right","toNode":"systems_hub","toSide":"left"},
+		{"id":"edge_problem","fromNode":"problem_solving","fromSide":"right","toNode":"systems_hub","toSide":"left"},
+		{"id":"edge_systems","fromNode":"systems_thinking","fromSide":"right","toNode":"systems_hub","toSide":"left"},
+		{"id":"edge_learn","fromNode":"learning_methodology","fromSide":"left","toNode":"systems_hub","toSide":"right"},
+		{"id":"edge_org","fromNode":"organization","fromSide":"left","toNode":"systems_hub","toSide":"right"},
+		{"id":"edge_prod","fromNode":"productivity","fromSide":"left","toNode":"systems_hub","toSide":"right"},
+		{"id":"edge_creat","fromNode":"creativity","fromSide":"left","toNode":"systems_hub","toSide":"right"},
+		{
+			"id":"e9082449577969ad",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"inbox_systems",
+			"fromSide":"bottom",
+			"toNode":"systems_hub",
+			"toSide":"top",
+			"label":"feed"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

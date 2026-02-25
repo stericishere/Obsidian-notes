@@ -1,0 +1,46 @@
+{
+	"nodes":[
+		{"id":"5o5d6e7f8a9b0c1d","type":"group","x":-550,"y":800,"width":460,"height":500,"color":"4","label":"What Research DOES Support"},
+		{"id":"9s9b0c1d2e3f4a5b","type":"group","x":140,"y":800,"width":460,"height":500,"color":"2","label":"Real-World Applications"},
+		{"id":"3w3f4a5b6c7d8e9f","type":"group","x":730,"y":800,"width":460,"height":500,"color":"6","label":"The Honest Verdict"},
+		{"id":"2b3c4d5e6f7a8b9c","type":"group","x":-550,"y":150,"width":380,"height":550,"color":"5","label":"What NLP Claims"},
+		{"id":"6f6a7b8c9d0e1f2a","type":"group","x":130,"y":150,"width":380,"height":550,"color":"3","label":"Core NLP Techniques"},
+		{"id":"1k1f2a3b4c5d6e7f","type":"group","x":710,"y":150,"width":380,"height":550,"color":"1","label":"Scientific Criticisms"},
+		{"id":"1a2b3c4d5e6f7a8b","type":"text","text":"# NLP: Neurolinguistic Programming\n## 50 Years of Controversy: Science or Pseudoscience?\n\n**The Question:** Can understanding neurological processes + language really upgrade your brain and change your life?","x":300,"y":-100,"width":600,"height":180,"color":"6"},
+		{"id":"3c3d4e5f6a7b8c9d","type":"text","text":"## Core Promise\n\n**Neuro:** Brain processes\n**Linguistic:** Language shapes mind\n**Programming:** Behavior can be reprogrammed\n\n= Brain upgrade + Life change","x":-530,"y":200,"width":340,"height":100},
+		{"id":"4d4e5f6a7b8c9d0e","type":"text","text":"## Claims to Help With\n\n✓ Overcoming phobias\n✓ Building confidence\n✓ Breaking limiting beliefs\n✓ Improving communication\n✓ Trauma healing\n✓ Goal achievement","x":-530,"y":330,"width":340,"height":120},
+		{"id":"5e5f6a7b8c9d0e1f","type":"text","text":"## The Pitch\n\n\"You can reprogram your brain through language and sensory anchoring\"","x":-530,"y":480,"width":340,"height":180},
+		{"id":"6p6e7f8a9b0c1d2e","type":"text","text":"## Validated Psychological Techniques\n\n✓ Classical Conditioning (anchoring parallel)\n✓ Cognitive Reframing (CBT basis)\n✓ Visualization & Mental Imagery\n✓ Rapport Building & Mirroring\n✓ Behavioral Modeling (learning theory)","x":-530,"y":860,"width":420,"height":100},
+		{"id":"7q7f8a9b0c1d2e3f","type":"text","text":"## NOT Supported\n\n❌ Representational Systems (learning styles debunked)\n❌ Direct neurolinguistic mechanism\n❌ Rapid phobia cures\n❌ Timeline therapy\n❌ Brain \"programming\" through NLP specifically","x":-530,"y":1000,"width":420,"height":140},
+		{"id":"8r8a9b0c1d2e3f4a","type":"text","text":"## The Real Situation\n\nSome NLP tools work, but not for the reasons NLP claims. They work because they're based on established psychology.","x":-530,"y":1180,"width":420,"height":80},
+		{"id":"7g7b8c9d0e1f2a3b","type":"text","text":"## Representational Systems\n\nVisual (V) - Images\nAuditory (A) - Sounds\nKinesthetic (K) - Feelings\n\nLearn by your dominant system","x":150,"y":200,"width":340,"height":100},
+		{"id":"8h8c9d0e1f2a3b4c","type":"text","text":"## Anchoring\n\nLink stimulus → state\nTouch, sound, or image triggers desired emotional response","x":150,"y":330,"width":340,"height":80},
+		{"id":"9i9d0e1f2a3b4c5d","type":"text","text":"## Reframing\n\nSame event, different meaning\nChanges emotional response\nShifts limiting beliefs","x":150,"y":440,"width":340,"height":100},
+		{"id":"0j0e1f2a3b4c5d6e","type":"text","text":"## Modeling Excellence\n\nStudy successful people\nReplicate their patterns","x":150,"y":570,"width":340,"height":60},
+		{"id":"2l2a3b4c5d6e7f8a","type":"text","text":"## Lack of Scientific Evidence\n\n❌ Most studies not peer-reviewed\n❌ No controlled trials\n❌ Methodology issues\n❌ Not replicated independently","x":730,"y":200,"width":340,"height":100},
+		{"id":"3m3b4c5d6e7f8a9b","type":"text","text":"## Neuroscience Disconnect\n\n❌ No neurological basis\n❌ \"Brain reprogramming\" is oversimplified\n❌ Claims don't match modern neuroscience\n❌ Neuroplasticity works differently","x":730,"y":330,"width":340,"height":100},
+		{"id":"4n4c5d6e7f8a9b0c","type":"text","text":"## Alternative Explanations\n\n❌ Placebo effect\n❌ Expectancy bias\n❌ Hawthorne effect\n❌ Normal psychological change\n❌ Confounding variables","x":730,"y":460,"width":340,"height":100},
+		{"id":"0t0c1d2e3f4a5b6c","type":"text","text":"## Where NLP Is Used\n\n✓ Life coaching & mentoring\n✓ Business & sales training\n✓ Executive coaching\n✓ Some therapeutic contexts\n✓ Sports psychology\n✓ Education & training","x":160,"y":860,"width":420,"height":100},
+		{"id":"1u1d2e3f4a5b6c7d","type":"text","text":"## Success Factors\n\n✓ Often works because:\n  - User belief (placebo)\n  - Behavioral techniques borrowed from CBT\n  - Focus on goals (intrinsically motivating)\n  - Increased attention & effort","x":160,"y":1000,"width":420,"height":120},
+		{"id":"2v2e3f4a5b6c7d8e","type":"text","text":"## NOT For Serious Issues\n\n❌ Replace professional therapy\n❌ Sole treatment for trauma\n❌ Mental health conditions\n❌ Requires evidence-based approach","x":160,"y":1160,"width":420,"height":100},
+		{"id":"4x4a5b6c7d8e9f0a","type":"text","text":"## Can NLP Change Your Life?\n\n**Answer: Possibly, but not how it claims.**\n\nIf NLP helps you:\n- Think differently\n- Stay motivated\n- Build better habits\n- Communicate better\n\nThen it's working (maybe placebo, maybe technique)","x":750,"y":860,"width":420,"height":140},
+		{"id":"5y5b6c7d8e9f0a1b","type":"text","text":"## What Actually Matters\n\n✓ Your belief & motivation\n✓ Sustained effort\n✓ Consistent action\n✓ Real behavioral change\n✓ Practical tools (any method)","x":750,"y":1040,"width":420,"height":100},
+		{"id":"6z6c7d8e9f0a1b2c","type":"text","text":"## The Real Mechanism\n\n\"Brain upgrade\" happens through EFFORT, not technique. NLP's value is providing motivation & framework.","x":750,"y":1180,"width":420,"height":80},
+		{"id":"7aa7d8e9f0a1b2c3","type":"text","text":"## 🔑 The Bottom Line\n\n**Science Verdict:** NLP is NOT scientifically validated. 50 years of criticism is justified.\n\n**Practical Value:** Some NLP-adjacent techniques are useful (borrowed from psychology), but call them what they are—not \"neurolinguistic programming.\"\n\n**Life Change:** Real change requires sustained effort, clear goals, and behavioral action. Any framework that keeps you motivated and focused can work. NLP's success rate is no better than placebo + effort.\n\n**Best Approach:** Use evidence-based psychology (CBT), combine with practical tools you find helpful, maintain consistent effort. Save your money on expensive NLP certifications.","x":150,"y":1450,"width":1300,"height":160,"color":"5"}
+	],
+	"edges":[
+		{"id":"8ab8e9f0a1b2c3d4","toFloating":false,"fromNode":"1a2b3c4d5e6f7a8b","fromSide":"bottom","toNode":"2b3c4d5e6f7a8b9c","toSide":"top","color":"5","label":"Claims"},
+		{"id":"9ac9f0a1b2c3d4e5","fromNode":"1a2b3c4d5e6f7a8b","fromSide":"bottom","toNode":"6f6a7b8c9d0e1f2a","toSide":"top","color":"3","label":"Methods"},
+		{"id":"0ad0a1b2c3d4e5f6","fromNode":"1a2b3c4d5e6f7a8b","fromSide":"bottom","toNode":"1k1f2a3b4c5d6e7f","toSide":"top","color":"1","label":"Criticism"},
+		{"id":"1ae1b2c3d4e5f6a7","fromNode":"2b3c4d5e6f7a8b9c","fromSide":"bottom","toNode":"5o5d6e7f8a9b0c1d","toSide":"top","color":"4","label":"vs Reality"},
+		{"id":"2bf2c3d4e5f6a7b8","fromNode":"6f6a7b8c9d0e1f2a","fromSide":"bottom","toNode":"9s9b0c1d2e3f4a5b","toSide":"top","color":"2","label":"In Practice"},
+		{"id":"3ca3d4e5f6a7b8c9","fromNode":"1k1f2a3b4c5d6e7f","fromSide":"bottom","toNode":"3w3f4a5b6c7d8e9f","toSide":"top","color":"6","label":"Verdict"},
+		{"id":"4db4e5f6a7b8c9d0","fromNode":"5o5d6e7f8a9b0c1d","fromSide":"bottom","toNode":"7aa7d8e9f0a1b2c3","toSide":"top","color":"4","label":"→"},
+		{"id":"5ec5f6a7b8c9d0e1","fromNode":"9s9b0c1d2e3f4a5b","fromSide":"bottom","toNode":"7aa7d8e9f0a1b2c3","toSide":"top","color":"2","label":"→"},
+		{"id":"6fd6a7b8c9d0e1f2","fromNode":"3w3f4a5b6c7d8e9f","fromSide":"bottom","toNode":"7aa7d8e9f0a1b2c3","toSide":"top","color":"6","label":"→"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.inFolder("00  📥 INBOX/Idea")
+views:
+  - type: table
+    name: Table

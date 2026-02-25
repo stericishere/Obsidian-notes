@@ -1,0 +1,7 @@
+filters:
+  and:
+    - file.inFolder("🌊 001 RIVER/🌠 Me")
+    - category == "🌠 Me"
+views:
+  - type: table
+    name: Table

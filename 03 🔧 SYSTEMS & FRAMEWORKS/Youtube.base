@@ -1,0 +1,16 @@
+filters:
+  or:
+    - file.inFolder("03 🔧 SYSTEMS & FRAMEWORKS/Learning/Internet Resources/YouTube Learning")
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - IMPORTANCE
+      - type
+    columnSize:
+      file.name: 505
+      note.IMPORTANCE: 63

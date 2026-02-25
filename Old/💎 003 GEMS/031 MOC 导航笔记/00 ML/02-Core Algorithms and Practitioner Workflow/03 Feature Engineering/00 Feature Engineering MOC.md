@@ -1,0 +1,6 @@
+- [[01 Creating New Features from Existing Ones]]
+- [[02 Text Representation]]
+- [[03 Bag-of-Words (BoW)]]
+- [[04 Term Frequency-Inverse Document Frequency (TF-IDF)]]
+- [[05 Hashing Trick]]
+- [[06 Embeddings]]

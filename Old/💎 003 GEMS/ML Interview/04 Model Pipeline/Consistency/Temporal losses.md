@@ -1,0 +1,6 @@
+- A **temporal loss** is a loss function that penalizes inconsistencies _across time steps_
+- It compare with previous frame 
+	- In practice it can be 
+		- multiple previous
+		- [[Motion wrapping]]
+		- long range comparision

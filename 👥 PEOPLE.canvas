@@ -1,0 +1,49 @@
+{
+	"nodes":[
+		{"id":"people_hub","type":"text","text":"# 👥 PEOPLE\n\nRelationships, Communication, Leadership, Connection","x":300,"y":200,"width":350,"height":120,"color":"5"},
+		{"id":"inbox_people","type":"text","text":"📥 Raw captures\n\nFrom inbox → here","x":375,"y":-200,"width":200,"height":80,"color":"1"},
+		{"id":"conflict","type":"text","text":"## Conflict Resolution\nNavigating disagreements","x":800,"y":-160,"width":300,"height":172},
+		{"id":"influence","type":"text","text":"## Influence\nImpact & Persuasion","x":800,"y":290,"width":300,"height":120},
+		{"id":"networking","type":"text","text":"## Networking\nBuilding connections","x":800,"y":520,"width":300,"height":172},
+		{"id":"empathy","type":"text","text":"## Empathy\nUnderstanding feelings\n\n*Add notes here*","x":800,"y":100,"width":300,"height":100},
+		{"id":"communication","type":"text","text":"## Communication\nHow to express yourself","x":-120,"y":-180,"width":290,"height":172},
+		{"id":"listening","type":"text","text":"## Listening\nUnderstanding others","x":-120,"y":30,"width":250,"height":170},
+		{"id":"leadership","type":"text","text":"## Leadership\nInfluencing & Guiding","x":-120,"y":270,"width":250,"height":120},
+		{"id":"relationships","type":"text","text":"## Relationships\nConnecting with others","x":-120,"y":500,"width":250,"height":160},
+		{
+			"id":"09e64e130f5e6426",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-160,
+			"y":-420,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{"id":"edge_comm","fromNode":"communication","fromSide":"right","toNode":"people_hub","toSide":"left"},
+		{"id":"edge_listen","fromNode":"listening","fromSide":"right","toNode":"people_hub","toSide":"left"},
+		{"id":"edge_lead","fromNode":"leadership","fromSide":"right","toNode":"people_hub","toSide":"left"},
+		{"id":"edge_rel","fromNode":"relationships","fromSide":"right","toNode":"people_hub","toSide":"left"},
+		{"id":"edge_conf","fromNode":"conflict","fromSide":"left","toNode":"people_hub","toSide":"right"},
+		{"id":"edge_emp","fromNode":"empathy","fromSide":"left","toNode":"people_hub","toSide":"right"},
+		{"id":"edge_infl","fromNode":"influence","fromSide":"left","toNode":"people_hub","toSide":"right"},
+		{"id":"edge_net","fromNode":"networking","fromSide":"left","toNode":"people_hub","toSide":"right"},
+		{
+			"id":"e37755496b77d62c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"inbox_people",
+			"fromSide":"bottom",
+			"toNode":"people_hub",
+			"toSide":"top",
+			"label":"feed"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

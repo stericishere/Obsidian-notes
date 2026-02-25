@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"work_hub","type":"text","text":"# ⚙️ WORK\n\nCareer, Business, Projects, Entrepreneurship, Impact","x":300,"y":200,"width":350,"height":120,"color":"5"},
+		{"id":"business","type":"text","text":"## Business\nEntrepreneurial ventures","x":-120,"y":430,"width":290,"height":160},
+		{"id":"projects","type":"text","text":"## Projects\nActive work & ideas","x":-120,"y":260,"width":290,"height":150},
+		{"id":"skills","type":"text","text":"## Skills & Expertise\nWhat you're good at","x":-120,"y":100,"width":290,"height":130},
+		{"id":"career","type":"text","text":"## Career Path\nYour professional journey","x":-120,"y":-50,"width":290,"height":120},
+		{"id":"inbox_work","type":"text","text":"📥 Raw captures\n\nFrom inbox → here","x":375,"y":-80,"width":200,"height":80,"color":"1"},
+		{"id":"strategy","type":"text","text":"## Strategy\nYour approach & plans","x":800,"y":440,"width":300,"height":160},
+		{"id":"learning","type":"text","text":"## Learning\nProfessional development","x":800,"y":270,"width":300,"height":150},
+		{"id":"impact","type":"text","text":"## Impact\nThe value you create","x":800,"y":110,"width":300,"height":130},
+		{"id":"goals","type":"text","text":"## Goals\nWhat you want to achieve","x":800,"y":-40,"width":300,"height":120}
+	],
+	"edges":[
+		{"id":"edge_career","fromNode":"career","fromSide":"right","toNode":"work_hub","toSide":"left"},
+		{"id":"edge_skills","fromNode":"skills","fromSide":"right","toNode":"work_hub","toSide":"left"},
+		{"id":"edge_proj","fromNode":"projects","fromSide":"right","toNode":"work_hub","toSide":"left"},
+		{"id":"edge_bus","fromNode":"business","fromSide":"right","toNode":"work_hub","toSide":"left"},
+		{"id":"edge_goals","fromNode":"goals","fromSide":"left","toNode":"work_hub","toSide":"right"},
+		{"id":"edge_impact","fromNode":"impact","fromSide":"left","toNode":"work_hub","toSide":"right"},
+		{"id":"edge_learn","fromNode":"learning","fromSide":"left","toNode":"work_hub","toSide":"right"},
+		{"id":"edge_strat","fromNode":"strategy","fromSide":"left","toNode":"work_hub","toSide":"right"},
+		{
+			"id":"67231a8fd3576ce5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"inbox_work",
+			"fromSide":"bottom",
+			"toNode":"work_hub",
+			"toSide":"top",
+			"label":"feed"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

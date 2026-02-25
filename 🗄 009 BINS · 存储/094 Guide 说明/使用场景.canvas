@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"fe80755159f88ddf","x":-468,"y":-42,"width":215,"height":146,"color":"5","type":"text","text":"**人际 + 生日管理**\n> 管理朋友家人的生日，梳理联系人信息和会面日期\n"},
+		{"id":"5651756da9725d96","x":-228,"y":-42,"width":215,"height":146,"color":"4","type":"text","text":"**知识 + 创作管理**\n> 收集书本、文章、视频的内容，总结归纳知识并辅助创作\n"},
+		{"id":"06e55eb24a7b5995","x":16,"y":-42,"width":215,"height":146,"color":"3","type":"text","text":"**任务 + 项目管理**\n> 记录代办任务，管理项目进度\n"},
+		{"id":"e5b541d8c38f5423","x":265,"y":-42,"width":215,"height":146,"color":"1","type":"text","text":"**健康 + 习惯管理**\n> 打卡生活习惯，整理健康知识\n"},
+		{"id":"76aff863ac8ef84f","x":-488,"y":-62,"width":988,"height":186,"type":"group","label":"核心功能"},
+		{"id":"bd48ed8622e728ef","x":-108,"y":328,"width":124,"height":60,"type":"text","text":"🌲 长青笔记"},
+		{"id":"e4f57b6565033b5c","x":83,"y":328,"width":134,"height":60,"type":"text","text":"🌎  MOC 笔记"},
+		{"id":"b6f1419c7008d6d4","x":274,"y":328,"width":134,"height":60,"type":"text","text":"✍ 随笔"},
+		{"id":"bcd1fc7286f5842b","x":-315,"y":298,"width":124,"height":60,"type":"text","text":"📕 读书笔记"},
+		{"id":"23b4d2c9ee9e0eaf","x":-75,"y":-373,"width":146,"height":60,"color":"#464646","type":"text","text":"<center>十年之河</center>"},
+		{"id":"d48b8e3e5572102e","x":-315,"y":388,"width":124,"height":60,"type":"text","text":"💭 网络笔记"},
+		{"id":"d56487e893a6a7a1","x":62,"y":178,"width":124,"height":60,"type":"text","text":"🏗️ 项目笔记"},
+		{"id":"61614be4013521d6","x":311,"y":178,"width":124,"height":60,"type":"text","text":"👨‍⚕ 健康笔记"},
+		{"id":"74f178343f49e4f3","x":-53,"y":448,"width":124,"height":60,"type":"text","text":"⏲ 每日笔记"},
+		{"id":"201b0ed79ea5dc71","x":-432,"y":178,"width":143,"height":60,"type":"text","text":"👤 联系人笔记"}
+	],
+	"edges":[
+		{"id":"a751fe2d552260a5","fromNode":"74f178343f49e4f3","fromSide":"top","toNode":"fe80755159f88ddf","toSide":"bottom"},
+		{"id":"e24f42d39f0b5ab9","fromNode":"74f178343f49e4f3","fromSide":"top","toNode":"06e55eb24a7b5995","toSide":"bottom"},
+		{"id":"13fe7e37227e771e","fromNode":"d56487e893a6a7a1","fromSide":"top","toNode":"06e55eb24a7b5995","toSide":"bottom"},
+		{"id":"908ee39ec54f6503","fromNode":"bcd1fc7286f5842b","fromSide":"top","toNode":"5651756da9725d96","toSide":"bottom"},
+		{"id":"3238123e346f8685","fromNode":"201b0ed79ea5dc71","fromSide":"top","toNode":"fe80755159f88ddf","toSide":"bottom"},
+		{"id":"d1417a79cf7f66bc","fromNode":"61614be4013521d6","fromSide":"top","toNode":"e5b541d8c38f5423","toSide":"bottom"},
+		{"id":"7d33ef774fa9cd48","fromNode":"d48b8e3e5572102e","fromSide":"top","toNode":"5651756da9725d96","toSide":"bottom"},
+		{"id":"56802c0703c2fde5","fromNode":"bd48ed8622e728ef","fromSide":"top","toNode":"5651756da9725d96","toSide":"bottom"},
+		{"id":"7b23b3c008e9d469","fromNode":"e4f57b6565033b5c","fromSide":"top","toNode":"5651756da9725d96","toSide":"bottom"},
+		{"id":"87533738ffcfcbb9","fromNode":"bcd1fc7286f5842b","fromSide":"right","toNode":"bd48ed8622e728ef","toSide":"left"},
+		{"id":"7280665c4938c6ff","fromNode":"d48b8e3e5572102e","fromSide":"right","toNode":"bd48ed8622e728ef","toSide":"left"},
+		{"id":"a1d742953c68f4c3","fromNode":"74f178343f49e4f3","fromSide":"top","toNode":"e5b541d8c38f5423","toSide":"bottom"},
+		{"id":"c2739aa3ec227b57","fromNode":"bd48ed8622e728ef","fromSide":"right","toNode":"e4f57b6565033b5c","toSide":"left"},
+		{"id":"842a740211bbbd7c","fromNode":"e4f57b6565033b5c","fromSide":"right","toNode":"b6f1419c7008d6d4","toSide":"left"},
+		{"id":"cf4628aff14c5f87","fromNode":"b6f1419c7008d6d4","fromSide":"top","toNode":"5651756da9725d96","toSide":"bottom"},
+		{"id":"dc6ad352cc50a572","fromNode":"23b4d2c9ee9e0eaf","fromSide":"bottom","toNode":"fe80755159f88ddf","toSide":"top","color":"#464646"},
+		{"id":"2ee4a84c9e9945c8","fromNode":"23b4d2c9ee9e0eaf","fromSide":"bottom","toNode":"5651756da9725d96","toSide":"top","color":"#464646"},
+		{"id":"e46d4d8f2abb29a7","fromNode":"23b4d2c9ee9e0eaf","fromSide":"bottom","toNode":"06e55eb24a7b5995","toSide":"top","color":"#464646"},
+		{"id":"848f9d92d8615eb4","fromNode":"23b4d2c9ee9e0eaf","fromSide":"bottom","toNode":"e5b541d8c38f5423","toSide":"top","color":"#464646"}
+	]
+}

@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.folder == "03 🔧 SYSTEMS & FRAMEWORKS/Learning/📕 Books"
+    - tag == "📚Book"
+views:
+  - type: cards
+    name: Card
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - rating
+      - category
+      - status
+    sort:
+      - property: category
+        direction: ASC
+    columnSize:
+      file.name: 410
+      note.rating: 95
+    image: note.banner
+    cardSize: 240
+  - type: table
+    name: List
+    order:
+      - file.name
+      - rating
+      - type

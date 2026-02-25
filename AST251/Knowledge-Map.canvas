@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"carbon","type":"text","text":"### Carbon\n- 4 valence electrons\n- Strong bonds\n- CO₂ = gas (easy waste)","x":-180,"y":450,"width":180,"height":80},
+		{"id":"extremophiles","type":"text","text":"**Extremophiles**\nDefine limits of biospace","x":-80,"y":550,"width":180,"height":60},
+		{"id":"water","type":"text","text":"### Water\n- Polar molecule\n- Ice floats!\n- Wide liquid range","x":20,"y":450,"width":180,"height":80},
+		{"id":"obafgkm","type":"text","text":"## OBAFGKM\n\nO→B→A→F→G→K→M\nHot → Cool\nBlue → Red\nMassive → Small","x":320,"y":-150,"width":220,"height":100},
+		{"id":"luminosity","type":"text","text":"### Luminosity\n\nL = 4πR²σT⁴","x":560,"y":-30,"width":200,"height":80},
+		{"id":"albedo","type":"text","text":"### Albedo\n\nReflectivity (0-1)\nHigh → cooler","x":320,"y":650,"width":150,"height":80},
+		{"id":"greenhouse","type":"text","text":"### Greenhouse\n\nTraps IR radiation\nRaises surface T","x":490,"y":650,"width":150,"height":80}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

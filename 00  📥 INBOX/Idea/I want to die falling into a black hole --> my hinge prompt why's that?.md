@@ -1,0 +1,4 @@
+---
+category: output/idea
+---
+have anyone thought about the way they want to die? I want to die falling into a black hole. Everyone in this world tries to live longer, but it's a very short period of time in the universe scale. I wonder if you have a chance, would you want to see the universe from now to the day that it ends? and if you're falling into the black hole (Im talking about a large size black hole) it might takes you only couples hours to witness the ends of the universe, would you wanna do that? In outter observer pov, you're struck in the event horizon forever. but in your pov, you will be witness the dying and the whole future of our universe within couples hours. I think that's one more the most romanic thing that I can do before I die. Insane

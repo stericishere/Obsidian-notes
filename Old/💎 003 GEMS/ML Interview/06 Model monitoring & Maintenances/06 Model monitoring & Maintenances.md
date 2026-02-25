@@ -1,0 +1,2 @@
+- Model Performance Monitoring
+	- Track metrics such as accuracy, latency and throughput in production thro a **dashboard** to ensure model performance remains optimal 

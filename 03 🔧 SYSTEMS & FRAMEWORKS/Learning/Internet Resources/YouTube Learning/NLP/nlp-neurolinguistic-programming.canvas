@@ -1,0 +1,338 @@
+{
+  "nodes": [
+    {
+      "id": "1a2b3c4d5e6f7a8b",
+      "type": "text",
+      "x": 300,
+      "y": -100,
+      "width": 600,
+      "height": 180,
+      "text": "# NLP: Neurolinguistic Programming\n## 50 Years of Controversy: Science or Pseudoscience?\n\n**The Question:** Can understanding neurological processes + language really upgrade your brain and change your life?",
+      "color": "6"
+    },
+    {
+      "id": "2b3c4d5e6f7a8b9c",
+      "type": "group",
+      "x": -550,
+      "y": 150,
+      "width": 380,
+      "height": 550,
+      "label": "What NLP Claims",
+      "color": "5"
+    },
+    {
+      "id": "3c3d4e5f6a7b8c9d",
+      "type": "text",
+      "x": -530,
+      "y": 200,
+      "width": 340,
+      "height": 100,
+      "text": "## Core Promise\n\n**Neuro:** Brain processes\n**Linguistic:** Language shapes mind\n**Programming:** Behavior can be reprogrammed\n\n= Brain upgrade + Life change"
+    },
+    {
+      "id": "4d4e5f6a7b8c9d0e",
+      "type": "text",
+      "x": -530,
+      "y": 330,
+      "width": 340,
+      "height": 120,
+      "text": "## Claims to Help With\n\n✓ Overcoming phobias\n✓ Building confidence\n✓ Breaking limiting beliefs\n✓ Improving communication\n✓ Trauma healing\n✓ Goal achievement"
+    },
+    {
+      "id": "5e5f6a7b8c9d0e1f",
+      "type": "text",
+      "x": -530,
+      "y": 480,
+      "width": 340,
+      "height": 80,
+      "text": "## The Pitch\n\n\"You can reprogram your brain through language and sensory anchoring\""
+    },
+    {
+      "id": "6f6a7b8c9d0e1f2a",
+      "type": "group",
+      "x": 130,
+      "y": 150,
+      "width": 380,
+      "height": 550,
+      "label": "Core NLP Techniques",
+      "color": "3"
+    },
+    {
+      "id": "7g7b8c9d0e1f2a3b",
+      "type": "text",
+      "x": 150,
+      "y": 200,
+      "width": 340,
+      "height": 100,
+      "text": "## Representational Systems\n\nVisual (V) - Images\nAuditory (A) - Sounds\nKinesthetic (K) - Feelings\n\nLearn by your dominant system"
+    },
+    {
+      "id": "8h8c9d0e1f2a3b4c",
+      "type": "text",
+      "x": 150,
+      "y": 330,
+      "width": 340,
+      "height": 80,
+      "text": "## Anchoring\n\nLink stimulus → state\nTouch, sound, or image triggers desired emotional response"
+    },
+    {
+      "id": "9i9d0e1f2a3b4c5d",
+      "type": "text",
+      "x": 150,
+      "y": 440,
+      "width": 340,
+      "height": 100,
+      "text": "## Reframing\n\nSame event, different meaning\nChanges emotional response\nShifts limiting beliefs"
+    },
+    {
+      "id": "0j0e1f2a3b4c5d6e",
+      "type": "text",
+      "x": 150,
+      "y": 570,
+      "width": 340,
+      "height": 60,
+      "text": "## Modeling Excellence\n\nStudy successful people\nReplicate their patterns"
+    },
+    {
+      "id": "1k1f2a3b4c5d6e7f",
+      "type": "group",
+      "x": 710,
+      "y": 150,
+      "width": 380,
+      "height": 550,
+      "label": "Scientific Criticisms",
+      "color": "1"
+    },
+    {
+      "id": "2l2a3b4c5d6e7f8a",
+      "type": "text",
+      "x": 730,
+      "y": 200,
+      "width": 340,
+      "height": 100,
+      "text": "## Lack of Scientific Evidence\n\n❌ Most studies not peer-reviewed\n❌ No controlled trials\n❌ Methodology issues\n❌ Not replicated independently"
+    },
+    {
+      "id": "3m3b4c5d6e7f8a9b",
+      "type": "text",
+      "x": 730,
+      "y": 330,
+      "width": 340,
+      "height": 100,
+      "text": "## Neuroscience Disconnect\n\n❌ No neurological basis\n❌ \"Brain reprogramming\" is oversimplified\n❌ Claims don't match modern neuroscience\n❌ Neuroplasticity works differently"
+    },
+    {
+      "id": "4n4c5d6e7f8a9b0c",
+      "type": "text",
+      "x": 730,
+      "y": 460,
+      "width": 340,
+      "height": 100,
+      "text": "## Alternative Explanations\n\n❌ Placebo effect\n❌ Expectancy bias\n❌ Hawthorne effect\n❌ Normal psychological change\n❌ Confounding variables"
+    },
+    {
+      "id": "5o5d6e7f8a9b0c1d",
+      "type": "group",
+      "x": -550,
+      "y": 800,
+      "width": 460,
+      "height": 500,
+      "label": "What Research DOES Support",
+      "color": "4"
+    },
+    {
+      "id": "6p6e7f8a9b0c1d2e",
+      "type": "text",
+      "x": -530,
+      "y": 860,
+      "width": 420,
+      "height": 100,
+      "text": "## Validated Psychological Techniques\n\n✓ Classical Conditioning (anchoring parallel)\n✓ Cognitive Reframing (CBT basis)\n✓ Visualization & Mental Imagery\n✓ Rapport Building & Mirroring\n✓ Behavioral Modeling (learning theory)"
+    },
+    {
+      "id": "7q7f8a9b0c1d2e3f",
+      "type": "text",
+      "x": -530,
+      "y": 1000,
+      "width": 420,
+      "height": 140,
+      "text": "## NOT Supported\n\n❌ Representational Systems (learning styles debunked)\n❌ Direct neurolinguistic mechanism\n❌ Rapid phobia cures\n❌ Timeline therapy\n❌ Brain \"programming\" through NLP specifically"
+    },
+    {
+      "id": "8r8a9b0c1d2e3f4a",
+      "type": "text",
+      "x": -530,
+      "y": 1180,
+      "width": 420,
+      "height": 80,
+      "text": "## The Real Situation\n\nSome NLP tools work, but not for the reasons NLP claims. They work because they're based on established psychology."
+    },
+    {
+      "id": "9s9b0c1d2e3f4a5b",
+      "type": "group",
+      "x": 140,
+      "y": 800,
+      "width": 460,
+      "height": 500,
+      "label": "Real-World Applications",
+      "color": "2"
+    },
+    {
+      "id": "0t0c1d2e3f4a5b6c",
+      "type": "text",
+      "x": 160,
+      "y": 860,
+      "width": 420,
+      "height": 100,
+      "text": "## Where NLP Is Used\n\n✓ Life coaching & mentoring\n✓ Business & sales training\n✓ Executive coaching\n✓ Some therapeutic contexts\n✓ Sports psychology\n✓ Education & training"
+    },
+    {
+      "id": "1u1d2e3f4a5b6c7d",
+      "type": "text",
+      "x": 160,
+      "y": 1000,
+      "width": 420,
+      "height": 120,
+      "text": "## Success Factors\n\n✓ Often works because:\n  - User belief (placebo)\n  - Behavioral techniques borrowed from CBT\n  - Focus on goals (intrinsically motivating)\n  - Increased attention & effort"
+    },
+    {
+      "id": "2v2e3f4a5b6c7d8e",
+      "type": "text",
+      "x": 160,
+      "y": 1160,
+      "width": 420,
+      "height": 100,
+      "text": "## NOT For Serious Issues\n\n❌ Replace professional therapy\n❌ Sole treatment for trauma\n❌ Mental health conditions\n❌ Requires evidence-based approach"
+    },
+    {
+      "id": "3w3f4a5b6c7d8e9f",
+      "type": "group",
+      "x": 730,
+      "y": 800,
+      "width": 460,
+      "height": 500,
+      "label": "The Honest Verdict",
+      "color": "6"
+    },
+    {
+      "id": "4x4a5b6c7d8e9f0a",
+      "type": "text",
+      "x": 750,
+      "y": 860,
+      "width": 420,
+      "height": 140,
+      "text": "## Can NLP Change Your Life?\n\n**Answer: Possibly, but not how it claims.**\n\nIf NLP helps you:\n- Think differently\n- Stay motivated\n- Build better habits\n- Communicate better\n\nThen it's working (maybe placebo, maybe technique)"
+    },
+    {
+      "id": "5y5b6c7d8e9f0a1b",
+      "type": "text",
+      "x": 750,
+      "y": 1040,
+      "width": 420,
+      "height": 100,
+      "text": "## What Actually Matters\n\n✓ Your belief & motivation\n✓ Sustained effort\n✓ Consistent action\n✓ Real behavioral change\n✓ Practical tools (any method)"
+    },
+    {
+      "id": "6z6c7d8e9f0a1b2c",
+      "type": "text",
+      "x": 750,
+      "y": 1180,
+      "width": 420,
+      "height": 80,
+      "text": "## The Real Mechanism\n\n\"Brain upgrade\" happens through EFFORT, not technique. NLP's value is providing motivation & framework."
+    },
+    {
+      "id": "7aa7d8e9f0a1b2c3",
+      "type": "text",
+      "x": 150,
+      "y": 1450,
+      "width": 1300,
+      "height": 160,
+      "text": "## 🔑 The Bottom Line\n\n**Science Verdict:** NLP is NOT scientifically validated. 50 years of criticism is justified.\n\n**Practical Value:** Some NLP-adjacent techniques are useful (borrowed from psychology), but call them what they are—not \"neurolinguistic programming.\"\n\n**Life Change:** Real change requires sustained effort, clear goals, and behavioral action. Any framework that keeps you motivated and focused can work. NLP's success rate is no better than placebo + effort.\n\n**Best Approach:** Use evidence-based psychology (CBT), combine with practical tools you find helpful, maintain consistent effort. Save your money on expensive NLP certifications.",
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "8ab8e9f0a1b2c3d4",
+      "fromNode": "1a2b3c4d5e6f7a8b",
+      "fromSide": "bottom",
+      "toNode": "2b3c4d5e6f7a8b9c",
+      "toSide": "top",
+      "label": "Claims",
+      "color": "5"
+    },
+    {
+      "id": "9ac9f0a1b2c3d4e5",
+      "fromNode": "1a2b3c4d5e6f7a8b",
+      "fromSide": "bottom",
+      "toNode": "6f6a7b8c9d0e1f2a",
+      "toSide": "top",
+      "label": "Methods",
+      "color": "3"
+    },
+    {
+      "id": "0ad0a1b2c3d4e5f6",
+      "fromNode": "1a2b3c4d5e6f7a8b",
+      "fromSide": "bottom",
+      "toNode": "1k1f2a3b4c5d6e7f",
+      "toSide": "top",
+      "label": "Criticism",
+      "color": "1"
+    },
+    {
+      "id": "1ae1b2c3d4e5f6a7",
+      "fromNode": "2b3c4d5e6f7a8b9c",
+      "fromSide": "bottom",
+      "toNode": "5o5d6e7f8a9b0c1d",
+      "toSide": "top",
+      "label": "vs Reality",
+      "color": "4"
+    },
+    {
+      "id": "2bf2c3d4e5f6a7b8",
+      "fromNode": "6f6a7b8c9d0e1f2a",
+      "fromSide": "bottom",
+      "toNode": "9s9b0c1d2e3f4a5b",
+      "toSide": "top",
+      "label": "In Practice",
+      "color": "2"
+    },
+    {
+      "id": "3ca3d4e5f6a7b8c9",
+      "fromNode": "1k1f2a3b4c5d6e7f",
+      "fromSide": "bottom",
+      "toNode": "3w3f4a5b6c7d8e9f",
+      "toSide": "top",
+      "label": "Verdict",
+      "color": "6"
+    },
+    {
+      "id": "4db4e5f6a7b8c9d0",
+      "fromNode": "5o5d6e7f8a9b0c1d",
+      "fromSide": "bottom",
+      "toNode": "7aa7d8e9f0a1b2c3",
+      "toSide": "top",
+      "label": "→",
+      "color": "4"
+    },
+    {
+      "id": "5ec5f6a7b8c9d0e1",
+      "fromNode": "9s9b0c1d2e3f4a5b",
+      "fromSide": "bottom",
+      "toNode": "7aa7d8e9f0a1b2c3",
+      "toSide": "top",
+      "label": "→",
+      "color": "2"
+    },
+    {
+      "id": "6fd6a7b8c9d0e1f2",
+      "fromNode": "3w3f4a5b6c7d8e9f",
+      "fromSide": "bottom",
+      "toNode": "7aa7d8e9f0a1b2c3",
+      "toSide": "top",
+      "label": "→",
+      "color": "6"
+    }
+  ]
+}

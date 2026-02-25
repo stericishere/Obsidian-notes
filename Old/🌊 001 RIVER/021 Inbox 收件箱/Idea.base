@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.inFolder("🌑 002 ROCKS/Idea")
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - category == "output/idea"
+    order:
+      - file.name
